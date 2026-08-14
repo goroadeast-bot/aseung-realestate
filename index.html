@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아승공인중개사 | 제주의 부동산을 가장 잘 아는 사람</title>
+<meta name="description" content="제주 노형동 아승공인중개사. 아파트·분양·주택·빌라·원룸·투룸·상가·토지·창고까지, 안현정 대표가 제주 전역의 부동산을 안내합니다.">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;900&family=JetBrains+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="css/styles.css?v=20260810">
+</head>
+<body>
+
+<!-- ===== Floating nav ===== -->
+<div class="nav-wrap">
+  <div class="nav-pill">
+    <span class="brand">아승공인중개사</span>
+    <a href="#about">소개</a>
+    <a href="#specialties">전문분야</a>
+    <a href="#listings">대표매물</a>
+    <a href="#contact">오시는길</a>
+  </div>
+  <div class="nav-right">
+    <a class="btn btn-accent nav-cta" href="tel:010-9347-1345">전화 상담</a>
+    <button class="nav-menu-btn" id="menuBtn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobileMenu">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</div>
+
+<nav class="mobile-menu" id="mobileMenu">
+  <button class="close-btn" id="menuCloseBtn" aria-label="메뉴 닫기">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
+  </button>
+  <a href="#about">소개</a>
+  <a href="#specialties">전문분야</a>
+  <a href="#listings">대표매물</a>
+  <a href="#blog">블로그</a>
+  <a href="#contact">오시는길</a>
+</nav>
+
+<main>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-photo">
+      <video class="hero-video" autoplay muted loop playsinline poster="images/hero.jpg">
+        <source src="images/hero.mp4" type="video/mp4">
+      </video>
+      <span class="hero-badge">제주도 최고 부동산 아승공인중개사</span>
+      <h1 class="hero-headline">제주의 부동산을<br>가장 잘 아는 사람</h1>
+      <p class="hero-sub">아파트 · 분양 · 주택 · 빌라 · 원룸·투룸 · 상가 · 토지 · 창고 — 제주시 노형동 아승공인중개사</p>
+      <div class="hero-ctas">
+        <a href="tel:010-9347-1345" class="btn btn-accent">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          전화 상담하기
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-discover">
+      <p class="discover-title">믿을 수 있는<br>제주 부동산을 찾고 계신가요</p>
+
+      <div class="discover-cards">
+        <div class="discover-card" data-listing-category="hero-apt" role="button" tabindex="0">
+          <div class="thumb" style="background-image:url('images/listing-1.jpg');"></div>
+          <div class="meta">
+            <strong>인기있는 제주도 아파트</strong>
+            전용면적 · 매매/임대
+            <div class="tag">추천매물</div>
+          </div>
+        </div>
+        <div class="discover-card" data-listing-category="hero-sanga" role="button" tabindex="0">
+          <div class="thumb" style="background-image:url('images/listing-3.jpg');"></div>
+          <div class="meta">
+            <strong>사업잘되는 상가소개</strong>
+            전용면적 · 매매/임대
+            <div class="tag">추천매물</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="discover-search-wrap">
+        <form class="discover-search" id="siteSearchForm" role="search" autocomplete="off">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="siteSearchInput" placeholder="지역 · 매물 종류로 찾기" aria-label="매물 검색">
+          <button type="submit" class="discover-search-submit" aria-label="제주오일장에서 검색">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+        <div class="discover-search-results" id="siteSearchResults" hidden></div>
+      </div>
+
+      <p class="discover-grid-label">대표 매물 둘러보기</p>
+      <div class="discover-grid">
+        <div data-listing-category="hero-house" role="button" tabindex="0">
+          <div class="thumb" style="background-image:url('images/grid-house.jpg');"></div>
+          <div class="label">마당있는 삶 단독주택</div>
+        </div>
+        <div data-listing-category="hero-villa" role="button" tabindex="0">
+          <div class="thumb" style="background-image:url('images/grid-villa.jpg');"></div>
+          <div class="label">멋과 실속 프리미엄 빌라</div>
+        </div>
+        <div data-listing-category="hero-presale" role="button" tabindex="0">
+          <div class="thumb" style="background-image:url('images/grid-presale.jpg');"></div>
+          <div class="label">투자자가 먼저 아는 신축 분양</div>
+        </div>
+        <div data-listing-category="hero-land" role="button" tabindex="0">
+          <div class="thumb" style="background-image:url('images/grid-land.jpg');"></div>
+          <div class="label">마음에 쏙 제주토지</div>
+        </div>
+      </div>
+
+      <p class="discover-foot">제주 전역 등록 매물 284건+ · 아파트 · 분양 · 주택 · 빌라 · 원룸·투룸 · 상가 · 토지 · 창고</p>
+    </div>
+  </section>
+
+  <!-- ===== Stats ===== -->
+  <section class="stats">
+    <div class="stat">
+      <div class="stat-num"><span class="mono">7</span>년</div>
+      <div class="stat-label">2019년부터, 제주 부동산 현장 경력</div>
+    </div>
+    <div class="stat stat-dual">
+      <a class="stat-dual-item" href="https://www.jejuall.com/CProperty/myHome/params/num/165834" target="_blank" rel="noopener">
+        <div class="stat-num"><span class="mono">284</span>건+</div>
+        <div class="stat-label">제주오일장<svg class="stat-link-arrow" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg></div>
+      </a>
+      <div class="stat-dual-divider"></div>
+      <a class="stat-dual-item" href="https://land.jejukcr.com/biz/ahj0522" target="_blank" rel="noopener">
+        <div class="stat-num"><span class="mono">304</span>건+</div>
+        <div class="stat-label">제주교차로<svg class="stat-link-arrow" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg></div>
+      </a>
+    </div>
+    <div class="stat">
+      <div class="stat-num"><span class="mono">8</span>개 분야</div>
+      <div class="stat-label">아파트부터 토지·창고까지 종합 중개</div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section class="section" id="about" data-reveal>
+    <div class="container about-grid">
+      <div class="about-photo" style="background-image:url('images/listing-2.jpg');"></div>
+      <div class="about-text">
+        <p class="eyebrow">소개</p>
+        <h2 class="section-title">제주 전역, 발로 뛰는 중개</h2>
+        <p>안녕하세요, 아승공인중개사 대표 안현정입니다. 2019년부터 제주에서 부동산 중개를 시작한 제주도 최고 부동산 아승공인중개사입니다. 아파트, 분양, 주택, 빌라, 원룸·투룸부터 상가, 토지, 창고까지 — 제주 전역의 다양한 매물을 직접 발로 뛰며 안내해 드립니다.</p>
+        <div class="about-areas">
+          <span>제주시 전지역</span>
+          <span>서귀포시 전지역</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Specialties ===== -->
+  <section class="section section-alt" id="specialties" data-reveal>
+    <div class="container">
+      <div class="listing-head">
+        <div>
+          <p class="eyebrow">전문분야</p>
+          <h2 class="section-title">무엇이든, 어디서든</h2>
+          <p class="section-lede">주거부터 상업·토지까지, 아승공인중개사가 함께합니다.</p>
+        </div>
+        <a class="listing-link" href="https://land.jejukcr.com/biz/ahj0522" target="_blank" rel="noopener">전체 매물 보기 (제주교차로) ↗</a>
+      </div>
+      <div class="specialty-grid" style="margin-top:32px;">
+        <div class="specialty-card" data-listing-category="nohyeong-apt" role="button" tabindex="0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V8l8-5 8 5v13"/><path d="M9 21v-7h6v7"/></svg>
+          <span>아파트</span>
+        </div>
+        <div class="specialty-card" data-listing-category="presale" role="button" tabindex="0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="10" width="14" height="10"/><path d="M9 20v-6h6v6"/><path d="M12 10V4"/><path d="M12 4l5 2-5 2"/></svg>
+          <span>분양</span>
+        </div>
+        <div class="specialty-card" data-listing-category="samhwa-house" role="button" tabindex="0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+          <span>주택</span>
+        </div>
+        <div class="specialty-card" data-listing-category="villa" role="button" tabindex="0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="9" width="16" height="12"/><path d="M9 21v-5h6v5"/><path d="M8 5h8v4H8z"/></svg>
+          <span>빌라</span>
+        </div>
+        <div class="specialty-card" data-listing-category="nohyeong-oneroom" role="button" tabindex="0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          <span>원룸·투룸</span>
+        </div>
+        <div class="specialty-card" data-listing-category="sinsigaji-sanga" role="button" tabindex="0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9l1-5h16l1 5"/><path d="M4 9v11h16V9"/><path d="M9 20v-6h6v6"/></svg>
+          <span>상가</span>
+        </div>
+        <div class="specialty-card" data-listing-category="land" role="button" tabindex="0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 8l6-3 10 3-2 11H6z"/><path d="M10 5v14"/><path d="M4 8l6 3 10-3"/></svg>
+          <span>토지</span>
+        </div>
+        <div class="specialty-card" data-listing-category="warehouse" role="button" tabindex="0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="9" width="18" height="11"/><path d="M3 9l9-5 9 5"/><path d="M8 20v-5h8v5"/><path d="M3 13h18"/></svg>
+          <span>창고</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Listings ===== -->
+  <section class="section" id="listings" data-reveal>
+    <div class="container">
+      <div class="listing-head">
+        <div>
+          <p class="eyebrow">대표 매물</p>
+          <h2 class="section-title">지금 소개하는 매물</h2>
+        </div>
+        <a class="listing-link" href="https://www.jejuall.com/CProperty/myHome/params/num/165834" target="_blank" rel="noopener">전체 매물 보기 (제주오일장) ↗</a>
+      </div>
+      <div class="listing-grid">
+        <article class="listing-card" data-listing-category="featured-apt" role="button" tabindex="0">
+          <div class="photo" style="background-image:url('images/listing-1.jpg');"><span class="badge">예시</span></div>
+          <div class="body">
+            <div class="type">아파트</div>
+            <div class="area">인기만점 제주 아파트</div>
+            <div class="loc">매매/임대 문의가능</div>
+          </div>
+        </article>
+        <article class="listing-card" data-listing-category="featured-house" role="button" tabindex="0">
+          <div class="photo" style="background-image:url('images/listing-2.jpg');"><span class="badge">예시</span></div>
+          <div class="body">
+            <div class="type">주택</div>
+            <div class="area">제주로망 전원주택/타운하우스</div>
+            <div class="loc">매매/임대 문의가능</div>
+          </div>
+        </article>
+        <article class="listing-card" data-listing-category="featured-sanga" role="button" tabindex="0">
+          <div class="photo" style="background-image:url('images/listing-3.jpg');"><span class="badge">예시</span></div>
+          <div class="body">
+            <div class="type">상가</div>
+            <div class="area">새출발 든든한 상가</div>
+            <div class="loc">매매/임대 문의가능</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Process ===== -->
+  <section class="section section-dark" data-reveal>
+    <div class="container">
+      <p class="eyebrow" style="color:var(--accent);">이용 방법</p>
+      <h2 class="section-title">간단한 4단계로 진행됩니다</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-num mono">01</div>
+          <h3>홈페이지 매물 확인</h3>
+          <p>홈페이지에서 관심 있는 매물을 먼저 둘러보세요.</p>
+        </div>
+        <div class="step">
+          <div class="step-num mono">02</div>
+          <h3>전화 상담</h3>
+          <p>원하시는 지역·예산·용도를 편하게 말씀해 주세요.</p>
+        </div>
+        <div class="step">
+          <div class="step-num mono">03</div>
+          <h3>매물 조건 협의</h3>
+          <p>조건에 맞는 매물을 함께 추려서 협의합니다.</p>
+        </div>
+        <div class="step">
+          <div class="step-num mono">04</div>
+          <h3>현장 안내 · 계약</h3>
+          <p>직접 현장을 함께 둘러보고, 계약까지 꼼꼼히 챙깁니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Blog ===== -->
+  <section class="section" id="blog" data-reveal>
+    <div class="container">
+      <p class="eyebrow">블로그</p>
+      <h2 class="section-title">제주 부동산 이야기</h2>
+      <div class="blog-card" style="margin-top:24px;">
+        <div>
+          <h3 style="font-size:18px;font-weight:800;margin-bottom:8px;">네이버 블로그에서 더 많은 소식을 확인하세요</h3>
+          <p>제주 부동산 시장 이야기와 매물 소식을 네이버 블로그에 꾸준히 올리고 있습니다.</p>
+        </div>
+        <a class="btn btn-outline-light" href="https://blog.naver.com/lovemaker200" target="_blank" rel="noopener">블로그 방문하기 ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section section-alt" id="contact" data-reveal>
+    <div class="container contact-grid">
+      <div class="map-embed">
+        <iframe
+          src="https://maps.google.com/maps?q=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EB%85%B8%ED%98%953%EA%B8%B821-1&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="아승공인중개사 위치 지도"
+        ></iframe>
+      </div>
+      <div class="contact-info">
+        <p class="eyebrow">오시는 길 · 문의</p>
+        <h2 class="section-title">언제든 편하게 연락주세요</h2>
+        <p>
+          <strong>아승공인중개사</strong><br>
+          제주특별자치도 제주시 노형3길 21-1 2층<br>
+          대표 안현정 · <span class="mono">010-9347-1345</span><br>
+          등록번호 <span class="mono">50110-2019-00164</span>
+        </p>
+        <div class="contact-ctas">
+          <a href="tel:010-9347-1345" class="btn btn-accent">전화 문의</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-word">아승공인중개사</div>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://blog.naver.com/lovemaker200" target="_blank" rel="noopener">네이버 블로그</a></li>
+        <li><a href="https://www.jejuall.com/CProperty/myHome/params/num/165834" target="_blank" rel="noopener">제주오일장 매물</a></li>
+        <li><a href="tel:010-9347-1345" class="mono">010-9347-1345</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>제주특별자치도 제주시 노형3길 21-1 2층 · 대표 안현정 · 등록번호 50110-2019-00164</span>
+      <span>ⓒ 아승공인중개사</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== Listing Modal ===== -->
+<div class="listing-modal" id="listingModal" aria-hidden="true">
+  <div class="listing-modal-backdrop" data-modal-close></div>
+  <div class="listing-modal-panel" role="dialog" aria-modal="true" aria-labelledby="listingModalTitle">
+    <button class="listing-modal-close" type="button" data-modal-close aria-label="닫기">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
+    </button>
+    <p class="listing-modal-eyebrow">추천매물</p>
+    <h3 class="listing-modal-title" id="listingModalTitle"></h3>
+    <div class="listing-modal-grid" id="listingModalGrid"></div>
+    <div class="listing-modal-pagination" id="listingModalPagination"></div>
+    <p class="listing-modal-foot">
+      더 자세한 매물은 <a href="https://www.jejuall.com/CProperty/myHome/params/num/165834" target="_blank" rel="noopener">제주오일장</a> ·
+      <a href="https://land.jejukcr.com/biz/ahj0522" target="_blank" rel="noopener">제주교차로</a> ·
+      <a href="https://blog.naver.com/lovemaker200" target="_blank" rel="noopener">블로그</a>에서 확인하실 수 있습니다.
+    </p>
+  </div>
+</div>
+
+<!-- ===== Phone Modal (PC) ===== -->
+<div class="phone-modal" id="phoneModal" aria-hidden="true">
+  <div class="phone-modal-backdrop" data-phone-modal-close></div>
+  <div class="phone-modal-panel" role="dialog" aria-modal="true" aria-labelledby="phoneModalTitle">
+    <button class="listing-modal-close" type="button" data-phone-modal-close aria-label="닫기">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
+    </button>
+    <p class="phone-modal-eyebrow">전화 상담</p>
+    <div class="phone-modal-word" id="phoneModalTitle">아승공인중개사</div>
+    <a class="phone-modal-number mono" href="tel:010-9347-1345">010-9347-1345</a>
+    <p class="phone-modal-hint">휴대폰으로 확인하시면 바로 통화 연결됩니다</p>
+    <button type="button" class="btn btn-outline-light phone-modal-copy" id="phoneCopyBtn">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      번호 복사하기
+    </button>
+  </div>
+</div>
+
+<script src="js/script.js?v=20260814c"></script>
+</body>
+</html>
