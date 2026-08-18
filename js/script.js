@@ -194,12 +194,12 @@
     "hero-villa": {
       title: "멋과 실속 프리미엄 빌라",
       items: [
-        { photo: "images/listings/villa/villa-kcr-1.jpg", desc: "서아빌라 1동 · 중앙초 인근 · 쓰리룸", link: "https://land.jejukcr.com/offer/86264432" },
-        { photo: "images/listings/villa/villa-kcr-2.jpg", desc: "마크힐애월3차 3동 · 오션뷰", link: "https://land.jejukcr.com/offer/86264308" },
-        { photo: "images/listings/villa/villa-kcr-3.jpg", desc: "한림그레이튼 1동 · 투룸 · 가전옵션", link: "https://land.jejukcr.com/offer/86264286" },
-        { photo: "images/listings/villa/villa-kcr-4.jpg", desc: "마크힐노형 102동 · 탑층 · 신축빌라", link: "https://land.jejukcr.com/offer/86264253" },
-        { photo: "images/listings/villa/villa-kcr-5.png", desc: "애월 남해오네뜨 · 쓰리룸 · 풀옵션", link: "https://land.jejukcr.com/offer/86264140" },
-        { photo: "images/listings/villa/villa-kcr-6.jpg", desc: "마크힐애월6차 · 하귀신축 · 태양광", link: "https://land.jejukcr.com/offer/86264125" }
+        { photo: "images/listings/villa/villa-kcr-1.jpg", desc: "마크힐노형 104동 · 잔여1세대 · 중개보수없음", link: "https://land.jejukcr.com/offer/86449038" },
+        { photo: "images/listings/villa/villa-kcr-2.jpg", desc: "JDS빌리지 102동 · 도평동 · 올리모델링", link: "https://land.jejukcr.com/offer/86448998" },
+        { photo: "images/listings/villa/villa-kcr-3.jpg", desc: "카렌시아 1동 · 고층 오션뷰 · 중문", link: "https://land.jejukcr.com/offer/86448993" },
+        { photo: "images/listings/villa/villa-kcr-4.jpg", desc: "엔알파라디빌7차 1동 · 노형동 · 복층 쓰리룸", link: "https://land.jejukcr.com/offer/86448990" },
+        { photo: "images/listings/villa/villa-kcr-5.jpg", desc: "마크힐노형 102동 · 노형동 신축빌라", link: "https://land.jejukcr.com/offer/86448985" },
+        { photo: "images/listings/villa/villa-kcr-6.jpg", desc: "마크힐노형 102동 · 탑층", link: "https://land.jejukcr.com/offer/86448977" }
       ]
     },
     "hero-presale": {
