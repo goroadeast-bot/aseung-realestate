@@ -163,12 +163,12 @@
     "hero-apt": {
       title: "인기있는 제주도 아파트",
       items: [
-        { photo: "images/listings/apartment/apt-kcr-3.jpg", desc: "노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/86470569" },
-        { photo: "images/listings/apartment/apt-kcr-4.jpg", desc: "노형벨라시티 1동 · 쓰리룸 · 고층 · 신축", link: "https://land.jejukcr.com/offer/86470560" },
-        { photo: "images/listings/apartment/apt-kcr-5.jpg", desc: "중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/86470493" },
-        { photo: "images/listings/apartment/apt-kcr-6.jpg", desc: "코스모스태홍누리안5차 1동 · 신제주로터리 · 제주도청 인근", link: "https://land.jejukcr.com/offer/86470484" },
-        { photo: "images/listings/apartment/apt-kcr-7.jpg", desc: "아이린7차 1동 · 고층 오션뷰 · 방4개 · 남초 인근", link: "https://land.jejukcr.com/offer/86470476" },
-        { photo: "images/listings/apartment/apt-kcr-8.jpg", desc: "해밀마루 1동 · 외도 신축급 투룸", link: "https://land.jejukcr.com/offer/86470464" }
+        { photo: "images/listings/apartment/apt-kcr-9.jpg", desc: "한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/86521746" },
+        { photo: "images/listings/apartment/apt-kcr-4.jpg", desc: "노형벨라시티 1동 · 쓰리룸 · 고층 · 신축", link: "https://land.jejukcr.com/offer/86521740" },
+        { photo: "images/listings/apartment/apt-kcr-6.jpg", desc: "코스모스태홍누리안5차 1동 · 신제주로터리 · 제주도청 인근", link: "https://land.jejukcr.com/offer/86521732" },
+        { photo: "images/listings/apartment/apt-kcr-8.jpg", desc: "해밀마루 1동 · 외도 신축급 투룸", link: "https://land.jejukcr.com/offer/86521715" },
+        { photo: "images/listings/apartment/apt-kcr-3.jpg", desc: "노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/86521653" },
+        { photo: "images/listings/apartment/apt-kcr-2.jpg", desc: "노형아이파크 4동 · 한라초 인근", link: "https://land.jejukcr.com/offer/86521636" }
       ]
     },
     "hero-sanga": {
@@ -185,12 +185,12 @@
     "hero-house": {
       title: "마당있는 삶 단독주택",
       items: [
-        { photo: "images/listings/house/house-kcr-1.jpg", desc: "노형동 라메종타운하우스 · 전세", link: "https://land.jejukcr.com/offer/86338822" },
-        { photo: "images/listings/house/house-kcr-7.jpg", desc: "구좌읍 평대리 · 마당 넓은 단독주택 · 반려동물가능", link: "https://land.jejukcr.com/offer/86478574" },
-        { photo: "images/listings/house/house-kcr-2.jpg", desc: "애월 하나로마트 인근 · 먼바다뷰 단독주택", link: "https://land.jejukcr.com/offer/86339961" },
-        { photo: "images/listings/house/house-kcr-3.jpg", desc: "조천 와흘리 · 수영장 있는 전원주택", link: "https://land.jejukcr.com/offer/86339947" },
-        { photo: "images/listings/house/house-kcr-4.jpg", desc: "애월 신엄리 · 펜션임대 · 해안로 인근", link: "https://land.jejukcr.com/offer/86339934" },
-        { photo: "images/listings/house/house-kcr-5.jpg", desc: "노형동 월산마을 · 마크힐노형 인근", link: "https://land.jejukcr.com/offer/86339920" }
+        { photo: "images/listings/house/house-kcr-8.jpg", desc: "노형동 라메종타운하우스 · 전세", link: "https://land.jejukcr.com/offer/86565558" },
+        { photo: "images/listings/house/house-kcr-9.jpg", desc: "한림읍 · 한림상가건물 · 금능해수욕장 인근", link: "https://land.jejukcr.com/offer/86565561" },
+        { photo: "images/listings/house/house-kcr-10.jpg", desc: "애월읍 보로미마을 · 단독주택 매매", link: "https://land.jejukcr.com/offer/86565556" },
+        { photo: "images/listings/house/house-kcr-11.jpg", desc: "애월 수산리 · 독채펜션 · SNS계정 인계", link: "https://land.jejukcr.com/offer/86565555" },
+        { photo: "images/listings/house/house-kcr-12.jpg", desc: "구좌읍 · 전원주택 · 월정리 인근", link: "https://land.jejukcr.com/offer/86565539" },
+        { photo: "images/listings/house/house-kcr-13.jpg", desc: "아라이동 단독주택 · 아라아이파크 인근", link: "https://land.jejukcr.com/offer/86565536" }
       ]
     },
     "hero-villa": {
