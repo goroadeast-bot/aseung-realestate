@@ -1,5 +1,6 @@
 /* ===== Design tokens ===== */
 :root {
+  color-scheme: light;
   --bg: #FAFAF9;
   --bg-alt: #F3F1EE;
   --fg: #1C1917;
