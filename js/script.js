@@ -131,9 +131,9 @@
         { photo: "images/listings/apartment/apt-oil-1.jpg", desc: "[오일장] 서사라사거리 · 한성베르뜨2차아파트 매매", link: "https://www.jejuall.com/CProperty/detail?num=6204684" },
         { photo: "images/listings/apartment/apt-oil-2.png", desc: "[오일장] 신제주로터리 · 코스모스태홍누리안5차 · 탑층", link: "https://www.jejuall.com/CProperty/detail?num=6359532" },
         { photo: "images/listings/apartment/apt-oil-9.jpg", desc: "[오일장] 노형동 · 노형e-편한세상 · 급매 · 리모델링", link: "https://www.jejuall.com/CProperty/detail?num=6389256" },
-        { photo: "images/listings/apartment/apt-kcr-3.jpg", desc: "[교차로] 노형2차아이파크 202동 · 한라산전망", link: "https://land.jejukcr.com/offer/86470569" },
-        { photo: "images/listings/apartment/apt-kcr-4.jpg", desc: "[교차로] 노형벨라시티 1동 · 쓰리룸 · 고층", link: "https://land.jejukcr.com/offer/86470560" },
-        { photo: "images/listings/apartment/apt-kcr-5.jpg", desc: "[교차로] 중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/86470493" }
+        { photo: "images/listings/apartment/apt-kcr-9.jpg", desc: "[교차로] 한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/86521746" },
+        { photo: "images/listings/apartment/apt-kcr-4.jpg", desc: "[교차로] 노형벨라시티 1동 · 쓰리룸 · 고층", link: "https://land.jejukcr.com/offer/86521740" },
+        { photo: "images/listings/apartment/apt-kcr-6.jpg", desc: "[교차로] 코스모스태홍누리안5차 1동 · 신제주로터리", link: "https://land.jejukcr.com/offer/86521732" }
       ]
     },
     "featured-house": {
@@ -142,9 +142,9 @@
         { photo: "images/listings/house/house-oil-1.jpg", desc: "[오일장] 조천읍 와산리 · 전원주택 · 먼바다조망", link: "https://www.jejuall.com/CProperty/detail?num=6102922" },
         { photo: "images/listings/house/house-oil-3.jpg", desc: "[오일장] 연동 · 신제주초 인근 단독주택", link: "https://www.jejuall.com/CProperty/detail?num=5928113" },
         { photo: "images/listings/house/house-oil-2.jpg", desc: "[오일장] 해안초 인근 · 마당 넓은 단독주택", link: "https://www.jejuall.com/CProperty/detail?num=5890406" },
-        { photo: "images/listings/house/house-kcr-1.jpg", desc: "[교차로] 노형동 라메종타운하우스 · 전세", link: "https://land.jejukcr.com/offer/86338822" },
-        { photo: "images/listings/house/house-kcr-2.jpg", desc: "[교차로] 애월 하나로마트 인근 · 먼바다뷰", link: "https://land.jejukcr.com/offer/86339961" },
-        { photo: "images/listings/house/house-kcr-3.jpg", desc: "[교차로] 조천 와흘리 · 수영장 있는 전원주택", link: "https://land.jejukcr.com/offer/86339947" }
+        { photo: "images/listings/house/house-kcr-8.jpg", desc: "[교차로] 노형동 라메종타운하우스 · 전세", link: "https://land.jejukcr.com/offer/86565558" },
+        { photo: "images/listings/house/house-kcr-14.jpg", desc: "[교차로] 성산읍 다가구주택 · 해안도로뷰", link: "https://land.jejukcr.com/offer/86586728" },
+        { photo: "images/listings/house/house-kcr-15.jpg", desc: "[교차로] 서광리 신축단독주택 · 영어교육도시 인근", link: "https://land.jejukcr.com/offer/86586720" }
       ]
     },
     "featured-sanga": {
@@ -186,22 +186,22 @@
       title: "마당있는 삶 단독주택",
       items: [
         { photo: "images/listings/house/house-kcr-8.jpg", desc: "노형동 라메종타운하우스 · 전세", link: "https://land.jejukcr.com/offer/86565558" },
-        { photo: "images/listings/house/house-kcr-9.jpg", desc: "한림읍 · 한림상가건물 · 금능해수욕장 인근", link: "https://land.jejukcr.com/offer/86565561" },
-        { photo: "images/listings/house/house-kcr-10.jpg", desc: "애월읍 보로미마을 · 단독주택 매매", link: "https://land.jejukcr.com/offer/86565556" },
-        { photo: "images/listings/house/house-kcr-11.jpg", desc: "애월 수산리 · 독채펜션 · SNS계정 인계", link: "https://land.jejukcr.com/offer/86565555" },
-        { photo: "images/listings/house/house-kcr-12.jpg", desc: "구좌읍 · 전원주택 · 월정리 인근", link: "https://land.jejukcr.com/offer/86565539" },
-        { photo: "images/listings/house/house-kcr-13.jpg", desc: "아라이동 단독주택 · 아라아이파크 인근", link: "https://land.jejukcr.com/offer/86565536" }
+        { photo: "images/listings/house/house-kcr-14.jpg", desc: "성산읍 · 다가구주택 · 해안도로뷰 · 성산일출봉 인근", link: "https://land.jejukcr.com/offer/86586728" },
+        { photo: "images/listings/house/house-kcr-15.jpg", desc: "서광리 · 신축단독주택 · 영어교육도시 인근", link: "https://land.jejukcr.com/offer/86586720" },
+        { photo: "images/listings/house/house-kcr-16.jpg", desc: "애월 · 안끄레힐1차 · 개별등기 타운하우스", link: "https://land.jejukcr.com/offer/86586714" },
+        { photo: "images/listings/house/house-kcr-17.jpg", desc: "협재 · 더마라칸 · 풀옵션 타운하우스", link: "https://land.jejukcr.com/offer/86586705" },
+        { photo: "images/listings/house/house-kcr-18.jpg", desc: "이도이동 단독주택 · 제주시청 인근", link: "https://land.jejukcr.com/offer/86586697" }
       ]
     },
     "hero-villa": {
       title: "멋과 실속 프리미엄 빌라",
       items: [
-        { photo: "images/listings/villa/villa-kcr-1.jpg", desc: "마크힐노형 104동 · 잔여1세대 · 중개보수없음", link: "https://land.jejukcr.com/offer/86449038" },
-        { photo: "images/listings/villa/villa-kcr-2.jpg", desc: "JDS빌리지 102동 · 도평동 · 올리모델링", link: "https://land.jejukcr.com/offer/86448998" },
-        { photo: "images/listings/villa/villa-kcr-3.jpg", desc: "카렌시아 1동 · 고층 오션뷰 · 중문", link: "https://land.jejukcr.com/offer/86448993" },
-        { photo: "images/listings/villa/villa-kcr-4.jpg", desc: "엔알파라디빌7차 1동 · 노형동 · 복층 쓰리룸", link: "https://land.jejukcr.com/offer/86448990" },
-        { photo: "images/listings/villa/villa-kcr-5.jpg", desc: "마크힐노형 102동 · 노형동 신축빌라", link: "https://land.jejukcr.com/offer/86448985" },
-        { photo: "images/listings/villa/villa-kcr-6.jpg", desc: "마크힐노형 102동 · 탑층", link: "https://land.jejukcr.com/offer/86448977" }
+        { photo: "images/listings/villa/villa-kcr-14.jpg", desc: "마크힐애월2차 204동 · 오션뷰", link: "https://land.jejukcr.com/offer/86565507" },
+        { photo: "images/listings/villa/villa-kcr-15.jpg", desc: "마크힐애월3차 3동 · 오션뷰세대", link: "https://land.jejukcr.com/offer/86565504" },
+        { photo: "images/listings/villa/villa-kcr-16.jpg", desc: "마크힐노형 102동 · 태양광 · 전세대", link: "https://land.jejukcr.com/offer/86565499" },
+        { photo: "images/listings/villa/villa-kcr-17.jpg", desc: "마크힐애월2차 204동 · 탑층 · 서부경찰서 인근", link: "https://land.jejukcr.com/offer/86565495" },
+        { photo: "images/listings/villa/villa-kcr-18.jpg", desc: "마크힐노형 104동 · 잔여1세대 · 중개보수없음", link: "https://land.jejukcr.com/offer/86565494" },
+        { photo: "images/listings/villa/villa-kcr-2.jpg", desc: "JDS빌리지 102동 · 도평동 · 올리모델링", link: "https://land.jejukcr.com/offer/86448998" }
       ]
     },
     "hero-presale": {
