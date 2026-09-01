@@ -196,12 +196,12 @@
     "hero-villa": {
       title: "멋과 실속 프리미엄 빌라",
       items: [
-        { photo: "images/listings/villa/villa-kcr-19.jpg", desc: "노형동 · 마루빌 1동 · 풀옵션 투룸전세", link: "https://land.jejukcr.com/offer/86816685" },
-        { photo: "images/listings/villa/villa-kcr-20.jpg", desc: "카렌시아 1동 · 고층 오션뷰 · 중문", link: "https://land.jejukcr.com/offer/86787526" },
-        { photo: "images/listings/villa/villa-kcr-21.jpg", desc: "엔알파라디빌7차 1동 · 노형동 · 복층 쓰리룸", link: "https://land.jejukcr.com/offer/86674262" },
-        { photo: "images/listings/villa/villa-kcr-22.jpg", desc: "외도 · 오렌지카운티 102동 · 분리형원룸", link: "https://land.jejukcr.com/offer/86674230" },
-        { photo: "images/listings/villa/villa-kcr-23.jpg", desc: "마크힐애월2차 204동 · 탑층 · 오션뷰", link: "https://land.jejukcr.com/offer/86674217" },
-        { photo: "images/listings/villa/villa-kcr-24.jpg", desc: "마크힐노형 104동 · 잔여1세대 · 중개보수없음", link: "https://land.jejukcr.com/offer/86674171" }
+        { photo: "images/listings/villa/villa-kcr-25.jpg", desc: "마크힐노형 102동 · 태양광 · 전세대", link: "https://land.jejukcr.com/offer/86888036" },
+        { photo: "images/listings/villa/villa-kcr-26.jpg", desc: "노형동 · 쓰리룸 · 월산마을", link: "https://land.jejukcr.com/offer/86887770" },
+        { photo: "images/listings/villa/villa-kcr-27.jpg", desc: "도평청목더웰 103동 · 도평초 인근", link: "https://land.jejukcr.com/offer/86887583" },
+        { photo: "images/listings/villa/villa-kcr-28.jpg", desc: "JDS빌리지 102동 · 도평동 · 올리모델링", link: "https://land.jejukcr.com/offer/86887568" },
+        { photo: "images/listings/villa/villa-kcr-29.jpg", desc: "마크힐노형 104동 · 잔여1세대 · 중개보수없음", link: "https://land.jejukcr.com/offer/86887295" },
+        { photo: "images/listings/villa/villa-kcr-30.jpg", desc: "마크힐애월2차 204동 · 탑층 · 서부경찰서 인근", link: "https://land.jejukcr.com/offer/86887283" }
       ]
     },
     "hero-presale": {
