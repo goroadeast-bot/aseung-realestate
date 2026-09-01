@@ -132,7 +132,7 @@
         { photo: "images/listings/apartment/apt-oil-2.png", desc: "[오일장] 신제주로터리 · 코스모스태홍누리안5차 · 탑층", link: "https://www.jejuall.com/CProperty/detail?num=6359532" },
         { photo: "images/listings/apartment/apt-oil-9.jpg", desc: "[오일장] 노형동 · 노형e-편한세상 · 급매 · 리모델링", link: "https://www.jejuall.com/CProperty/detail?num=6389256" },
         { photo: "images/listings/apartment/apt-kcr-14.jpg", desc: "[교차로] 해밀마루 1동 · 외도 신축급 투룸", link: "https://land.jejukcr.com/offer/86825593" },
-        { photo: "images/listings/apartment/apt-kcr-11.jpg", desc: "[교차로] 코스모스태홍누리안5차 1동 · 신제주로터리", link: "https://land.jejukcr.com/offer/86786472" },
+        { photo: "images/listings/apartment/apt-kcr-16.jpg", desc: "[교차로] 노형벨라시티 1동 · 고층 · 옵션포함", link: "https://land.jejukcr.com/offer/86816697" },
         { photo: "images/listings/apartment/apt-kcr-12.jpg", desc: "[교차로] 한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/86786372" }
       ]
     },
@@ -164,7 +164,7 @@
       title: "인기있는 제주도 아파트",
       items: [
         { photo: "images/listings/apartment/apt-kcr-14.jpg", desc: "해밀마루 1동 · 외도 신축급 투룸", link: "https://land.jejukcr.com/offer/86825593" },
-        { photo: "images/listings/apartment/apt-kcr-11.jpg", desc: "코스모스태홍누리안5차 1동 · 신제주로터리 · 제주도청 인근", link: "https://land.jejukcr.com/offer/86786472" },
+        { photo: "images/listings/apartment/apt-kcr-16.jpg", desc: "노형벨라시티 1동 · 고층 · 옵션포함 · 신축아파트", link: "https://land.jejukcr.com/offer/86816697" },
         { photo: "images/listings/apartment/apt-kcr-12.jpg", desc: "한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/86786372" },
         { photo: "images/listings/apartment/apt-kcr-13.jpg", desc: "노형정원파인즈15차 · 방4개 · 노형오거리 인근", link: "https://land.jejukcr.com/offer/86785953" },
         { photo: "images/listings/apartment/apt-kcr-15.jpg", desc: "노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/86785775" },
