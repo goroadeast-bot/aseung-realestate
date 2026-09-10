@@ -131,9 +131,9 @@
         { photo: "images/listings/apartment/apt-oil-1.jpg", desc: "[오일장] 서사라사거리 · 한성베르뜨2차아파트 매매", link: "https://www.jejuall.com/CProperty/detail?num=6204684" },
         { photo: "images/listings/apartment/apt-oil-2.png", desc: "[오일장] 신제주로터리 · 코스모스태홍누리안5차 · 탑층", link: "https://www.jejuall.com/CProperty/detail?num=6359532" },
         { photo: "images/listings/apartment/apt-oil-9.jpg", desc: "[오일장] 노형동 · 노형e-편한세상 · 급매 · 리모델링", link: "https://www.jejuall.com/CProperty/detail?num=6389256" },
-        { photo: "images/listings/apartment/apt-kcr-29.jpg", desc: "[교차로] 염광 4동 · 올리모델링 · 아라일동", link: "https://land.jejukcr.com/offer/87156025" },
-        { photo: "images/listings/apartment/apt-kcr-27.jpg", desc: "[교차로] 중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/87156010" },
-        { photo: "images/listings/apartment/apt-kcr-26.jpg", desc: "[교차로] 노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/87155998" }
+        { photo: "images/listings/apartment/apt-kcr-23.jpg", desc: "[교차로] 노형벨라시티 1동 · 신축급 · 컨디션최상", link: "https://land.jejukcr.com/offer/87266509" },
+        { photo: "images/listings/apartment/apt-kcr-24.jpg", desc: "[교차로] 한성베르뜨2차 1동 · 서사라 · 생활편의시설 인근", link: "https://land.jejukcr.com/offer/87266507" },
+        { photo: "images/listings/apartment/apt-kcr-25.jpg", desc: "[교차로] 노형아이파크 4동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/87266506" }
       ]
     },
     "featured-house": {
@@ -163,12 +163,12 @@
     "hero-apt": {
       title: "인기있는 제주도 아파트",
       items: [
-        { photo: "images/listings/apartment/apt-kcr-29.jpg", desc: "염광 4동 · 올리모델링 · 아라일동아파트", link: "https://land.jejukcr.com/offer/87156025" },
-        { photo: "images/listings/apartment/apt-kcr-27.jpg", desc: "중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/87156010" },
-        { photo: "images/listings/apartment/apt-kcr-26.jpg", desc: "노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/87155998" },
-        { photo: "images/listings/apartment/apt-kcr-25.jpg", desc: "노형아이파크 4동 · 한라초 인근", link: "https://land.jejukcr.com/offer/87155995" },
-        { photo: "images/listings/apartment/apt-kcr-24.jpg", desc: "한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/87155991" },
-        { photo: "images/listings/apartment/apt-kcr-23.jpg", desc: "노형벨라시티 1동 · 쓰리룸 · 고층 · 노형신축아파트", link: "https://land.jejukcr.com/offer/87155987" }
+        { photo: "images/listings/apartment/apt-kcr-23.jpg", desc: "노형벨라시티 1동 · 쓰리룸 · 고층 · 노형신축아파트", link: "https://land.jejukcr.com/offer/87266509" },
+        { photo: "images/listings/apartment/apt-kcr-24.jpg", desc: "한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/87266507" },
+        { photo: "images/listings/apartment/apt-kcr-25.jpg", desc: "노형아이파크 4동 · 한라초 인근", link: "https://land.jejukcr.com/offer/87266506" },
+        { photo: "images/listings/apartment/apt-kcr-26.jpg", desc: "노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/87266505" },
+        { photo: "images/listings/apartment/apt-kcr-27.jpg", desc: "중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/87266497" },
+        { photo: "images/listings/apartment/apt-kcr-30.jpg", desc: "외도부영1차 106동 · 신제주생활권 · 컨디션양호", link: "https://land.jejukcr.com/offer/87266491" }
       ]
     },
     "hero-sanga": {
