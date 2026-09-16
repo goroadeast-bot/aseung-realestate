@@ -131,9 +131,9 @@
         { photo: "images/listings/apartment/apt-oil-1.jpg", desc: "[오일장] 서사라사거리 · 한성베르뜨2차아파트 매매", link: "https://www.jejuall.com/CProperty/detail?num=6204684" },
         { photo: "images/listings/apartment/apt-oil-2.png", desc: "[오일장] 신제주로터리 · 코스모스태홍누리안5차 · 탑층", link: "https://www.jejuall.com/CProperty/detail?num=6359532" },
         { photo: "images/listings/apartment/apt-oil-9.jpg", desc: "[오일장] 노형동 · 노형e-편한세상 · 급매 · 리모델링", link: "https://www.jejuall.com/CProperty/detail?num=6389256" },
-        { photo: "images/listings/apartment/apt-kcr-31.jpg", desc: "[교차로] 염광 4동 · 올리모델링 · 아라일동", link: "https://land.jejukcr.com/offer/87320930" },
-        { photo: "images/listings/apartment/apt-kcr-27.jpg", desc: "[교차로] 중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/87320884" },
-        { photo: "images/listings/apartment/apt-kcr-26.jpg", desc: "[교차로] 노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/87320872" }
+        { photo: "images/listings/apartment/apt-kcr-33.jpg", desc: "[교차로] 외도부영1차 106동 · 리모델링세대 · 배관교체", link: "https://land.jejukcr.com/offer/87457525" },
+        { photo: "images/listings/apartment/apt-kcr-23.jpg", desc: "[교차로] 노형벨라시티 1동 · 신축급 · 컨디션최상", link: "https://land.jejukcr.com/offer/87457451" },
+        { photo: "images/listings/apartment/apt-kcr-24.jpg", desc: "[교차로] 한성베르뜨2차 1동 · 서사라 · 생활편의시설 인근", link: "https://land.jejukcr.com/offer/87457445" }
       ]
     },
     "featured-house": {
@@ -163,12 +163,12 @@
     "hero-apt": {
       title: "인기있는 제주도 아파트",
       items: [
-        { photo: "images/listings/apartment/apt-kcr-31.jpg", desc: "염광 4동 · 올리모델링 · 아라일동아파트", link: "https://land.jejukcr.com/offer/87320930" },
-        { photo: "images/listings/apartment/apt-kcr-27.jpg", desc: "중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/87320884" },
-        { photo: "images/listings/apartment/apt-kcr-26.jpg", desc: "노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/87320872" },
-        { photo: "images/listings/apartment/apt-kcr-24.jpg", desc: "한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/87320854" },
-        { photo: "images/listings/apartment/apt-kcr-23.jpg", desc: "노형벨라시티 1동 · 쓰리룸 · 고층 · 노형신축아파트", link: "https://land.jejukcr.com/offer/87320837" },
-        { photo: "images/listings/apartment/apt-kcr-32.jpg", desc: "에이스아크로빌2차 1동 · 외도아파트 · 신축급", link: "https://land.jejukcr.com/offer/87320796" }
+        { photo: "images/listings/apartment/apt-kcr-33.jpg", desc: "외도부영1차 106동 · 리모델링세대 · 배관교체", link: "https://land.jejukcr.com/offer/87457525" },
+        { photo: "images/listings/apartment/apt-kcr-23.jpg", desc: "노형벨라시티 1동 · 쓰리룸 · 고층 · 노형신축아파트", link: "https://land.jejukcr.com/offer/87457451" },
+        { photo: "images/listings/apartment/apt-kcr-24.jpg", desc: "한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/87457445" },
+        { photo: "images/listings/apartment/apt-kcr-26.jpg", desc: "노형2차아이파크 202동 · 한라산전망 · 컨디션최상", link: "https://land.jejukcr.com/offer/87457417" },
+        { photo: "images/listings/apartment/apt-kcr-27.jpg", desc: "중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/87457408" },
+        { photo: "images/listings/apartment/apt-kcr-31.jpg", desc: "염광 4동 · 올리모델링 · 아라일동아파트", link: "https://land.jejukcr.com/offer/87457243" }
       ]
     },
     "hero-sanga": {
@@ -196,12 +196,12 @@
     "hero-villa": {
       title: "멋과 실속 프리미엄 빌라",
       items: [
+        { photo: "images/listings/villa/villa-kcr-48.jpg", desc: "중문카렌시아 1동 · 고층 오션뷰 · 중문초 인근", link: "https://land.jejukcr.com/offer/87450250" },
         { photo: "images/listings/villa/villa-kcr-42.jpg", desc: "엔알파라디빌7차 1동 · 노형동 · 복층 쓰리룸", link: "https://land.jejukcr.com/offer/87343529" },
         { photo: "images/listings/villa/villa-kcr-40.jpg", desc: "마크힐노형 102동 · 신축 · 전세대 태양광", link: "https://land.jejukcr.com/offer/87343526" },
-        { photo: "images/listings/villa/villa-kcr-45.jpg", desc: "마크힐노형 104동 · 잔여1세대 · 중개보수없음", link: "https://land.jejukcr.com/offer/87343520" },
         { photo: "images/listings/villa/villa-kcr-46.jpg", desc: "마크힐애월2차 204동 · 탑층 오션뷰 · 서부경찰서 인근", link: "https://land.jejukcr.com/offer/87343511" },
         { photo: "images/listings/villa/villa-kcr-47.jpg", desc: "마크힐애월3차 3동 · 오션뷰세대 · 애월연립주택", link: "https://land.jejukcr.com/offer/87320479" },
-        { photo: "images/listings/villa/villa-kcr-44.jpg", desc: "카렌시아 1동 · 고층 오션뷰 · 중문", link: "https://land.jejukcr.com/offer/87320289" }
+        { photo: "images/listings/villa/villa-kcr-49.jpg", desc: "도평청목더웰 103동 · 3층 · 제주도 단지형빌라", link: "https://land.jejukcr.com/offer/87320453" }
       ]
     },
     "hero-presale": {
