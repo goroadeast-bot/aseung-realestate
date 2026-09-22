@@ -168,7 +168,7 @@
         { photo: "images/listings/apartment/apt-kcr-27.jpg", desc: "중문남해오네뜨오션힐 102동 · 중문초 인근", link: "https://land.jejukcr.com/offer/87602949" },
         { photo: "images/listings/apartment/apt-kcr-31.jpg", desc: "염광 4동 · 올리모델링 · 아라일동아파트", link: "https://land.jejukcr.com/offer/87602940" },
         { photo: "images/listings/apartment/apt-kcr-35.jpg", desc: "대원상록수5차 1동 · 노형초 인근 · 리모델링세대", link: "https://land.jejukcr.com/offer/87602925" },
-        { photo: "images/listings/apartment/apt-kcr-24.jpg", desc: "한성베르뜨2차 1동 · 서사라사거리", link: "https://land.jejukcr.com/offer/87602858" }
+        { photo: "images/listings/apartment/apt-kcr-36.jpg", desc: "외도부영1차 106동 · 리모델링세대 · 배관교체", link: "https://land.jejukcr.com/offer/87602882" }
       ]
     },
     "hero-sanga": {
@@ -217,12 +217,12 @@
     "hero-land": {
       title: "마음에 쏙 제주토지",
       items: [
+        { photo: "images/listings/land/land-kcr-16.png", desc: "한경면 용수리 · 대지 · 용수포구 인근", link: "https://land.jejukcr.com/offer/87602815" },
         { photo: "images/listings/land/land-kcr-10.jpg", desc: "외도 · 농지 답 · 지역주택조합단지 인근", link: "https://land.jejukcr.com/offer/87382669" },
         { photo: "images/listings/land/land-kcr-11.jpg", desc: "대지 · 건축바로가능 · 영어교육도시 인근", link: "https://land.jejukcr.com/offer/87382665" },
         { photo: "images/listings/land/land-kcr-14.jpg", desc: "하귀초 인근 · 애월해안도로 입구 · 건축허가 득", link: "https://land.jejukcr.com/offer/87382659" },
         { photo: "images/listings/land/land-kcr-15.jpg", desc: "외도축구장 인근 · 창고 및 단독주택지 추천", link: "https://land.jejukcr.com/offer/87382637" },
-        { photo: "images/listings/land/land-kcr-12.jpg", desc: "외도일동 · 높은지대 한라산뷰 · 투자용 추천", link: "https://land.jejukcr.com/offer/87382607" },
-        { photo: "images/listings/land/land-kcr-13.jpg", desc: "도남동 · 과수원 · 단독·상가주택지", link: "https://land.jejukcr.com/offer/87382597" }
+        { photo: "images/listings/land/land-kcr-12.jpg", desc: "외도일동 · 높은지대 한라산뷰 · 투자용 추천", link: "https://land.jejukcr.com/offer/87382607" }
       ]
     }
   };
