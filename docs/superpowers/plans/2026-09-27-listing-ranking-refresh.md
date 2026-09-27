@@ -45,5 +45,5 @@
 
 - [x] Directly verify each final listing URL, rejecting short Oiljang error pages and KCR not-found pages.
 - [x] Update the cache version and review the exact tracked diff.
-- [ ] Commit/push only intended files.
-- [ ] Verify the Pages workflow and live script version after deployment.
+- [x] Commit/push only intended files.
+- [x] Verify the Pages workflow and live script version after deployment.
