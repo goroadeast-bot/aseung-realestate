@@ -41,5 +41,5 @@
 
 - [x] Bump cache versions; verify syntax, links, local image references, and clean diff.
 - [x] Record the dated changes and deployment evidence in `docs/WORK_LOG.md`.
-- [ ] Commit and push only intended files on `main`.
-- [ ] Confirm the latest Pages workflow succeeds and verify live modal cards and links.
+- [x] Commit and push only intended files on `main`.
+- [x] Confirm the latest Pages workflow succeeds and verify live modal cards and links.
