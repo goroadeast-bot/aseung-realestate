@@ -38,5 +38,5 @@
 
 - [x] Refresh the specialty, featured, and hero modal arrays and corresponding thumbnails.
 - [x] Bump cache versions; check JavaScript syntax, every listing URL, local photo paths and signatures, and the diff.
-- [ ] Record findings and deployment status; commit and push only intended files on `main`.
-- [ ] Confirm the latest Pages run succeeds and the live page serves the updated assets and representative listing links.
+- [x] Record findings and deployment status; commit and push only intended files on `main`.
+- [x] Confirm the latest Pages run succeeds and the live page serves the updated assets and representative listing links.
