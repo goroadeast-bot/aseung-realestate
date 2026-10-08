@@ -38,40 +38,40 @@
   var PAGE_SIZE = 6;
 
   // 2026-09-30: 오일장·제주교차로 최신 유형별 순위로 갱신.
-  // 2026-10-05: 오일장·제주교차로 최신 유형별 순위를 반영.
-  var LISTING_DATA =   {
+  // 2026-10-09: 오일장·제주교차로 최신 유형별 순위를 반영.
+  var LISTING_DATA = {
     "nohyeong-apt": {
       "title": "아파트",
       "items": [
         {
+          "photo": "images/listings/apartment/apt-oil-6539429.jpg",
+          "desc": "제주시 이도이동 · 이도성원아파트/이도주공인근/이도이동아파트/리모델링/남광초/제주일중",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6539429"
+        },
+        {
+          "photo": "images/listings/apartment/apt-oil-5957930.jpg",
+          "desc": "제주시 노형동 · 노형수선화아파트 매매/노형초인근아파트/올리모델링",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5957930"
+        },
+        {
+          "photo": "images/listings/apartment/apt-oil-5957989.jpg",
+          "desc": "제주시 연동 · 제주세기아파트 매매/고층오션뷰세대/연동아파트매매",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5957989"
+        },
+        {
           "photo": "images/listings/apartment/apt-oil-5926717.jpg",
-          "desc": "동홍동 · 동홍동센트레빌아파트 매매 · 서귀포신축급아파트매매 · 서귀포아파트매매",
+          "desc": "서귀포시 동홍동 · 동홍동센트레빌아파트 매매/서귀포신축급아파트매매/서귀포아파트매매",
           "link": "https://www.jejuall.com/CProperty/detail?num=5926717"
         },
         {
           "photo": "images/listings/apartment/apt-oil-6510223.jpg",
-          "desc": "삼도일동 · 서사라사거리 · 한성베르뜨2차아파트매매",
+          "desc": "제주시 삼도일동 · 서사라사거리/한성베르뜨2차아파트매매/",
           "link": "https://www.jejuall.com/CProperty/detail?num=6510223"
         },
         {
           "photo": "images/listings/apartment/apt-oil-6507990.jpg",
-          "desc": "외도일동 · 외도에이스아크로빌2차아파트 매매 · 외도아파트매매 · 도시가스",
+          "desc": "제주시 외도일동 · 외도에이스아크로빌2차아파트 매매/외도아파트매매/도시가스",
           "link": "https://www.jejuall.com/CProperty/detail?num=6507990"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-5926741.jpg",
-          "desc": "오라이동 · 오등봉위파크제주1단지분양권84B · 오라이동위파크 · 고층 · 무피 · 전망좋음",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5926741"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-5926732.jpg",
-          "desc": "도남동 · 이도주공인근 · 영산홍아파트 매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5926732"
-        },
-        {
-          "photo": "images/listings/no-photo.jpg",
-          "desc": "동홍동 · 동홍주공1단지아파트 매매 · 리모델링,즉시입주",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5926750"
         }
       ]
     },
@@ -84,34 +84,34 @@
       "title": "주택",
       "items": [
         {
+          "photo": "images/listings/house/house-oil-5968497.jpg",
+          "desc": "서귀포시 성산읍 성산리 · 성산일출봉인근/성산다가구주택매매/해안도로뷰",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5968497"
+        },
+        {
+          "photo": "images/listings/house/house-oil-6536465.jpg",
+          "desc": "제주시 한림읍 협재리 · 한림한수풀타운하우스/협재풀옵션년세/제주단독주택년세/타운하우스년세",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6536465"
+        },
+        {
+          "photo": "images/listings/house/house-oil-5953930.jpg",
+          "desc": "제주시 구좌읍 행원리 · *구좌읍행원리단독주택매매*넓은마당전원주택매매*",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5953930"
+        },
+        {
+          "photo": "images/listings/house/house-oil-5958351.jpg",
+          "desc": "제주시 한경면 조수리 · 제주도전원주택매매/한경면조수리단독주택매매/한경면단독주택매매",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5958351"
+        },
+        {
+          "photo": "images/listings/house/house-oil-6529381.jpg",
+          "desc": "제주시 구좌읍 평대리 · 구좌읍평대리단독주택/마당넓은단독주택년세/반려동물가능",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6529381"
+        },
+        {
           "photo": "images/listings/house/house-oil-5951095.jpg",
-          "desc": "도평동 · 도평동단독주택매매 · 노형생활권 · 제주시전원주택",
+          "desc": "제주시 도평동 · 도평동단독주택매매/노형생활권/제주시전원주택",
           "link": "https://www.jejuall.com/CProperty/detail?num=5951095"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5928113.jpg",
-          "desc": "연동 · 연동신제주초인근 · 연동단독주택매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5928113"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5935161.jpg",
-          "desc": "이도이동 · 제주시청인근 · 이도이동단독주택매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5935161"
-        },
-        {
-          "photo": "images/listings/house/house-oil-6498565.jpg",
-          "desc": "구좌읍 세화리 · 구좌읍단독주택매매 · 세화리주택매매 · 제주도세컨하우스",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6498565"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5920263.jpg",
-          "desc": "아라이동 · 아라이동단독주택매매 · 아라아이파크인근",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5920263"
-        },
-        {
-          "photo": "images/listings/house/house-oil-6493984.jpg",
-          "desc": "외도일동 · 외도단독주택매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6493984"
         }
       ]
     },
@@ -119,34 +119,34 @@
       "title": "빌라",
       "items": [
         {
-          "photo": "images/listings/villa/villa-oil-6526178.jpg",
-          "desc": "노형동 · 노형동복층다세대주택매매 · 쓰리룸매매 · 엔알파라디빌7차",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6526178"
+          "photo": "images/listings/villa/villa-oil-6540034.jpg",
+          "desc": "서귀포시 대정읍 구억리 · 급매/대정리오팰리스매매/영어교육도시인근/대정쓰리룸매매",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6540034"
         },
         {
-          "photo": "images/listings/villa/villa-oil-6526177.jpg",
-          "desc": "노형동 · 이안더프리미스노형매매 · 노형동신축빌라매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6526177"
+          "photo": "images/listings/villa/villa-oil-5969306.jpg",
+          "desc": "서귀포시 성산읍 신산리 · 성산읍오션갤러리프리미어빌라스1단지매매/2면통창오션뷰/로얄동",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5969306"
         },
         {
-          "photo": "images/listings/villa/villa-oil-6526176.jpg",
-          "desc": "도평동 · 도평동JDS빌리지매매 · jds빌리지 · 올리모델링 · 잔디마당",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6526176"
+          "photo": "images/listings/villa/villa-oil-6539701.jpg",
+          "desc": "제주시 도남동 · 도남동다세대주택/도남동쓰리룸/",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6539701"
         },
         {
-          "photo": "images/listings/villa/villa-oil-6520575.jpg",
-          "desc": "애월읍 광령리 · 애월읍광령리투룸매매 · 제일빌리지 · 리모델링세대",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6520575"
+          "photo": "images/listings/villa/villa-oil-6533770.jpg",
+          "desc": "제주시 아라일동 · 아라휴안8차매매/아라동빌라매매/관리잘되어있음/아라초/",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6533770"
         },
         {
-          "photo": "images/listings/villa/villa-oil-6518121.jpg",
-          "desc": "외도일동 · 외도오렌지카운티매매 · 외도분리형원룸매매 · 제주시원룸매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6518121"
+          "photo": "images/listings/villa/villa-oil-6536863.jpg",
+          "desc": "제주시 외도일동 · 외도오렌지카운티매매/외도분리형원룸매매/제주시원룸매매",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6536863"
         },
         {
-          "photo": "images/listings/villa/villa-oil-6515976.jpg",
-          "desc": "노형동 · 마크힐노형매매 · 마크힐노형탑층 · 노형동신축빌라",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6515976"
+          "photo": "images/listings/villa/villa-oil-6532544.jpg",
+          "desc": "제주시 아라이동 · 추천/컨디션좋음/아라동빌라매매/금천뜨래별/가전옵션",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6532544"
         }
       ]
     },
@@ -154,44 +154,49 @@
       "title": "딱 필요한 만큼 원룸 투룸",
       "items": [
         {
-          "photo": "images/listings/oneroom/oneroom-oil-6496762.jpg",
-          "desc": "일도이동 · 인화초인근 · 일도지구 · 인제 · 일도이동투룸년세",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6496762"
+          "photo": "images/listings/oneroom/oneroom-oil-6533846.jpg",
+          "desc": "제주시 애월읍 하귀2리 · 하귀넓은투룸년세/방2욕실2/오션뷰가능/반려동물가능/가전제품옵션/신축급",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6533846"
         },
         {
-          "photo": "images/listings/oneroom/oneroom-oil-6486882.jpg",
-          "desc": "일도이동 · 인화초인근 · 일도지구 · 인제 · 일도이동투룸년세",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6486882"
+          "photo": "images/listings/oneroom/oneroom-oil-6532251.jpg",
+          "desc": "제주시 일도이동 · 인화초인근/일도지구/인제/일도이동투룸년세/",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6532251"
         },
         {
           "photo": "images/listings/oneroom/oneroom-oil-6474354.jpg",
-          "desc": "한림읍 금능리 · 한림분리형원룸 · 넓고깨끗한분리형원룸 · 금능해수욕장",
+          "desc": "제주시 한림읍 금능리 · 한림분리형원룸/넓고깨끗한분리형원룸/금능해수욕장",
           "link": "https://www.jejuall.com/CProperty/detail?num=6474354"
         },
         {
-          "photo": "images/listings/oneroom/oneroom-kcr-87845568.jpg",
-          "desc": "일도이동 다가구형 투룸 · 인화초인근 · 일도지구 · 인제 · 일도이동투룸년세",
-          "link": "https://land.jejukcr.com/offer/87845568"
+          "photo": "images/listings/oneroom/oneroom-kcr-88100126.jpg",
+          "desc": "한림읍 아파트형 투룸 · 년세 500만원/1,000만원",
+          "link": "https://land.jejukcr.com/offer/88100126"
         },
         {
-          "photo": "images/listings/oneroom/oneroom-kcr-87845554.jpg",
-          "desc": "아라일동 다가구형 원룸 · 제대인근 · 소형반려동물가능 · 아라일동원룸임대",
-          "link": "https://land.jejukcr.com/offer/87845554"
+          "photo": "images/listings/oneroom/oneroom-kcr-88045240.jpg",
+          "desc": "애월읍 다가구형 투룸 · 년세 2,000만원/1,600만원",
+          "link": "https://land.jejukcr.com/offer/88045240"
         },
         {
-          "photo": "images/listings/oneroom/oneroom-kcr-87845490.jpg",
-          "desc": "한림읍 다가구형 투베이 · 한림분리형원룸 · 넓고깨끗한분리형원룸 · 금능해수욕장",
-          "link": "https://land.jejukcr.com/offer/87845490"
+          "photo": "images/listings/oneroom/oneroom-kcr-88105913.jpg",
+          "desc": "이도이동 다가구형 투베이 · 월세 200만원/55만원",
+          "link": "https://land.jejukcr.com/offer/88105913"
         },
         {
-          "photo": "images/listings/oneroom/oneroom-kcr-87845444.jpg",
-          "desc": "일도이동 다가구형 투룸 · 인화초인근 · 일도지구 · 인제 · 일도이동투룸년세",
-          "link": "https://land.jejukcr.com/offer/87845444"
+          "photo": "images/listings/oneroom/oneroom-kcr-88105141.jpg",
+          "desc": "노형동 다가구형 원룸 · 월세 200만원/55만원",
+          "link": "https://land.jejukcr.com/offer/88105141"
         },
         {
-          "photo": "images/listings/oneroom/oneroom-kcr-87343619.jpg",
-          "desc": "아라일동 다가구형 원룸 · 제대인근 · 소형반려동물가능 · 아라일동원룸임대",
-          "link": "https://land.jejukcr.com/offer/87343619"
+          "photo": "images/listings/oneroom/oneroom-kcr-88099930.jpg",
+          "desc": "아라일동 다가구형 원룸 · 월세 200만원/45만원",
+          "link": "https://land.jejukcr.com/offer/88099930"
+        },
+        {
+          "photo": "images/listings/oneroom/oneroom-kcr-88067169.jpg",
+          "desc": "일도이동 다가구형 투룸 · 년세 500만원/800만원",
+          "link": "https://land.jejukcr.com/offer/88067169"
         }
       ]
     },
@@ -199,34 +204,34 @@
       "title": "상가",
       "items": [
         {
+          "photo": "images/listings/sanga/sanga-oil-6540086.jpg",
+          "desc": "제주시 용담삼동 · 용담해안도로상가/상가건물임대/해안도로/제주공항인근",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6540086"
+        },
+        {
+          "photo": "images/listings/sanga/sanga-oil-6536861.jpg",
+          "desc": "제주시 연동 · 제주공항인근/대형상가임대/노출최상/주차편리/마리나사거리/대형오피스",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6536861"
+        },
+        {
+          "photo": "images/listings/sanga/sanga-oil-6536537.jpg",
+          "desc": "제주시 이도이동 · 제주시청인근상가/제주시사무실임대/이도이동상가임대",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6536537"
+        },
+        {
+          "photo": "images/listings/sanga/sanga-oil-6529383.jpg",
+          "desc": "제주시 도남동 · *도남동토지매매*도남동단독주택,상가주택지*제주도토지",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6529383"
+        },
+        {
           "photo": "images/listings/sanga/sanga-oil-6515954.jpg",
-          "desc": "노형동 · 노형동신축상가임대 · 대형상가 · 제주시병의원 · 사무실임대",
+          "desc": "제주시 노형동 · 노형동신축상가임대/대형상가/제주시병의원/사무실임대/",
           "link": "https://www.jejuall.com/CProperty/detail?num=6515954"
         },
         {
           "photo": "images/listings/sanga/sanga-oil-6515939.jpg",
-          "desc": "노형동 · 노형동상가임대 · 노형오거리상가 · 노형카페임대",
+          "desc": "제주시 노형동 · 노형동상가임대/노형오거리상가/노형카페임대",
           "link": "https://www.jejuall.com/CProperty/detail?num=6515939"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6515924.jpg",
-          "desc": "노형동 · 노형동1층상가임대 · 소매점 · 사무실 · 미용실 · 카페 · 한라대인근",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6515924"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6507965.jpg",
-          "desc": "외도일동 · 외도상가임대 · 외도사무실임대 · 외도학원병원임대우대혜택있음 · 편리한전용주차",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6507965"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6507915.jpg",
-          "desc": "외도일동 · 추천 · 임대지원혜택 · 외도일동1층상가임대 · 건물내주차편리 · 다양한업종 · 동물병원 · 음식점",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6507915"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6507237.jpg",
-          "desc": "외도일동 · 제주상가건물매매 · 외도일동상가건물매매 · 공실없음 · 주차장완비",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6507237"
         }
       ]
     },
@@ -234,34 +239,34 @@
       "title": "토지",
       "items": [
         {
-          "photo": "images/listings/no-photo.jpg",
-          "desc": "애월읍 하가리 · 애월읍맹지 · 연화못인근 · 하가리토지매매 · 더럭초",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6507240"
+          "photo": "images/listings/land/land-oil-5968470.jpg",
+          "desc": "서귀포시 서호동 · 서호동토지매매/2종일반주거지역/",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5968470"
+        },
+        {
+          "photo": "images/listings/land/land-oil-6533318.jpg",
+          "desc": "제주시 애월읍 하가리 · 애월읍맹지/연화못인근/하가리토지매매/더럭초",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6533318"
+        },
+        {
+          "photo": "images/listings/land/land-oil-6529383.jpg",
+          "desc": "제주시 도남동 · *도남동토지매매*도남동단독주택,상가주택지*제주도토지",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6529383"
         },
         {
           "photo": "images/listings/land/land-oil-5922523.jpg",
-          "desc": "용담삼동 · 용담주거지역토지매매 · 나대지+전 · 용두암해안도로인근",
+          "desc": "제주시 용담삼동 · 용담주거지역토지매매/나대지+전/용두암해안도로인근",
           "link": "https://www.jejuall.com/CProperty/detail?num=5922523"
         },
         {
           "photo": "images/listings/land/land-oil-6503475.jpg",
-          "desc": "조천읍 조천리 · 추천*조천리기반시설갖춘소형토지매매*제주도토지",
+          "desc": "제주시 조천읍 조천리 · *추천*조천리기반시설갖춘소형토지매매*제주도토지",
           "link": "https://www.jejuall.com/CProperty/detail?num=6503475"
         },
         {
           "photo": "images/listings/land/land-oil-5879452.jpg",
-          "desc": "외도일동 · 외도일동토지매매 · 높은지대한라산뷰 · 투자용추천 · 외도신축빌라단지경계",
+          "desc": "제주시 외도일동 · 외도일동토지매매/높은지대한라산뷰/투자용추천/외도신축빌라단지경계",
           "link": "https://www.jejuall.com/CProperty/detail?num=5879452"
-        },
-        {
-          "photo": "images/listings/land/land-oil-5865817.png",
-          "desc": "이도이동 · 이도한일베라체인근 · 임야매매 · 기반시설있음",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5865817"
-        },
-        {
-          "photo": "images/listings/land/land-oil-5865871.jpg",
-          "desc": "중문동 · 서귀포중문토지매매*서귀포농지매매*중문관광단지인근",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5865871"
         }
       ]
     },
@@ -270,43 +275,43 @@
       "items": [
         {
           "photo": "images/listings/warehouse/warehouse-oil-6486884.jpg",
-          "desc": "애월읍 신엄리 · 신엄리신축급창고임대 · 중산간도로인근",
+          "desc": "제주시 애월읍 신엄리 · 신엄리신축급창고임대/중산간도로인근",
           "link": "https://www.jejuall.com/CProperty/detail?num=6486884"
         },
         {
           "photo": "images/listings/warehouse/warehouse-oil-6404017.jpg",
-          "desc": "조천읍 와흘리 · 제주도공장매매 · 조천공장매매 · 3306m2공장용지",
+          "desc": "제주시 조천읍 와흘리 · 제주도공장매매/조천공장매매/3306m2공장용지",
           "link": "https://www.jejuall.com/CProperty/detail?num=6404017"
         },
         {
           "photo": "images/listings/warehouse/warehouse-oil-6328388.jpg",
-          "desc": "애월읍 애월리 · 애월창고매매 · 애월신축급창고",
+          "desc": "제주시 애월읍 애월리 · 애월창고매매/애월신축급창고",
           "link": "https://www.jejuall.com/CProperty/detail?num=6328388"
         },
         {
           "photo": "images/listings/warehouse/warehouse-oil-4762800.png",
-          "desc": "오등동 · 애조로인근*창고시설매매",
+          "desc": "제주시 오등동 · *애조로인근*창고시설매매*",
           "link": "https://www.jejuall.com/CProperty/detail?num=4762800"
         },
         {
-          "photo": "images/listings/warehouse/warehouse-kcr-87876439.jpg",
-          "desc": "애월읍 창고 · 신엄리신축급창고임대 · 중산간도로인근",
-          "link": "https://land.jejukcr.com/offer/87876439"
+          "photo": "images/listings/warehouse/warehouse-kcr-88000862.jpg",
+          "desc": "애월읍 창고 · 매매 5억 7,000만원",
+          "link": "https://land.jejukcr.com/offer/88000862"
         },
         {
-          "photo": "images/listings/warehouse/warehouse-kcr-87876425.jpg",
-          "desc": "조천읍 공장 · 제주도공장매매 · 조천공장매매",
-          "link": "https://land.jejukcr.com/offer/87876425"
+          "photo": "images/listings/warehouse/warehouse-kcr-88000858.jpg",
+          "desc": "애월읍 창고 · 임대(년세) 1,000만원/1,700만원",
+          "link": "https://land.jejukcr.com/offer/88000858"
         },
         {
-          "photo": "images/listings/warehouse/warehouse-kcr-87575831.jpg",
-          "desc": "애월읍 창고 · 애월창고매매 · 애월창고근생매매 · 신축급",
-          "link": "https://land.jejukcr.com/offer/87575831"
+          "photo": "images/listings/warehouse/warehouse-kcr-88000863.png",
+          "desc": "오등동 창고 · 매매 15억원",
+          "link": "https://land.jejukcr.com/offer/88000863"
         },
         {
-          "photo": "images/listings/warehouse/warehouse-kcr-86340150.png",
-          "desc": "오등동 창고 · 애조로인근 · 창고시설매매",
-          "link": "https://land.jejukcr.com/offer/86340150"
+          "photo": "images/listings/warehouse/warehouse-kcr-88000859.jpg",
+          "desc": "조천읍 공장 · 매매 19억 3,000만원",
+          "link": "https://land.jejukcr.com/offer/88000859"
         }
       ]
     },
@@ -314,34 +319,34 @@
       "title": "인기만점 제주 아파트",
       "items": [
         {
-          "photo": "images/listings/apartment/apt-oil-5926717.jpg",
-          "desc": "[오일장] 동홍동 · 동홍동센트레빌아파트 매매 · 서귀포신축급아파트매매 · 서귀포아파트매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5926717"
+          "photo": "images/listings/apartment/apt-oil-6539429.jpg",
+          "desc": "제주시 이도이동 · 이도성원아파트/이도주공인근/이도이동아파트/리모델링/남광초/제주일중",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6539429"
         },
         {
-          "photo": "images/listings/apartment/apt-oil-6510223.jpg",
-          "desc": "[오일장] 삼도일동 · 서사라사거리 · 한성베르뜨2차아파트매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6510223"
+          "photo": "images/listings/apartment/apt-oil-5957930.jpg",
+          "desc": "제주시 노형동 · 노형수선화아파트 매매/노형초인근아파트/올리모델링",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5957930"
         },
         {
-          "photo": "images/listings/apartment/apt-oil-6507990.jpg",
-          "desc": "[오일장] 외도일동 · 외도에이스아크로빌2차아파트 매매 · 외도아파트매매 · 도시가스",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6507990"
+          "photo": "images/listings/apartment/apt-oil-5957989.jpg",
+          "desc": "제주시 연동 · 제주세기아파트 매매/고층오션뷰세대/연동아파트매매",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5957989"
         },
         {
-          "photo": "images/listings/apartment/apt-kcr-87845801.jpg",
-          "desc": "[교차로] 아라일동 염광 4동 · 염광아파트 매매 · 올리모델링 · 아라일동아파트매매",
-          "link": "https://land.jejukcr.com/offer/87845801"
+          "photo": "images/listings/apartment/apt-kcr-88099844.jpg",
+          "desc": "이도이동 성원 1동 · 매매 2억 9,500만원",
+          "link": "https://land.jejukcr.com/offer/88099844"
         },
         {
-          "photo": "images/listings/apartment/apt-kcr-87845765.jpg",
-          "desc": "[교차로] 노형동 대원상록수5차 1동 · 노형동아파트매매 · 노형초 · 대원상록수5차아파트",
-          "link": "https://land.jejukcr.com/offer/87845765"
+          "photo": "images/listings/apartment/apt-kcr-88066374.jpg",
+          "desc": "삼도일동 한성베르뜨2차 1동 · 매매 3억 2,000만원",
+          "link": "https://land.jejukcr.com/offer/88066374"
         },
         {
-          "photo": "images/listings/apartment/apt-kcr-87845723.jpg",
-          "desc": "[교차로] 삼도일동 한성베르뜨2차 1동 · 서사라사거리 · 한성베르뜨2차아파트매매",
-          "link": "https://land.jejukcr.com/offer/87845723"
+          "photo": "images/listings/apartment/apt-kcr-88066365.jpg",
+          "desc": "노형동 대원상록수5차 1동 · 매매 4억 1,000만원",
+          "link": "https://land.jejukcr.com/offer/88066365"
         }
       ]
     },
@@ -349,34 +354,34 @@
       "title": "제주로망 전원주택/타운하우스",
       "items": [
         {
-          "photo": "images/listings/house/house-oil-5951095.jpg",
-          "desc": "[오일장] 도평동 · 도평동단독주택매매 · 노형생활권 · 제주시전원주택",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5951095"
+          "photo": "images/listings/house/house-oil-5968497.jpg",
+          "desc": "서귀포시 성산읍 성산리 · 성산일출봉인근/성산다가구주택매매/해안도로뷰",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5968497"
         },
         {
-          "photo": "images/listings/house/house-oil-5928113.jpg",
-          "desc": "[오일장] 연동 · 연동신제주초인근 · 연동단독주택매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5928113"
+          "photo": "images/listings/house/house-oil-6536465.jpg",
+          "desc": "제주시 한림읍 협재리 · 한림한수풀타운하우스/협재풀옵션년세/제주단독주택년세/타운하우스년세",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6536465"
         },
         {
-          "photo": "images/listings/house/house-oil-5935161.jpg",
-          "desc": "[오일장] 이도이동 · 제주시청인근 · 이도이동단독주택매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5935161"
+          "photo": "images/listings/house/house-oil-5953930.jpg",
+          "desc": "제주시 구좌읍 행원리 · *구좌읍행원리단독주택매매*넓은마당전원주택매매*",
+          "link": "https://www.jejuall.com/CProperty/detail?num=5953930"
         },
         {
-          "photo": "images/listings/house/house-kcr-87876898.jpg",
-          "desc": "[교차로] 애월읍 단독 · 애월수산리독채펜션매매 · SNS계정인계 · 단독2개동구조",
-          "link": "https://land.jejukcr.com/offer/87876898"
+          "photo": "images/listings/house/house-kcr-88005444.jpg",
+          "desc": "애월읍 단독 · 매매 6억원",
+          "link": "https://land.jejukcr.com/offer/88005444"
         },
         {
-          "photo": "images/listings/house/house-kcr-87876941.jpg",
-          "desc": "[교차로] 이도이동 단독 · 이도이동단독주택매매 · 남광초인근단독",
-          "link": "https://land.jejukcr.com/offer/87876941"
+          "photo": "images/listings/house/house-kcr-88005479.jpg",
+          "desc": "도련일동 단독 · 매매 8억원",
+          "link": "https://land.jejukcr.com/offer/88005479"
         },
         {
-          "photo": "images/listings/house/house-kcr-87876917.jpg",
-          "desc": "[교차로] 구좌읍 단독 · 구좌읍단독주택 · 제주도전원주택 · 월정리인근 · 제주도단독주택",
-          "link": "https://land.jejukcr.com/offer/87876917"
+          "photo": "images/listings/house/house-kcr-88005471.jpg",
+          "desc": "아라이동 단독 · 매매 6억 9,000만원",
+          "link": "https://land.jejukcr.com/offer/88005471"
         }
       ]
     },
@@ -384,34 +389,34 @@
       "title": "새출발 든든한 상가",
       "items": [
         {
-          "photo": "images/listings/sanga/sanga-oil-6515954.jpg",
-          "desc": "[오일장] 노형동 · 노형동신축상가임대 · 대형상가 · 제주시병의원 · 사무실임대",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6515954"
+          "photo": "images/listings/sanga/sanga-oil-6540086.jpg",
+          "desc": "제주시 용담삼동 · 용담해안도로상가/상가건물임대/해안도로/제주공항인근",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6540086"
         },
         {
-          "photo": "images/listings/sanga/sanga-oil-6515939.jpg",
-          "desc": "[오일장] 노형동 · 노형동상가임대 · 노형오거리상가 · 노형카페임대",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6515939"
+          "photo": "images/listings/sanga/sanga-oil-6536861.jpg",
+          "desc": "제주시 연동 · 제주공항인근/대형상가임대/노출최상/주차편리/마리나사거리/대형오피스",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6536861"
         },
         {
-          "photo": "images/listings/sanga/sanga-oil-6515924.jpg",
-          "desc": "[오일장] 노형동 · 노형동1층상가임대 · 소매점 · 사무실 · 미용실 · 카페 · 한라대인근",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6515924"
+          "photo": "images/listings/sanga/sanga-oil-6536537.jpg",
+          "desc": "제주시 이도이동 · 제주시청인근상가/제주시사무실임대/이도이동상가임대",
+          "link": "https://www.jejuall.com/CProperty/detail?num=6536537"
+        },
+        {
+          "photo": "images/listings/sanga/sanga-kcr-88001736.jpg",
+          "desc": "연동 일반상가 · 임대 5,000만원/500만원",
+          "link": "https://land.jejukcr.com/offer/88001736"
         },
         {
           "photo": "images/listings/sanga/sanga-kcr-87876869.jpg",
-          "desc": "[교차로] 노형동 일반상가 · 노형동신축상가임대 · 대형상가 · 제주시병의원 · 사무실임대",
+          "desc": "노형동 일반상가 · 임대(년세) 2,200만원/2,200만원",
           "link": "https://land.jejukcr.com/offer/87876869"
         },
         {
           "photo": "images/listings/sanga/sanga-kcr-87808747.jpg",
-          "desc": "[교차로] 도남동 일반상가 · 도남초인근 · 해모로리치힐아파트인근 · 주차편리 · 4층상가임대 · 카페 · 프랜차이즈 · 사",
+          "desc": "도남동 일반상가 · 임대(년세) 2,000만원/2,000만원",
           "link": "https://land.jejukcr.com/offer/87808747"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-kcr-87808709.jpg",
-          "desc": "[교차로] 노형동 일반상가 · 노형동1층상가임대 · 소매점 · 일주서로인근 · 월랑마을",
-          "link": "https://land.jejukcr.com/offer/87808709"
         }
       ]
     },
@@ -419,34 +424,34 @@
       "title": "인기있는 제주도 아파트",
       "items": [
         {
-          "photo": "images/listings/apartment/apt-kcr-87845801.jpg",
-          "desc": "아라일동 염광 4동 · 염광아파트 매매 · 올리모델링 · 아라일동아파트매매",
-          "link": "https://land.jejukcr.com/offer/87845801"
+          "photo": "images/listings/apartment/apt-kcr-88099844.jpg",
+          "desc": "이도이동 성원 1동 · 매매 2억 9,500만원",
+          "link": "https://land.jejukcr.com/offer/88099844"
         },
         {
-          "photo": "images/listings/apartment/apt-kcr-87845765.jpg",
-          "desc": "노형동 대원상록수5차 1동 · 노형동아파트매매 · 노형초 · 대원상록수5차아파트",
-          "link": "https://land.jejukcr.com/offer/87845765"
+          "photo": "images/listings/apartment/apt-kcr-88066374.jpg",
+          "desc": "삼도일동 한성베르뜨2차 1동 · 매매 3억 2,000만원",
+          "link": "https://land.jejukcr.com/offer/88066374"
         },
         {
-          "photo": "images/listings/apartment/apt-kcr-87845723.jpg",
-          "desc": "삼도일동 한성베르뜨2차 1동 · 서사라사거리 · 한성베르뜨2차아파트매매",
-          "link": "https://land.jejukcr.com/offer/87845723"
+          "photo": "images/listings/apartment/apt-kcr-88066365.jpg",
+          "desc": "노형동 대원상록수5차 1동 · 매매 4억 1,000만원",
+          "link": "https://land.jejukcr.com/offer/88066365"
+        },
+        {
+          "photo": "images/listings/apartment/apt-kcr-88066353.jpg",
+          "desc": "아라일동 염광 4동 · 매매 2억 1,500만원",
+          "link": "https://land.jejukcr.com/offer/88066353"
+        },
+        {
+          "photo": "images/listings/apartment/apt-kcr-88066319.jpg",
+          "desc": "삼도일동 아이린7차 1동 · 매매 4억 7,000만원",
+          "link": "https://land.jejukcr.com/offer/88066319"
         },
         {
           "photo": "images/listings/apartment/apt-kcr-87845705.jpg",
-          "desc": "노형동 노형벨라시티 1동 · 노형벨라시티 · 쓰리룸 · 고층 · 노형신축아파트매매 · 노형동아파트",
+          "desc": "노형동 노형벨라시티 1동 · 매매 5억 7,000만원",
           "link": "https://land.jejukcr.com/offer/87845705"
-        },
-        {
-          "photo": "images/listings/apartment/apt-kcr-87762986.jpg",
-          "desc": "중문동 중문남해오네뜨오션힐 102동 · 중문남해오네뜨오션힐아파트 매매 · 중문초 · 남해오네뜨",
-          "link": "https://land.jejukcr.com/offer/87762986"
-        },
-        {
-          "photo": "images/listings/apartment/apt-kcr-87762972.jpg",
-          "desc": "노형동 노형아이파크 4동 · 노형아이파크아파트 매매 · 한라초 · 제주시아파트 · 노형동아파트",
-          "link": "https://land.jejukcr.com/offer/87762972"
         }
       ]
     },
@@ -454,33 +459,33 @@
       "title": "사업잘되는 상가 소개",
       "items": [
         {
+          "photo": "images/listings/sanga/sanga-kcr-88001736.jpg",
+          "desc": "연동 일반상가 · 임대 5,000만원/500만원",
+          "link": "https://land.jejukcr.com/offer/88001736"
+        },
+        {
           "photo": "images/listings/sanga/sanga-kcr-87876869.jpg",
-          "desc": "노형동 일반상가 · 노형동신축상가임대 · 대형상가 · 제주시병의원 · 사무실임대",
+          "desc": "노형동 일반상가 · 임대(년세) 2,200만원/2,200만원",
           "link": "https://land.jejukcr.com/offer/87876869"
         },
         {
           "photo": "images/listings/sanga/sanga-kcr-87808747.jpg",
-          "desc": "도남동 일반상가 · 도남초인근 · 해모로리치힐아파트인근 · 주차편리 · 4층상가임대 · 카페 · 프랜차이즈 · 사",
+          "desc": "도남동 일반상가 · 임대(년세) 2,000만원/2,000만원",
           "link": "https://land.jejukcr.com/offer/87808747"
         },
         {
           "photo": "images/listings/sanga/sanga-kcr-87808709.jpg",
-          "desc": "노형동 일반상가 · 노형동1층상가임대 · 소매점 · 일주서로인근 · 월랑마을",
+          "desc": "노형동 일반상가 · 임대 1,000만원/90만원",
           "link": "https://land.jejukcr.com/offer/87808709"
         },
         {
           "photo": "images/listings/sanga/sanga-kcr-87808579.jpg",
-          "desc": "외도일동 일반상가 · 외도상가임대 · 외도사무실임대 · 외도학원병원임대우대혜택있음 · 편리한전용주차",
+          "desc": "외도일동 일반상가 · 임대(년세) 1,500만원/1,500만원",
           "link": "https://land.jejukcr.com/offer/87808579"
         },
         {
-          "photo": "images/listings/sanga/sanga-kcr-87722921.jpg",
-          "desc": "연동 일반상가 · 제주공항인근 · 대형상가임대 · 사무실 · 주차편리 · 마리나사거리",
-          "link": "https://land.jejukcr.com/offer/87722921"
-        },
-        {
           "photo": "images/listings/sanga/sanga-kcr-87722916.jpg",
-          "desc": "외도일동 일반상가 · 추천 · 외도일동1층상가임대 · 건물내주차편리",
+          "desc": "외도일동 일반상가 · 임대(년세) 2,000만원/2,400만원",
           "link": "https://land.jejukcr.com/offer/87722916"
         }
       ]
@@ -489,34 +494,34 @@
       "title": "마당있는 삶 단독주택",
       "items": [
         {
-          "photo": "images/listings/house/house-kcr-87876898.jpg",
-          "desc": "애월읍 단독 · 애월수산리독채펜션매매 · SNS계정인계 · 단독2개동구조",
-          "link": "https://land.jejukcr.com/offer/87876898"
+          "photo": "images/listings/house/house-kcr-88005444.jpg",
+          "desc": "애월읍 단독 · 매매 6억원",
+          "link": "https://land.jejukcr.com/offer/88005444"
         },
         {
-          "photo": "images/listings/house/house-kcr-87876941.jpg",
-          "desc": "이도이동 단독 · 이도이동단독주택매매 · 남광초인근단독",
-          "link": "https://land.jejukcr.com/offer/87876941"
+          "photo": "images/listings/house/house-kcr-88005479.jpg",
+          "desc": "도련일동 단독 · 매매 8억원",
+          "link": "https://land.jejukcr.com/offer/88005479"
         },
         {
-          "photo": "images/listings/house/house-kcr-87876917.jpg",
-          "desc": "구좌읍 단독 · 구좌읍단독주택 · 제주도전원주택 · 월정리인근 · 제주도단독주택",
-          "link": "https://land.jejukcr.com/offer/87876917"
+          "photo": "images/listings/house/house-kcr-88005471.jpg",
+          "desc": "아라이동 단독 · 매매 6억 9,000만원",
+          "link": "https://land.jejukcr.com/offer/88005471"
         },
         {
-          "photo": "images/listings/house/house-kcr-87876886.jpg",
-          "desc": "애월읍 단독 · 애월펜션임대 · 신엄리펜션임대 · 애월해안로인근",
-          "link": "https://land.jejukcr.com/offer/87876886"
+          "photo": "images/listings/house/house-kcr-88005466.jpg",
+          "desc": "삼도이동 단독 · 매매 2억 1,000만원",
+          "link": "https://land.jejukcr.com/offer/88005466"
         },
         {
-          "photo": "images/listings/house/house-kcr-87876879.jpg",
-          "desc": "애월읍 단독 · 애월단독주택 · 애월읍전원주택 · 제주도전원주택",
-          "link": "https://land.jejukcr.com/offer/87876879"
+          "photo": "images/listings/house/house-kcr-88005458.jpg",
+          "desc": "한림읍 단독 · 매매 2억 5,000만원",
+          "link": "https://land.jejukcr.com/offer/88005458"
         },
         {
-          "photo": "images/listings/house/house-kcr-87876634.jpg",
-          "desc": "조천읍 단독 · 신촌초인근 · 단독주택2동 · 농지포함 · 제주도단독주택 · 전원주택",
-          "link": "https://land.jejukcr.com/offer/87876634"
+          "photo": "images/listings/house/house-kcr-88005453.jpg",
+          "desc": "조천읍 단독 · 매매 8억 5,000만원",
+          "link": "https://land.jejukcr.com/offer/88005453"
         }
       ]
     },
@@ -524,34 +529,34 @@
       "title": "멋과 실속 프리미엄 빌라",
       "items": [
         {
+          "photo": "images/listings/villa/villa-kcr-88065962.jpg",
+          "desc": "노형동 연립 · 마크힐노형 102동 · 매매 5억 6,900만원",
+          "link": "https://land.jejukcr.com/offer/88065962"
+        },
+        {
+          "photo": "images/listings/villa/villa-kcr-88065946.jpg",
+          "desc": "아라일동 연립 · 아라한성베르뜨3차 105동 · 매매 2억 8,500만원",
+          "link": "https://land.jejukcr.com/offer/88065946"
+        },
+        {
+          "photo": "images/listings/villa/villa-kcr-88065937.jpg",
+          "desc": "노형동 다세대 · 엔알파라디빌7차 1동 · 매매 3억 8,500만원",
+          "link": "https://land.jejukcr.com/offer/88065937"
+        },
+        {
+          "photo": "images/listings/villa/villa-kcr-88005300.jpg",
+          "desc": "서귀포시 중문동 연립 · 카렌시아 1동 · 매매 2억 8,800만원",
+          "link": "https://land.jejukcr.com/offer/88005300"
+        },
+        {
           "photo": "images/listings/villa/villa-kcr-87965102.jpg",
-          "desc": "애월읍 다세대 · 마크힐애월6차 · 하귀신축 · 하귀초귀일중 · 전세대태양광시설",
+          "desc": "애월읍 다세대 · 마크힐애월6차 102동 · 매매 4억 4,800만원",
           "link": "https://land.jejukcr.com/offer/87965102"
         },
         {
           "photo": "images/listings/villa/villa-kcr-87965093.jpg",
-          "desc": "오등동 다세대 · 오등휴안2차 · 아라초학군 · 제주시쓰리룸매매 · 제주빌라매매",
+          "desc": "오등동 다세대 · 오등휴안2차 101동 · 매매 3억 2,500만원",
           "link": "https://land.jejukcr.com/offer/87965093"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-87965042.jpg",
-          "desc": "오라삼동 다세대 · 오라삼동공동주택 · 오라초 · 오라동쓰리룸빌라 · 진아타운2차매매",
-          "link": "https://land.jejukcr.com/offer/87965042"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-87965033.jpg",
-          "desc": "삼도일동 다세대 · 중앙초등인근 · 삼도이동서아빌라 · 삼도이동쓰리룸매매 · 즉시입주가능",
-          "link": "https://land.jejukcr.com/offer/87965033"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-87965027.jpg",
-          "desc": "노형동 다세대 · 노형동복층다세대주택매매 · 쓰리룸매매 · 엔알파라디빌7차",
-          "link": "https://land.jejukcr.com/offer/87965027"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-87965014.jpg",
-          "desc": "노형동 연립 · 마크힐노형매매 · 마크힐노형탑층 · 노형동신축빌라",
-          "link": "https://land.jejukcr.com/offer/87965014"
         }
       ]
     },
@@ -565,32 +570,32 @@
       "items": [
         {
           "photo": "images/listings/land/land-kcr-87808672.jpg",
-          "desc": "애월읍 임야 · 애월읍건축허가득토지 · 상귀단독및근린시설",
+          "desc": "애월읍 임야 · 매매 2억 600만원",
           "link": "https://land.jejukcr.com/offer/87808672"
         },
         {
           "photo": "images/listings/land/land-kcr-87808587.jpg",
-          "desc": "도남동 과수원 · 도남동토지매매 · 도남동단독주택,상가주택지",
+          "desc": "도남동 과수원 · 매매 14억원",
           "link": "https://land.jejukcr.com/offer/87808587"
         },
         {
-          "photo": "images/listings/land/land-kcr-87846714.jpg",
-          "desc": "구좌읍 전 · 김녕중인근 · 일주동로인근 · 농지매매",
+          "photo": "images/listings/land/land-kcr-87846714.png",
+          "desc": "구좌읍 전 · 매매 9,000만원",
           "link": "https://land.jejukcr.com/offer/87846714"
         },
         {
           "photo": "images/listings/land/land-kcr-87846631.png",
-          "desc": "이도이동 임야 · 이도한일베라체인근 · 임야매매 · 기반시설있음",
+          "desc": "이도이동 임야 · 매매 9억원",
           "link": "https://land.jejukcr.com/offer/87846631"
         },
         {
           "photo": "images/listings/land/land-kcr-87846566.jpg",
-          "desc": "해안동 과수원 · 해안동과수원매매 · 해안동단독주택지추천 · 해안초쪽",
+          "desc": "해안동 과수원 · 매매 7억 5,000만원",
           "link": "https://land.jejukcr.com/offer/87846566"
         },
         {
           "photo": "images/listings/land/land-kcr-87846542.jpg",
-          "desc": "애월읍 전 · 광령리농지매매",
+          "desc": "애월읍 전 · 매매 4억 9,500만원",
           "link": "https://land.jejukcr.com/offer/87846542"
         }
       ]
