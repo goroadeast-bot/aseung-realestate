@@ -39,4 +39,4 @@
 - [5일장 프로필](https://www.jejuall.com/CProperty/myHome/params/num/165834)과 [제주교차로 프로필](https://land.jejukcr.com/biz/ahj0522)의 유형별 순위를 다시 조회해 5일장 37건, 교차로 40건을 골랐다. 두 프로필의 분양권 목록은 비어 있었다.
 - 상세 페이지 후보 78개를 본문 매물번호와 오류 안내까지 확인했다. 모달에는 76개 고유 링크를 넣었다. 사진 경로 77개는 모두 존재하고 파일 형식도 맞는다. 교차로 토지 `87846714`는 상세 페이지에서 사진을 찾지 못해 이전에 검증된 로컬 사진을 유지했다.
 - [js/script.js](../js/script.js), [index.html](../index.html), `images/listings/`를 갱신하고 캐시를 `20261012a`로 올렸다. `node --check js/script.js`, 데이터·링크·사진 전수 점검 및 `git diff --check`가 통과했다.
-- GitHub Pages 배포와 공개 페이지 확인은 이어서 진행한다.
+- 커밋 `1260517`을 `main`에 푸시했고 [GitHub Pages 실행](https://github.com/goroadeast-bot/aseung-realestate/actions/runs/38246423805)이 성공했다. 공개 홈페이지·CSS·JS가 모두 HTTP 200으로 캐시 `20261012a`를 제공했다. 스크립트에 새 5일장/교차로 ID가 포함되고 새 썸네일 두 장과 두 출처 대표 상세 페이지도 HTTP 200 및 본문 매물번호로 확인됐다.
