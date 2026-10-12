@@ -33,3 +33,10 @@
 - 상위 후보 78개의 상세 페이지를 열어 매물번호·본문·오류 안내를 확인했다. 모달에는 76개 고유 상세 링크(추천/대표 카드 중복 노출 포함)를 반영했다. 사진 77개를 로컬 파일로 저장했으며 모든 참조 파일 존재 및 확장자/실제 이미지 형식을 확인했다.
 - [js/script.js](../js/script.js), [index.html](../index.html), `images/listings/`를 갱신하고 캐시 버전을 `20261009a`로 올렸다. `node --check js/script.js`, 데이터·링크·사진 전수 점검, `git diff --check`가 통과했다.
 - 커밋 `c08eec7`을 `main`에 푸시했고 [GitHub Pages 실행](https://github.com/goroadeast-bot/aseung-realestate/actions/runs/37862158804)이 성공했다. 공개 홈페이지에서 CSS/JS 캐시 버전 `20261009a`와 새 추천 아파트 카드 6개, 로컬 썸네일을 확인했다. 모달 첫 카드의 대상은 `https://land.jejukcr.com/offer/88099844`이며, 상세 화면에 같은 매물번호와 매물 제목이 표시됐다.
+
+## 2026-10-12 — 최신 순위 매물 갱신 및 배포 준비
+
+- [5일장 프로필](https://www.jejuall.com/CProperty/myHome/params/num/165834)과 [제주교차로 프로필](https://land.jejukcr.com/biz/ahj0522)의 유형별 순위를 다시 조회해 5일장 37건, 교차로 40건을 골랐다. 두 프로필의 분양권 목록은 비어 있었다.
+- 상세 페이지 후보 78개를 본문 매물번호와 오류 안내까지 확인했다. 모달에는 76개 고유 링크를 넣었다. 사진 경로 77개는 모두 존재하고 파일 형식도 맞는다. 교차로 토지 `87846714`는 상세 페이지에서 사진을 찾지 못해 이전에 검증된 로컬 사진을 유지했다.
+- [js/script.js](../js/script.js), [index.html](../index.html), `images/listings/`를 갱신하고 캐시를 `20261012a`로 올렸다. `node --check js/script.js`, 데이터·링크·사진 전수 점검 및 `git diff --check`가 통과했다.
+- GitHub Pages 배포와 공개 페이지 확인은 이어서 진행한다.
