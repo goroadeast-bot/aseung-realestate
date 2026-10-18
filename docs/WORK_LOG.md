@@ -41,8 +41,8 @@
 - [js/script.js](../js/script.js), [index.html](../index.html), `images/listings/`를 갱신하고 캐시를 `20261012a`로 올렸다. `node --check js/script.js`, 데이터·링크·사진 전수 점검 및 `git diff --check`가 통과했다.
 - 커밋 `1260517`을 `main`에 푸시했고 [GitHub Pages 실행](https://github.com/goroadeast-bot/aseung-realestate/actions/runs/38246423805)이 성공했다. 공개 홈페이지·CSS·JS가 모두 HTTP 200으로 캐시 `20261012a`를 제공했다. 스크립트에 새 5일장/교차로 ID가 포함되고 새 썸네일 두 장과 두 출처 대표 상세 페이지도 HTTP 200 및 본문 매물번호로 확인됐다.
 
-## 2026-10-18 — 매물 순위 갱신 및 배포 진행 중
+## 2026-10-18 — 최신 순위 매물 갱신 및 Pages 배포
 
 - [5일장 중개사 프로필](https://www.jejuall.com/CProperty/myHome/params/num/165834)과 [제주교차로 프로필](https://land.jejukcr.com/biz/ahj0522)에서 유형별 현재 순위를 다시 읽어 모달 전문분야·대표·추천 카드에 반영했다. 분양권은 양쪽 목록이 비어 있어 기존 빈 상태를 유지했다.
 - 상세 링크 77개(5일장 37개, 교차로 40개)의 상세 응답에서 각 매물번호를 확인했고, 사진 76개가 모두 존재하며 파일 시그니처가 확장자와 일치한다. 모달 카드 95개에는 추천/대표 매물 중복 노출이 포함된다.
-- [js/script.js](../js/script.js), [index.html](../index.html), `images/listings/`를 갱신하고 캐시를 `20261018a`로 올렸다. `node --check js/script.js`와 `git diff --check`가 통과했다. Pages 및 라이브 사이트 검증은 배포 후 기록한다.
+- [js/script.js](../js/script.js), [index.html](../index.html), `images/listings/`를 갱신하고 캐시를 `20261018a`로 올렸다. `node --check js/script.js`와 `git diff --check`가 통과했다. 커밋 `4cf2f70`을 `main`에 푸시했고 [Pages 실행](https://github.com/goroadeast-bot/aseung-realestate/actions/runs/39097696732)이 `success`로 완료됐다. 공개 홈페이지, CSS, JS 및 썸네일이 모두 HTTP 200이고 캐시 버전 `20261018a`를 확인했다. 공개 JS에는 새 대표 매물 ID `6568530`, `88372317`이 포함되고 새 아파트·빌라·창고 썸네일도 응답했다.
