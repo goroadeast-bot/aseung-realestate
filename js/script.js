@@ -40,588 +40,569 @@
   // 2026-09-30: 오일장·제주교차로 최신 유형별 순위로 갱신.
   // 2026-10-12: 오일장·제주교차로 최신 유형별 순위를 반영.
   // 2026-10-18: 5일장·제주교차로 최신 유형별 순위를 반영.
+  // 2026-10-21: 5일장·제주교차로 최신 유형별 순위를 반영.
   var LISTING_DATA = {
-    "nohyeong-apt": {
-      "title": "아파트",
-      "items": [
-        {
-          "photo": "images/listings/apartment/apt-oil-6568530.jpg",
-          "desc": "제주시 외도일동 · 외도일동차밍1차아파트 매매/외도아파트매매/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6568530"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-6564785.jpg",
-          "desc": "제주시 노형동 · 노형아이파크아파트 전세/한라초/제주시아파트/노형동아파트",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6564785"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-5991642.jpg",
-          "desc": "제주시 애월읍 하귀1리 · 애월하귀기룡비치하임아파트매매/애월아파트매매/도시가스난방",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5991642"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-6562344.jpg",
-          "desc": "제주시 노형동 · 이화1차아파트 매매/노형초인근/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6562344"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-6560111.jpg",
-          "desc": "제주시 일도이동 · 일도삼주아파트 매매/올리모델링",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6560111"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-6568530.jpg",
-          "desc": "제주시 연동 · 대림1차/연동대림1차고층/대림1차이편한세상/한라초/연동아파트/노형동아파트",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6559482"
-        }
-      ]
-    },
-    "presale": {
-      "title": "분양",
-      "emptyMessage": "현재 등록된 분양권 매물이 없습니다.",
-      "items": []
-    },
-    "samhwa-house": {
-      "title": "주택",
-      "items": [
-        {
-          "photo": "images/listings/house/house-oil-6565612.jpg",
-          "desc": "제주시 한림읍 협재리 · 한림한수풀타운하우스/협재풀옵션년세/제주단독주택년세/타운하우스년세",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6565612"
-        },
-        {
-          "photo": "images/listings/house/house-oil-6563381.jpg",
-          "desc": "제주시 일도이동 · 인화초인근/일도이동단독주택/구도심단독주택/제주시단독주택",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6563381"
-        },
-        {
-          "photo": "images/listings/house/house-oil-6549639.jpg",
-          "desc": "제주시 삼도일동 · 급매/삼도이동단독주택매매/중앙여중인근/마당있는단독주택매매/제주도구옥",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6549639"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5968317.jpg",
-          "desc": "서귀포시 안덕면 서광리 · *서광리신축단독주택매매*영어교육도시인근단독주택매매*서광초인근*",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5968317"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5968334.jpg",
-          "desc": "서귀포시 안덕면 사계리 · *산방산인근*게스트하우스매매*산방산뷰안덕상가주택매매*",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5968334"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5968367.jpg",
-          "desc": "서귀포시 표선면 가시리 · *표선면단독주택매매*에어비앤비운영중*수영장있는단독주택",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5968367"
-        }
-      ]
-    },
-    "villa": {
-      "title": "빌라",
-      "items": [
-        {
-          "photo": "images/listings/villa/villa-oil-6568531.jpg",
-          "desc": "제주시 도련일동 · 도련벨라시티/도련초/삼화지구/도시가스",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6568531"
-        },
-        {
-          "photo": "images/listings/villa/villa-oil-6567487.jpg",
-          "desc": "제주시 애월읍 상귀리 · 애월상귀교차로/마크힐애월1차매매/마크힐매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6567487"
-        },
-        {
-          "photo": "images/listings/villa/villa-oil-6564623.jpg",
-          "desc": "제주시 삼도일동 · 중앙초등인근/삼도이동서아빌라/삼도이동쓰리룸매매/도배완료",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6564623"
-        },
-        {
-          "photo": "images/listings/villa/villa-oil-6563024.jpg",
-          "desc": "제주시 애월읍 상귀리 · 애월고급주택매매/마크힐애월2차/마크힐매매/전자제품옵션/3층",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6563024"
-        },
-        {
-          "photo": "images/listings/villa/villa-oil-6562346.jpg",
-          "desc": "제주시 아라일동 · 아라휴안8차매매/아라동빌라매매/관리잘되어있음/아라초/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6562346"
-        },
-        {
-          "photo": "images/listings/villa/villa-oil-6558143.jpg",
-          "desc": "제주시 오등동 · 오등휴안2차/아라초학군/제주시쓰리룸매매/제주빌라매매",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6558143"
-        }
-      ]
-    },
-    "nohyeong-oneroom": {
-      "title": "딱 필요한 만큼 원룸 투룸",
-      "items": [
-        {
-          "photo": "images/listings/oneroom/oneroom-oil-6568528.jpg",
-          "desc": "제주시 일도이동 · 인화초인근/일도지구/인제/일도이동투룸년세/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6568528"
-        },
-        {
-          "photo": "images/listings/oneroom/oneroom-oil-6563844.jpg",
-          "desc": "제주시 애월읍 하귀2리 · 하귀넓은투룸년세/방2욕실2/오션뷰가능/반려동물가능/가전제품옵션/신축급",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6563844"
-        },
-        {
-          "photo": "images/listings/oneroom/oneroom-oil-6474354.jpg",
-          "desc": "제주시 한림읍 금능리 · 한림분리형원룸/넓고깨끗한분리형원룸/금능해수욕장",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6474354"
-        },
-        {
-          "photo": "images/listings/oneroom/oneroom-kcr-88346544.jpg",
-          "desc": "한림읍 협재리 · 제주시 한림읍 아파트형 투룸 - 년세 500만원/1,000만원",
-          "link": "https://land.jejukcr.com/offer/88346544"
-        },
-        {
-          "photo": "images/listings/oneroom/oneroom-kcr-88346538.jpg",
-          "desc": "애월읍 하귀2리 · 제주시 애월읍 다가구형 투룸 - 년세 2,000만원/1,600만원",
-          "link": "https://land.jejukcr.com/offer/88346538"
-        },
-        {
-          "photo": "images/listings/oneroom/oneroom-kcr-88346550.jpg",
-          "desc": "아라일동 · 제주시 아라일동 다가구형 원룸 - 월세 200만원/45만원",
-          "link": "https://land.jejukcr.com/offer/88346550"
-        },
-        {
-          "photo": "images/listings/oneroom/oneroom-kcr-88346549.jpg",
-          "desc": "일도이동 · 제주시 일도이동 다가구형 투룸 - 년세 500만원/800만원",
-          "link": "https://land.jejukcr.com/offer/88346549"
-        },
-        {
-          "photo": "images/listings/oneroom/oneroom-kcr-88346547.jpg",
-          "desc": "이도이동 · 제주시 이도이동 다가구형 투베이 - 월세 200만원/55만원",
-          "link": "https://land.jejukcr.com/offer/88346547"
-        },
-        {
-          "photo": "images/listings/oneroom/oneroom-kcr-88346546.jpg",
-          "desc": "노형동 · 제주시 노형동 다가구형 원룸 - 월세 200만원/55만원",
-          "link": "https://land.jejukcr.com/offer/88346546"
-        }
-      ]
-    },
-    "sinsigaji-sanga": {
-      "title": "상가",
-      "items": [
-        {
-          "photo": "images/listings/sanga/sanga-oil-6565611.jpg",
-          "desc": "제주시 외도일동 · 외도상가임대/외도사무실임대/외도학원병원임대우대혜택있음/편리한전용주차/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6565611"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6565610.jpg",
-          "desc": "제주시 연동 · 제주공항인근/대형상가임대/노출최상/주차편리/마리나사거리/대형오피스",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6565610"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6565179.jpg",
-          "desc": "제주시 도두이동 · 도두해안도로상가임대/제주오션뷰상가임대/미용실/웨딩샵/스튜디오",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6565179"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6563098.jpg",
-          "desc": "제주시 외도일동 · 추천/임대지원혜택/외도일동1층상가임대/건물내주차편리/다양한업종/동물병원/음식점",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6563098"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6555411.jpg",
-          "desc": "제주시 용담삼동 · 용담해안도로상가/상가건물임대/해안도로/제주공항인근",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6555411"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6547398.jpg",
-          "desc": "제주시 애월읍 하귀2리 · *하귀다이소인근*뷰좋은2층상가임대*",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6547398"
-        }
-      ]
-    },
-    "land": {
-      "title": "토지",
-      "items": [
-        {
-          "photo": "images/listings/land/land-oil-5968379.jpg",
-          "desc": "서귀포시 하효동 · 서귀포주거지역토지매매/효돈초인근",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5968379"
-        },
-        {
-          "photo": "images/listings/land/land-oil-5968470.jpg",
-          "desc": "서귀포시 서호동 · 서호동토지매매/2종일반주거지역/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5968470"
-        },
-        {
-          "photo": "images/listings/land/land-oil-6533318.jpg",
-          "desc": "제주시 애월읍 하가리 · 애월읍맹지/연화못인근/하가리토지매매/더럭초",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6533318"
-        },
-        {
-          "photo": "images/listings/land/land-oil-6529383.jpg",
-          "desc": "제주시 도남동 · *도남동토지매매*도남동단독주택,상가주택지*제주도토지",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6529383"
-        },
-        {
-          "photo": "images/listings/land/land-oil-5922523.jpg",
-          "desc": "제주시 용담삼동 · 용담주거지역토지매매/나대지+전/용두암해안도로인근",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5922523"
-        },
-        {
-          "photo": "images/listings/land/land-oil-6503475.jpg",
-          "desc": "제주시 조천읍 조천리 · *추천*조천리기반시설갖춘소형토지매매*제주도토지",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6503475"
-        }
-      ]
-    },
-    "warehouse": {
-      "title": "사업확장의 열쇠 알짜 창고 매물",
-      "items": [
-        {
-          "photo": "images/listings/warehouse/warehouse-oil-6558354.jpg",
-          "desc": "제주시 애월읍 신엄리 · 신엄리신축급창고임대/중산간도로인근/애월창고임대",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6558354"
-        },
-        {
-          "photo": "images/listings/warehouse/warehouse-oil-6404017.jpg",
-          "desc": "제주시 조천읍 와흘리 · 제주도공장매매/조천공장매매/3306m2공장용지",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6404017"
-        },
-        {
-          "photo": "images/listings/warehouse/warehouse-oil-6328388.jpg",
-          "desc": "제주시 애월읍 애월리 · 애월창고매매/애월신축급창고",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6328388"
-        },
-        {
-          "photo": "images/listings/warehouse/warehouse-oil-4762800.png",
-          "desc": "제주시 오등동 · *애조로인근*창고시설매매*",
-          "link": "https://www.jejuall.com/CProperty/detail?num=4762800"
-        },
-        {
-          "photo": "images/listings/warehouse/warehouse-kcr-88375024.jpg",
-          "desc": "애월읍 신엄리 · 제주시 애월읍 창고 - 임대(년세) 1,000만원/1,600만원",
-          "link": "https://land.jejukcr.com/offer/88375024"
-        },
-        {
-          "photo": "images/listings/warehouse/warehouse-kcr-88000863.png",
-          "desc": "오등동 · 제주시 오등동 창고 - 매매 15억원",
-          "link": "https://land.jejukcr.com/offer/88000863"
-        },
-        {
-          "photo": "images/listings/warehouse/warehouse-kcr-88000862.jpg",
-          "desc": "애월읍 애월리 · 제주시 애월읍 창고 - 매매 5억 7,000만원",
-          "link": "https://land.jejukcr.com/offer/88000862"
-        },
-        {
-          "photo": "images/listings/warehouse/warehouse-kcr-88000859.jpg",
-          "desc": "조천읍 와흘리 · 제주시 조천읍 공장 - 매매 19억 3,000만원",
-          "link": "https://land.jejukcr.com/offer/88000859"
-        }
-      ]
-    },
-    "featured-apt": {
-      "title": "인기만점 제주 아파트",
-      "items": [
-        {
-          "photo": "images/listings/apartment/apt-oil-6568530.jpg",
-          "desc": "제주시 외도일동 · 외도일동차밍1차아파트 매매/외도아파트매매/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6568530"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-6564785.jpg",
-          "desc": "제주시 노형동 · 노형아이파크아파트 전세/한라초/제주시아파트/노형동아파트",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6564785"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-5991642.jpg",
-          "desc": "제주시 애월읍 하귀1리 · 애월하귀기룡비치하임아파트매매/애월아파트매매/도시가스난방",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5991642"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-6562344.jpg",
-          "desc": "제주시 노형동 · 이화1차아파트 매매/노형초인근/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6562344"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-6560111.jpg",
-          "desc": "제주시 일도이동 · 일도삼주아파트 매매/올리모델링",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6560111"
-        },
-        {
-          "photo": "images/listings/apartment/apt-oil-6568530.jpg",
-          "desc": "제주시 연동 · 대림1차/연동대림1차고층/대림1차이편한세상/한라초/연동아파트/노형동아파트",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6559482"
-        }
-      ]
-    },
-    "featured-house": {
-      "title": "제주로망 전원주택/타운하우스",
-      "items": [
-        {
-          "photo": "images/listings/house/house-oil-6565612.jpg",
-          "desc": "제주시 한림읍 협재리 · 한림한수풀타운하우스/협재풀옵션년세/제주단독주택년세/타운하우스년세",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6565612"
-        },
-        {
-          "photo": "images/listings/house/house-oil-6563381.jpg",
-          "desc": "제주시 일도이동 · 인화초인근/일도이동단독주택/구도심단독주택/제주시단독주택",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6563381"
-        },
-        {
-          "photo": "images/listings/house/house-oil-6549639.jpg",
-          "desc": "제주시 삼도일동 · 급매/삼도이동단독주택매매/중앙여중인근/마당있는단독주택매매/제주도구옥",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6549639"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5968317.jpg",
-          "desc": "서귀포시 안덕면 서광리 · *서광리신축단독주택매매*영어교육도시인근단독주택매매*서광초인근*",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5968317"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5968334.jpg",
-          "desc": "서귀포시 안덕면 사계리 · *산방산인근*게스트하우스매매*산방산뷰안덕상가주택매매*",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5968334"
-        },
-        {
-          "photo": "images/listings/house/house-oil-5968367.jpg",
-          "desc": "서귀포시 표선면 가시리 · *표선면단독주택매매*에어비앤비운영중*수영장있는단독주택",
-          "link": "https://www.jejuall.com/CProperty/detail?num=5968367"
-        }
-      ]
-    },
-    "featured-sanga": {
-      "title": "새출발 든든한 상가",
-      "items": [
-        {
-          "photo": "images/listings/sanga/sanga-oil-6565611.jpg",
-          "desc": "제주시 외도일동 · 외도상가임대/외도사무실임대/외도학원병원임대우대혜택있음/편리한전용주차/",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6565611"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6565610.jpg",
-          "desc": "제주시 연동 · 제주공항인근/대형상가임대/노출최상/주차편리/마리나사거리/대형오피스",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6565610"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6565179.jpg",
-          "desc": "제주시 도두이동 · 도두해안도로상가임대/제주오션뷰상가임대/미용실/웨딩샵/스튜디오",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6565179"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6563098.jpg",
-          "desc": "제주시 외도일동 · 추천/임대지원혜택/외도일동1층상가임대/건물내주차편리/다양한업종/동물병원/음식점",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6563098"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6555411.jpg",
-          "desc": "제주시 용담삼동 · 용담해안도로상가/상가건물임대/해안도로/제주공항인근",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6555411"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-oil-6547398.jpg",
-          "desc": "제주시 애월읍 하귀2리 · *하귀다이소인근*뷰좋은2층상가임대*",
-          "link": "https://www.jejuall.com/CProperty/detail?num=6547398"
-        }
-      ]
-    },
-    "hero-apt": {
-      "title": "인기있는 제주도 아파트",
-      "items": [
-        {
-          "photo": "images/listings/apartment/apt-kcr-88372317.jpg",
-          "desc": "노형동 · 제주시 노형동 노형아이파크 104동 - 전세 4억 6,000만원",
-          "link": "https://land.jejukcr.com/offer/88372317"
-        },
-        {
-          "photo": "images/listings/apartment/apt-kcr-88346607.jpg",
-          "desc": "이도이동 · 제주시 이도이동 성원 1동 - 매매 2억 9,500만원",
-          "link": "https://land.jejukcr.com/offer/88346607"
-        },
-        {
-          "photo": "images/listings/apartment/apt-kcr-88346596.jpg",
-          "desc": "노형동 · 제주시 노형동 대원상록수5차 1동 - 매매 4억 1,000만원",
-          "link": "https://land.jejukcr.com/offer/88346596"
-        },
-        {
-          "photo": "images/listings/apartment/apt-kcr-88346594.jpg",
-          "desc": "아라일동 · 제주시 아라일동 염광 4동 - 매매 2억 1,500만원",
-          "link": "https://land.jejukcr.com/offer/88346594"
-        },
-        {
-          "photo": "images/listings/apartment/apt-kcr-88346577.jpg",
-          "desc": "노형동 · 제주시 노형동 노형벨라시티 1동 - 매매 5억 7,000만원",
-          "link": "https://land.jejukcr.com/offer/88346577"
-        },
-        {
-          "photo": "images/listings/apartment/apt-kcr-88346565.jpg",
-          "desc": "노형동 · 제주시 노형동 노형2차아이파크 202동 - 매매 11억원",
-          "link": "https://land.jejukcr.com/offer/88346565"
-        }
-      ]
-    },
-    "hero-sanga": {
-      "title": "사업잘되는 상가 소개",
-      "items": [
-        {
-          "photo": "images/listings/sanga/sanga-kcr-88383577.jpg",
-          "desc": "노형동 · 제주시 노형동 일반상가 - 임대(년세) 2,200만원/2,200만원",
-          "link": "https://land.jejukcr.com/offer/88383577"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-kcr-88307469.jpg",
-          "desc": "외도일동 · 제주시 외도일동 일반상가 - 임대(년세) 2,000만원/2,400만원",
-          "link": "https://land.jejukcr.com/offer/88307469"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-kcr-88307463.jpg",
-          "desc": "외도일동 · 제주시 외도일동 일반상가 - 임대(년세) 1,500만원/1,500만원",
-          "link": "https://land.jejukcr.com/offer/88307463"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-kcr-88307459.jpg",
-          "desc": "도남동 · 제주시 도남동 일반상가 - 임대(년세) 2,000만원/2,000만원",
-          "link": "https://land.jejukcr.com/offer/88307459"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-kcr-88257723.jpg",
-          "desc": "도남동 · 제주시 도남동 일반상가 - 임대(년세) 2,500만원/2,500만원",
-          "link": "https://land.jejukcr.com/offer/88257723"
-        },
-        {
-          "photo": "images/listings/sanga/sanga-kcr-88254970.jpg",
-          "desc": "노형동 · 제주시 노형동 일반상가 - 임대 1,000만원/90만원",
-          "link": "https://land.jejukcr.com/offer/88254970"
-        }
-      ]
-    },
-    "hero-house": {
-      "title": "마당있는 삶 단독주택",
-      "items": [
-        {
-          "photo": "images/listings/house/house-kcr-88005444.jpg",
-          "desc": "애월읍 수산리 · 제주시 애월읍 단독 - 매매 6억원",
-          "link": "https://land.jejukcr.com/offer/88005444"
-        },
-        {
-          "photo": "images/listings/house/house-kcr-88354903.jpg",
-          "desc": "일도이동 · 제주시 일도이동 단독 - 매매 2억 6,000만원",
-          "link": "https://land.jejukcr.com/offer/88354903"
-        },
-        {
-          "photo": "images/listings/house/house-kcr-88202828.jpg",
-          "desc": "삼도이동 · 제주시 삼도이동 단독 - 매매 1억 9,500만원",
-          "link": "https://land.jejukcr.com/offer/88202828"
-        },
-        {
-          "photo": "images/listings/house/house-kcr-88005479.jpg",
-          "desc": "도련일동 · 제주시 도련일동 단독 - 매매 8억원",
-          "link": "https://land.jejukcr.com/offer/88005479"
-        },
-        {
-          "photo": "images/listings/house/house-kcr-88005471.jpg",
-          "desc": "아라이동 · 제주시 아라이동 단독 - 매매 6억 9,000만원",
-          "link": "https://land.jejukcr.com/offer/88005471"
-        },
-        {
-          "photo": "images/listings/house/house-kcr-88005458.jpg",
-          "desc": "한림읍 상대리 · 제주시 한림읍 단독 - 매매 2억 5,000만원",
-          "link": "https://land.jejukcr.com/offer/88005458"
-        }
-      ]
-    },
-    "hero-villa": {
-      "title": "멋과 실속 프리미엄 빌라",
-      "items": [
-        {
-          "photo": "images/listings/villa/villa-kcr-88408684.jpg",
-          "desc": "아라일동 · 제주시 아라일동 연립 - 아라휴안8차 1동 - 매매 4억원",
-          "link": "https://land.jejukcr.com/offer/88408684"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-88408654.jpg",
-          "desc": "오등동 · 제주시 오등동 다세대 - 오등휴안2차 101동 - 매매 3억 2,000만원",
-          "link": "https://land.jejukcr.com/offer/88408654"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-88408643.jpg",
-          "desc": "노형동 · 제주시 노형동 다세대 - 엔알파라디빌7차 1동 - 매매 3억 8,500만원",
-          "link": "https://land.jejukcr.com/offer/88408643"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-88408630.jpg",
-          "desc": "아라일동 · 제주시 아라일동 연립 - 아라한성베르뜨3차 105동 - 매매 2억 8,500만원",
-          "link": "https://land.jejukcr.com/offer/88408630"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-88408619.jpg",
-          "desc": "노형동 · 제주시 노형동 연립 - 마크힐노형 102동 - 매매 5억 6,900만원",
-          "link": "https://land.jejukcr.com/offer/88408619"
-        },
-        {
-          "photo": "images/listings/villa/villa-kcr-88408575.jpg",
-          "desc": "애월읍 상귀리 · 제주시 애월읍 연립 - 마크힐애월3차 3동 - 매매 3억 8,500만원",
-          "link": "https://land.jejukcr.com/offer/88408575"
-        }
-      ]
-    },
-    "hero-presale": {
-      "title": "투자자가 먼저 아는 신축 분양",
-      "emptyMessage": "현재 등록된 분양권 매물이 없습니다.",
-      "items": []
-    },
-    "hero-land": {
-      "title": "마음에 쏙 제주토지",
-      "items": [
-        {
-          "photo": "images/listings/land/land-kcr-88254989.jpg",
-          "desc": "애월읍 상귀리 · 제주시 애월읍 임야 - 매매 2억 600만원",
-          "link": "https://land.jejukcr.com/offer/88254989"
-        },
-        {
-          "photo": "images/listings/land/land-kcr-88254927.jpg",
-          "desc": "도남동 · 제주시 도남동 과수원 - 매매 14억원",
-          "link": "https://land.jejukcr.com/offer/88254927"
-        },
-        {
-          "photo": "images/listings/land/land-kcr-87846714.png",
-          "desc": "구좌읍 김녕리 · 제주시 구좌읍 전 - 매매 9,000만원",
-          "link": "https://land.jejukcr.com/offer/87846714"
-        },
-        {
-          "photo": "images/listings/land/land-kcr-87846631.png",
-          "desc": "이도이동 · 제주시 이도이동 임야 - 매매 9억원",
-          "link": "https://land.jejukcr.com/offer/87846631"
-        },
-        {
-          "photo": "images/listings/land/land-kcr-87846566.jpg",
-          "desc": "해안동 · 제주시 해안동 과수원 - 매매 7억 5,000만원",
-          "link": "https://land.jejukcr.com/offer/87846566"
-        },
-        {
-          "photo": "images/listings/land/land-kcr-87846542.jpg",
-          "desc": "애월읍 광령리 · 제주시 애월읍 전 - 매매 4억 9,500만원",
-          "link": "https://land.jejukcr.com/offer/87846542"
-        }
-      ]
-    }
-  };
-  // ===== 구글 폼/시트 연동 (실제 매물 자동 반영) =====
-  // 대표님이 구글 폼을 만들고 응답 시트를 "웹에 게시(CSV)" 하신 뒤,
-  // 그 URL을 아래 SHEET_CSV_URL 에 넣으면 폼에 등록하는 즉시 모달에 자동 반영됩니다.
-  // 비워두면(기본값) 지금처럼 예시 데이터가 계속 보입니다 — 켜고 끄는 스위치 역할.
-  var SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQH1IjfKscO2Zv94YvVxTmIRumzx7rgb9ZtE7qw4itU2EQ6ccuXDFJKSCk9hJ3GRn5ZHiUvtz3KIWPs/pub?gid=91521370&single=true&output=csv";
-
-  // 구글 폼 "매물유형" × "노출 위치" 조합 → 사이트 내부 카테고리 키 매핑
-  // (각 위치별로 서로 다른 카테고리 키를 쓰기 때문에, 같은 매물이어도
-  //  전문분야 / 대표매물 / 추천매물에 각각 독립적으로 쌓입니다)
-  var TYPE_LOCATION_TO_KEY = {
-    "아파트": { "전문분야": "nohyeong-apt", "대표매물": "featured-apt", "추천매물": "hero-apt" },
-    "분양": { "전문분야": "presale" },
-    "주택": { "전문분야": "samhwa-house", "대표매물": "featured-house", "추천매물": "hero-house" },
-    "빌라": { "전문분야": "villa", "추천매물": "hero-villa" },
-    "원룸·투룸": { "전문분야": "nohyeong-oneroom" },
-    "원룸투룸": { "전문분야": "nohyeong-oneroom" },
-    "상가": { "전문분야": "sinsigaji-sanga", "대표매물": "featured-sanga", "추천매물": "hero-sanga" },
-    "토지": { "전문분야": "land", "추천매물": "hero-land" },
-    "창고": { "전문분야": "warehouse" }
-  };
+  "nohyeong-apt": {
+    "title": "\uc544\ud30c\ud2b8",
+    "items": [
+      {
+        "photo": "images/listings/apartment/apt-oil-6008100.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uadc01\ub9ac \u00b7 \uae30\ub8e1\ube44\uce58\ud558\uc784\uc544\ud30c\ud2b8/\uc77c\uc8fc\uc11c\ub85c\uc811/\uc560\uc6d4\uc544\ud30c\ud2b8/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6008100"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-6574377.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc77c\ub3d9\ucc28\ubc0d1\ucc28\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc678\ub3c4\uc544\ud30c\ud2b8\ub9e4\ub9e4/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6574377"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-6574195.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc774\ub3c4\uc774\ub3d9 \u00b7 \uc774\ub3c4\uc131\uc6d0\uc544\ud30c\ud2b8/\uc774\ub3c4\uc8fc\uacf5\uc778\uadfc/\uc774\ub3c4\uc774\ub3d9\uc544\ud30c\ud2b8/\ub9ac\ubaa8\ub378\ub9c1/\ub0a8\uad11\ucd08/\uc81c\uc8fc\uc77c\uc911",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6574195"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-6573218.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc774\ub3d9 \u00b7 \uc77c\ub3c4\uc0bc\uc8fc\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc62c\ub9ac\ubaa8\ub378\ub9c1",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6573218"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-5991642.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uadc01\ub9ac \u00b7 \uc560\uc6d4\ud558\uadc0\uae30\ub8e1\ube44\uce58\ud558\uc784\uc544\ud30c\ud2b8\ub9e4\ub9e4/\uc560\uc6d4\uc544\ud30c\ud2b8\ub9e4\ub9e4/\ub3c4\uc2dc\uac00\uc2a4\ub09c\ubc29",
+        "link": "https://www.jejuall.com/CProperty/detail?num=5991642"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-6568530.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \ub300\ub9bc1\ucc28/\uc5f0\ub3d9\ub300\ub9bc1\ucc28\uace0\uce35/\ub300\ub9bc1\ucc28\uc774\ud3b8\ud55c\uc138\uc0c1/\ud55c\ub77c\ucd08/\uc5f0\ub3d9\uc544\ud30c\ud2b8/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6559482"
+      }
+    ]
+  },
+  "presale": {
+    "title": "\ubd84\uc591",
+    "emptyMessage": "\ud604\uc7ac \ub4f1\ub85d\ub41c \ubd84\uc591\uad8c \ub9e4\ubb3c\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.",
+    "items": []
+  },
+  "samhwa-house": {
+    "title": "\uc8fc\ud0dd",
+    "items": [
+      {
+        "photo": "images/listings/house/house-oil-6573083.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \uba85\uc6d4\ub9ac \u00b7 *\ud55c\ub9bc\uc62c\ub9ac\ubaa8\ub378\ub9c1\ub2e8\ub3c5\uc8fc\ud0dd*\ud55c\ub9bc\ubbfc\ubc15\uc9d1\uc6b4\uc601*\uba85\uc6d4\uad50\ucc28\ub85c\uc778\uadfc",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6573083"
+      },
+      {
+        "photo": "images/listings/house/house-oil-6573072.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \uae08\ub2a5\ub9ac \u00b7 \ud55c\ub9bc\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\ud55c\ub9bc\uc0c1\uac00\uac74\ubb3c\ub9e4\ub9e4/\uae08\ub2a5\ud574\uc218\uc695\uc7a5\uc778\uadfc",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6573072"
+      },
+      {
+        "photo": "images/listings/house/house-oil-6565612.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \ud611\uc7ac\ub9ac \u00b7 \ud55c\ub9bc\ud55c\uc218\ud480\ud0c0\uc6b4\ud558\uc6b0\uc2a4/\ud611\uc7ac\ud480\uc635\uc158\ub144\uc138/\uc81c\uc8fc\ub2e8\ub3c5\uc8fc\ud0dd\ub144\uc138/\ud0c0\uc6b4\ud558\uc6b0\uc2a4\ub144\uc138",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6565612"
+      },
+      {
+        "photo": "images/listings/house/house-oil-6563381.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc774\ub3d9 \u00b7 \uc778\ud654\ucd08\uc778\uadfc/\uc77c\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd/\uad6c\ub3c4\uc2ec\ub2e8\ub3c5\uc8fc\ud0dd/\uc81c\uc8fc\uc2dc\ub2e8\ub3c5\uc8fc\ud0dd",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6563381"
+      },
+      {
+        "photo": "images/listings/house/house-oil-6549639.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc0bc\ub3c4\uc77c\ub3d9 \u00b7 \uae09\ub9e4/\uc0bc\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\uc911\uc559\uc5ec\uc911\uc778\uadfc/\ub9c8\ub2f9\uc788\ub294\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\uc81c\uc8fc\ub3c4\uad6c\uc625",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6549639"
+      },
+      {
+        "photo": "images/listings/house/house-oil-5968317.jpg",
+        "desc": "\uc11c\uadc0\ud3ec\uc2dc \uc548\ub355\uba74 \uc11c\uad11\ub9ac \u00b7 *\uc11c\uad11\ub9ac\uc2e0\ucd95\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4*\uc601\uc5b4\uad50\uc721\ub3c4\uc2dc\uc778\uadfc\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4*\uc11c\uad11\ucd08\uc778\uadfc*",
+        "link": "https://www.jejuall.com/CProperty/detail?num=5968317"
+      }
+    ]
+  },
+  "villa": {
+    "title": "\ube4c\ub77c",
+    "items": [
+      {
+        "photo": "images/listings/villa/villa-oil-6581268.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc624\ub80c\uc9c0\uce74\uc6b4\ud2f0\ub9e4\ub9e4/\uc678\ub3c4\ubd84\ub9ac\ud615\uc6d0\ub8f8\ub9e4\ub9e4/\uc81c\uc8fc\uc2dc\uc6d0\ub8f8\ub9e4\ub9e4",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6581268"
+      },
+      {
+        "photo": "images/listings/villa/villa-oil-6581266.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ub178\ud615\ub3d9 \u00b7 \ub178\ud615\ud3a0\ub9ac\uccb4\uc5f0\ub9bd\uc8fc\ud0dd\ub9e4\ub9e4/\ubc31\ub85d\ucd08/\ubbf8\ub9ac\ub0b4\ub9c8\uc744\uc544\ud30c\ud2b8\uc778\uadfc/\ubc295\uac1c\ubcf5\uce35\ube4c\ub77c\ub9e4\ub9e4",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6581266"
+      },
+      {
+        "photo": "images/listings/villa/villa-oil-6581220.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \uad11\ub839\ub9ac \u00b7 \uc560\uc6d4\uc81c\uc77c\ube4c\ub9ac\uc9c0\ub9e4\ub9e4/\uad11\ub839\ub9ac\uc81c\uc77c\ube4c\ub9ac\uc9c0\ub9e4\ub9e4/\ud480\uc635\uc158\ud22c\ub8f8\ub9e4\ub9e4",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6581220"
+      },
+      {
+        "photo": "images/listings/villa/villa-oil-6578027.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uadc02\ub9ac \u00b7 \ub9c8\ud06c\ud790\uc560\uc6d46\ucc28/\ud558\uadc0\uc2e0\ucd95/\ud558\uadc0\ucd08\uadc0\uc77c\uc911/\uc804\uc138\ub300\ud0dc\uc591\uad11\uc2dc\uc124",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6578027"
+      },
+      {
+        "photo": "images/listings/villa/villa-oil-6578026.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc544\ub77c\uc77c\ub3d9 \u00b7 \uc544\ub77c\ud734\uc5488\ucc28\ub9e4\ub9e4/\uc544\ub77c\ub3d9\ube4c\ub77c\ub9e4\ub9e4/\uad00\ub9ac\uc798\ub418\uc5b4\uc788\uc74c/\uc544\ub77c\ucd08/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6578026"
+      },
+      {
+        "photo": "images/listings/villa/villa-oil-6578025.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \uc0c1\uadc0\ub9ac \u00b7 \uc560\uc6d4\uace0\uae09\uc8fc\ud0dd\ub9e4\ub9e4/\ub9c8\ud06c\ud790\uc560\uc6d42\ucc28/\ub9c8\ud06c\ud790\ub9e4\ub9e4/\uc804\uc790\uc81c\ud488\uc635\uc158/3\uce35",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6578025"
+      }
+    ]
+  },
+  "nohyeong-oneroom": {
+    "title": "\ub531 \ud544\uc694\ud55c \ub9cc\ud07c \uc6d0\ub8f8 \ud22c\ub8f8",
+    "items": [
+      {
+        "photo": "images/listings/oneroom/oneroom-oil-6568528.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc774\ub3d9 \u00b7 \uc778\ud654\ucd08\uc778\uadfc/\uc77c\ub3c4\uc9c0\uad6c/\uc778\uc81c/\uc77c\ub3c4\uc774\ub3d9\ud22c\ub8f8\ub144\uc138/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6568528"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-oil-6563844.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uadc02\ub9ac \u00b7 \ud558\uadc0\ub113\uc740\ud22c\ub8f8\ub144\uc138/\ubc292\uc695\uc2e42/\uc624\uc158\ubdf0\uac00\ub2a5/\ubc18\ub824\ub3d9\ubb3c\uac00\ub2a5/\uac00\uc804\uc81c\ud488\uc635\uc158/\uc2e0\ucd95\uae09",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6563844"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-oil-6474354.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \uae08\ub2a5\ub9ac \u00b7 \ud55c\ub9bc\ubd84\ub9ac\ud615\uc6d0\ub8f8/\ub113\uace0\uae68\ub057\ud55c\ubd84\ub9ac\ud615\uc6d0\ub8f8/\uae08\ub2a5\ud574\uc218\uc695\uc7a5",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6474354"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-kcr-88346544.jpg",
+        "desc": "\ud55c\ub9bc\uc74d \ud611\uc7ac\ub9ac \u00b7 \uc544\ud30c\ud2b8\ud615 \ud22c\ub8f8 \ud55c\ub9bc\ud22c\ub8f8\ub144\uc138/\ud55c\ub9bc\ud22c\ub8f8\uc544\ud30c\ud2b8\ub144\uc138/\ud55c\ub9bc\ud480\uc635\uc158/j\ube14\ub8e8\uc624\uc158\uc544\ud30c\ud2b8 72/59",
+        "link": "https://land.jejukcr.com/offer/88346544"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-kcr-88346538.jpg",
+        "desc": "\uc560\uc6d4\uc74d \ud558\uadc02\ub9ac \u00b7 \ub2e4\uac00\uad6c\ud615 \ud22c\ub8f8 \ud558\uadc0\ub113\uc740\ud22c\ub8f8\ub144\uc138/\ubc292\uc695\uc2e42/\uc624\uc158\ubdf0\uac00\ub2a5/\ubc18\ub824\ub3d9\ubb3c\uac00\ub2a5/\uac00\uc804\uc81c\ud488\uc635\uc158/\uc2e0\ucd95\uae09 90/81",
+        "link": "https://land.jejukcr.com/offer/88346538"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-kcr-88492430.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub2e4\uc138\ub300\ud615 \uc6d0\ub8f8 \ub178\ud615\ub3d9\uc6d0\ub8f8\uc784\ub300/\ud55c\ub77c\ub300/\ud480\uc635\uc158/\ub113\uc740\uc6d0\ub8f8 62/51",
+        "link": "https://land.jejukcr.com/offer/88492430"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-kcr-88491864.jpg",
+        "desc": "\uc544\ub77c\uc77c\ub3d9 \u00b7 \ub2e4\uac00\uad6c\ud615 \uc6d0\ub8f8 \uc81c\ub300\uc778\uadfc/\uc18c\ud615\ubc18\ub824\ub3d9\ubb3c\uac00\ub2a5/\uc544\ub77c\uc77c\ub3d9\uc6d0\ub8f8\uc784\ub300 27/26",
+        "link": "https://land.jejukcr.com/offer/88491864"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-kcr-88456029.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub2e4\uac00\uad6c\ud615 \uc6d0\ub8f8 \uc81c\uc8fc\uc77c\uace0\uc778\uadfc/\ub178\ud615\ub3d9\uc6d0\ub8f8/\uc8fc\ucc28\ud3b8\ub9ac 34/34",
+        "link": "https://land.jejukcr.com/offer/88456029"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-kcr-88346549.jpg",
+        "desc": "\uc77c\ub3c4\uc774\ub3d9 \u00b7 \ub2e4\uac00\uad6c\ud615 \ud22c\ub8f8 \uc778\ud654\ucd08\uc778\uadfc/\uc77c\ub3c4\uc9c0\uad6c/\uc778\uc81c/\uc77c\ub3c4\uc774\ub3d9\ud22c\ub8f8\ub144\uc138/ 48/48",
+        "link": "https://land.jejukcr.com/offer/88346549"
+      }
+    ]
+  },
+  "sinsigaji-sanga": {
+    "title": "\uc0c1\uac00",
+    "items": [
+      {
+        "photo": "images/listings/sanga/sanga-oil-6581059.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc77c\ub3d9\ucc3d\uace0\uc784\ub300/\uc81c\uc8fc\uc2dc\ucc3d\uace0\uc784\ub300",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6581059"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6580970.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ub0b4\ub3c4\ub3d9 \u00b7 *\uc77c\uc8fc\uc11c\ub85c\uc778\uadfc*\uc54c\uc791\uc9c0\ud574\uc548\ub85c\uc778\uadfc*1\uce35\ub9c8\ub2f9\ub113\uc740\uc0c1\uac00\uc784\ub300*",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6580970"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6563098.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \ucd94\ucc9c/\uc784\ub300\uc9c0\uc6d0\ud61c\ud0dd/\uc678\ub3c4\uc77c\ub3d91\uce35\uc0c1\uac00\uc784\ub300/\uac74\ubb3c\ub0b4\uc8fc\ucc28\ud3b8\ub9ac/\ub2e4\uc591\ud55c\uc5c5\uc885/\ub3d9\ubb3c\ubcd1\uc6d0/\uc74c\uc2dd\uc810",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6563098"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6575064.png",
+        "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \ud55c\ub77c\uc218\ubaa9\uc6d0\uc778\uadfc/\uc5f0\ub3d91\uce35\uc0c1\uac00\uc784\ub300/\uc5f0\ub3d9\uc74c\uc2dd\uc810\uc784\ub300/\uc8fc\ucc28\ud3b8\ub9ac",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6575064"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6565611.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc0c1\uac00\uc784\ub300/\uc678\ub3c4\uc0ac\ubb34\uc2e4\uc784\ub300/\uc678\ub3c4\ud559\uc6d0\ubcd1\uc6d0\uc784\ub300\uc6b0\ub300\ud61c\ud0dd\uc788\uc74c/\ud3b8\ub9ac\ud55c\uc804\uc6a9\uc8fc\ucc28/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6565611"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6565610.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \uc81c\uc8fc\uacf5\ud56d\uc778\uadfc/\ub300\ud615\uc0c1\uac00\uc784\ub300/\ub178\ucd9c\ucd5c\uc0c1/\uc8fc\ucc28\ud3b8\ub9ac/\ub9c8\ub9ac\ub098\uc0ac\uac70\ub9ac/\ub300\ud615\uc624\ud53c\uc2a4",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6565610"
+      }
+    ]
+  },
+  "land": {
+    "title": "\ud1a0\uc9c0",
+    "items": [
+      {
+        "photo": "images/listings/land/land-oil-5968379.jpg",
+        "desc": "\uc11c\uadc0\ud3ec\uc2dc \ud558\ud6a8\ub3d9 \u00b7 \uc11c\uadc0\ud3ec\uc8fc\uac70\uc9c0\uc5ed\ud1a0\uc9c0\ub9e4\ub9e4/\ud6a8\ub3c8\ucd08\uc778\uadfc",
+        "link": "https://www.jejuall.com/CProperty/detail?num=5968379"
+      },
+      {
+        "photo": "images/listings/land/land-oil-5968470.jpg",
+        "desc": "\uc11c\uadc0\ud3ec\uc2dc \uc11c\ud638\ub3d9 \u00b7 \uc11c\ud638\ub3d9\ud1a0\uc9c0\ub9e4\ub9e4/2\uc885\uc77c\ubc18\uc8fc\uac70\uc9c0\uc5ed/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=5968470"
+      },
+      {
+        "photo": "images/listings/land/land-oil-6533318.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uac00\ub9ac \u00b7 \uc560\uc6d4\uc74d\ub9f9\uc9c0/\uc5f0\ud654\ubabb\uc778\uadfc/\ud558\uac00\ub9ac\ud1a0\uc9c0\ub9e4\ub9e4/\ub354\ub7ed\ucd08",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6533318"
+      },
+      {
+        "photo": "images/listings/land/land-oil-6529383.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ub3c4\ub0a8\ub3d9 \u00b7 *\ub3c4\ub0a8\ub3d9\ud1a0\uc9c0\ub9e4\ub9e4*\ub3c4\ub0a8\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd,\uc0c1\uac00\uc8fc\ud0dd\uc9c0*\uc81c\uc8fc\ub3c4\ud1a0\uc9c0",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6529383"
+      },
+      {
+        "photo": "images/listings/land/land-oil-5922523.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc6a9\ub2f4\uc0bc\ub3d9 \u00b7 \uc6a9\ub2f4\uc8fc\uac70\uc9c0\uc5ed\ud1a0\uc9c0\ub9e4\ub9e4/\ub098\ub300\uc9c0+\uc804/\uc6a9\ub450\uc554\ud574\uc548\ub3c4\ub85c\uc778\uadfc",
+        "link": "https://www.jejuall.com/CProperty/detail?num=5922523"
+      },
+      {
+        "photo": "images/listings/land/land-oil-6503475.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc870\ucc9c\uc74d \uc870\ucc9c\ub9ac \u00b7 *\ucd94\ucc9c*\uc870\ucc9c\ub9ac\uae30\ubc18\uc2dc\uc124\uac16\ucd98\uc18c\ud615\ud1a0\uc9c0\ub9e4\ub9e4*\uc81c\uc8fc\ub3c4\ud1a0\uc9c0",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6503475"
+      }
+    ]
+  },
+  "warehouse": {
+    "title": "\uc0ac\uc5c5\ud655\uc7a5\uc758 \uc5f4\uc1e0 \uc54c\uc9dc \ucc3d\uace0 \ub9e4\ubb3c",
+    "items": [
+      {
+        "photo": "images/listings/warehouse/warehouse-oil-6573530.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ub178\ud615\ub3d9 \u00b7 \uc81c\uc8fc\ub3c4\ucc3d\uace0\uc784\ub300/\ub178\ud615\ub3d9\ucc3d\uace0\uc784\ub300/\ucc3d\uace0\ubc0f\uadfc\ub9b0\uc0dd\ud65c\uc2dc\uc124/\ub300\ud615\ucc3d\uace0",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6573530"
+      },
+      {
+        "photo": "images/listings/warehouse/warehouse-oil-6570478.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \uc2e0\uc5c4\ub9ac \u00b7 \uc2e0\uc5c4\ub9ac\uc2e0\ucd95\uae09\ucc3d\uace0\uc784\ub300/\uc911\uc0b0\uac04\ub3c4\ub85c\uc778\uadfc/\uc560\uc6d4\ucc3d\uace0\uc784\ub300",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6570478"
+      },
+      {
+        "photo": "images/listings/warehouse/warehouse-oil-6404017.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc870\ucc9c\uc74d \uc640\ud758\ub9ac \u00b7 \uc81c\uc8fc\ub3c4\uacf5\uc7a5\ub9e4\ub9e4/\uc870\ucc9c\uacf5\uc7a5\ub9e4\ub9e4/3306m2\uacf5\uc7a5\uc6a9\uc9c0",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6404017"
+      },
+      {
+        "photo": "images/listings/warehouse/warehouse-oil-6328388.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \uc560\uc6d4\ub9ac \u00b7 \uc560\uc6d4\ucc3d\uace0\ub9e4\ub9e4/\uc560\uc6d4\uc2e0\ucd95\uae09\ucc3d\uace0",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6328388"
+      },
+      {
+        "photo": "images/listings/warehouse/warehouse-kcr-88499185.jpg",
+        "desc": "\uc870\ucc9c\uc74d \uc640\ud758\ub9ac \u00b7 \uacf5\uc7a5 \uc81c\uc8fc\ub3c4\uacf5\uc7a5\ub9e4\ub9e4/\uc870\ucc9c\uacf5\uc7a5\ub9e4\ub9e4/ 6,384/311",
+        "link": "https://land.jejukcr.com/offer/88499185"
+      },
+      {
+        "photo": "images/listings/warehouse/warehouse-kcr-88499145.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ucc3d\uace0 \uc81c\uc8fc\ub3c4\ucc3d\uace0\uc784\ub300/\ub178\ud615\ub3d9\ucc3d\uace0\uc784\ub300/\ucc3d\uace0\ubc0f\uadfc\ub9b0\uc0dd\ud65c\uc2dc\uc124/\ub300\ud615\ucc3d\uace0 2,258/448",
+        "link": "https://land.jejukcr.com/offer/88499145"
+      },
+      {
+        "photo": "images/listings/warehouse/warehouse-kcr-88499174.jpg",
+        "desc": "\uc560\uc6d4\uc74d \uc2e0\uc5c4\ub9ac \u00b7 \ucc3d\uace0 \uc2e0\uc5c4\ub9ac\uc2e0\ucd95\uae09\ucc3d\uace0\uc784\ub300/\uc911\uc0b0\uac04\ub3c4\ub85c\uc778\uadfc 661/166",
+        "link": "https://land.jejukcr.com/offer/88499174"
+      },
+      {
+        "photo": "images/listings/warehouse/warehouse-kcr-88000863.png",
+        "desc": "\uc624\ub4f1\ub3d9 \u00b7 \ucc3d\uace0 \uc560\uc870\ub85c\uc778\uadfc/\ucc3d\uace0\uc2dc\uc124\ub9e4\ub9e4 1,157/230",
+        "link": "https://land.jejukcr.com/offer/88000863"
+      }
+    ]
+  },
+  "featured-apt": {
+    "title": "\uc778\uae30\ub9cc\uc810 \uc81c\uc8fc \uc544\ud30c\ud2b8",
+    "items": [
+      {
+        "photo": "images/listings/apartment/apt-oil-6008100.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uadc01\ub9ac \u00b7 \uae30\ub8e1\ube44\uce58\ud558\uc784\uc544\ud30c\ud2b8/\uc77c\uc8fc\uc11c\ub85c\uc811/\uc560\uc6d4\uc544\ud30c\ud2b8/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6008100"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-6574377.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc77c\ub3d9\ucc28\ubc0d1\ucc28\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc678\ub3c4\uc544\ud30c\ud2b8\ub9e4\ub9e4/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6574377"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-6574195.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc774\ub3c4\uc774\ub3d9 \u00b7 \uc774\ub3c4\uc131\uc6d0\uc544\ud30c\ud2b8/\uc774\ub3c4\uc8fc\uacf5\uc778\uadfc/\uc774\ub3c4\uc774\ub3d9\uc544\ud30c\ud2b8/\ub9ac\ubaa8\ub378\ub9c1/\ub0a8\uad11\ucd08/\uc81c\uc8fc\uc77c\uc911",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6574195"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-6573218.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc774\ub3d9 \u00b7 \uc77c\ub3c4\uc0bc\uc8fc\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc62c\ub9ac\ubaa8\ub378\ub9c1",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6573218"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-5991642.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uadc01\ub9ac \u00b7 \uc560\uc6d4\ud558\uadc0\uae30\ub8e1\ube44\uce58\ud558\uc784\uc544\ud30c\ud2b8\ub9e4\ub9e4/\uc560\uc6d4\uc544\ud30c\ud2b8\ub9e4\ub9e4/\ub3c4\uc2dc\uac00\uc2a4\ub09c\ubc29",
+        "link": "https://www.jejuall.com/CProperty/detail?num=5991642"
+      },
+      {
+        "photo": "images/listings/apartment/apt-oil-6568530.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \ub300\ub9bc1\ucc28/\uc5f0\ub3d9\ub300\ub9bc1\ucc28\uace0\uce35/\ub300\ub9bc1\ucc28\uc774\ud3b8\ud55c\uc138\uc0c1/\ud55c\ub77c\ucd08/\uc5f0\ub3d9\uc544\ud30c\ud2b8/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6559482"
+      }
+    ]
+  },
+  "featured-house": {
+    "title": "\uc81c\uc8fc\ub85c\ub9dd \uc804\uc6d0\uc8fc\ud0dd/\ud0c0\uc6b4\ud558\uc6b0\uc2a4",
+    "items": [
+      {
+        "photo": "images/listings/house/house-oil-6573083.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \uba85\uc6d4\ub9ac \u00b7 *\ud55c\ub9bc\uc62c\ub9ac\ubaa8\ub378\ub9c1\ub2e8\ub3c5\uc8fc\ud0dd*\ud55c\ub9bc\ubbfc\ubc15\uc9d1\uc6b4\uc601*\uba85\uc6d4\uad50\ucc28\ub85c\uc778\uadfc",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6573083"
+      },
+      {
+        "photo": "images/listings/house/house-oil-6573072.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \uae08\ub2a5\ub9ac \u00b7 \ud55c\ub9bc\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\ud55c\ub9bc\uc0c1\uac00\uac74\ubb3c\ub9e4\ub9e4/\uae08\ub2a5\ud574\uc218\uc695\uc7a5\uc778\uadfc",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6573072"
+      },
+      {
+        "photo": "images/listings/house/house-oil-6565612.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \ud611\uc7ac\ub9ac \u00b7 \ud55c\ub9bc\ud55c\uc218\ud480\ud0c0\uc6b4\ud558\uc6b0\uc2a4/\ud611\uc7ac\ud480\uc635\uc158\ub144\uc138/\uc81c\uc8fc\ub2e8\ub3c5\uc8fc\ud0dd\ub144\uc138/\ud0c0\uc6b4\ud558\uc6b0\uc2a4\ub144\uc138",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6565612"
+      },
+      {
+        "photo": "images/listings/house/house-oil-6563381.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc774\ub3d9 \u00b7 \uc778\ud654\ucd08\uc778\uadfc/\uc77c\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd/\uad6c\ub3c4\uc2ec\ub2e8\ub3c5\uc8fc\ud0dd/\uc81c\uc8fc\uc2dc\ub2e8\ub3c5\uc8fc\ud0dd",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6563381"
+      },
+      {
+        "photo": "images/listings/house/house-oil-6549639.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc0bc\ub3c4\uc77c\ub3d9 \u00b7 \uae09\ub9e4/\uc0bc\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\uc911\uc559\uc5ec\uc911\uc778\uadfc/\ub9c8\ub2f9\uc788\ub294\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\uc81c\uc8fc\ub3c4\uad6c\uc625",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6549639"
+      },
+      {
+        "photo": "images/listings/house/house-oil-5968317.jpg",
+        "desc": "\uc11c\uadc0\ud3ec\uc2dc \uc548\ub355\uba74 \uc11c\uad11\ub9ac \u00b7 *\uc11c\uad11\ub9ac\uc2e0\ucd95\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4*\uc601\uc5b4\uad50\uc721\ub3c4\uc2dc\uc778\uadfc\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4*\uc11c\uad11\ucd08\uc778\uadfc*",
+        "link": "https://www.jejuall.com/CProperty/detail?num=5968317"
+      }
+    ]
+  },
+  "featured-sanga": {
+    "title": "\uc0c8\ucd9c\ubc1c \ub4e0\ub4e0\ud55c \uc0c1\uac00",
+    "items": [
+      {
+        "photo": "images/listings/sanga/sanga-oil-6581059.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc77c\ub3d9\ucc3d\uace0\uc784\ub300/\uc81c\uc8fc\uc2dc\ucc3d\uace0\uc784\ub300",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6581059"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6580970.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \ub0b4\ub3c4\ub3d9 \u00b7 *\uc77c\uc8fc\uc11c\ub85c\uc778\uadfc*\uc54c\uc791\uc9c0\ud574\uc548\ub85c\uc778\uadfc*1\uce35\ub9c8\ub2f9\ub113\uc740\uc0c1\uac00\uc784\ub300*",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6580970"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6563098.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \ucd94\ucc9c/\uc784\ub300\uc9c0\uc6d0\ud61c\ud0dd/\uc678\ub3c4\uc77c\ub3d91\uce35\uc0c1\uac00\uc784\ub300/\uac74\ubb3c\ub0b4\uc8fc\ucc28\ud3b8\ub9ac/\ub2e4\uc591\ud55c\uc5c5\uc885/\ub3d9\ubb3c\ubcd1\uc6d0/\uc74c\uc2dd\uc810",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6563098"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6575064.png",
+        "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \ud55c\ub77c\uc218\ubaa9\uc6d0\uc778\uadfc/\uc5f0\ub3d91\uce35\uc0c1\uac00\uc784\ub300/\uc5f0\ub3d9\uc74c\uc2dd\uc810\uc784\ub300/\uc8fc\ucc28\ud3b8\ub9ac",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6575064"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6565611.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc0c1\uac00\uc784\ub300/\uc678\ub3c4\uc0ac\ubb34\uc2e4\uc784\ub300/\uc678\ub3c4\ud559\uc6d0\ubcd1\uc6d0\uc784\ub300\uc6b0\ub300\ud61c\ud0dd\uc788\uc74c/\ud3b8\ub9ac\ud55c\uc804\uc6a9\uc8fc\ucc28/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6565611"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6565610.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \uc81c\uc8fc\uacf5\ud56d\uc778\uadfc/\ub300\ud615\uc0c1\uac00\uc784\ub300/\ub178\ucd9c\ucd5c\uc0c1/\uc8fc\ucc28\ud3b8\ub9ac/\ub9c8\ub9ac\ub098\uc0ac\uac70\ub9ac/\ub300\ud615\uc624\ud53c\uc2a4",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6565610"
+      }
+    ]
+  },
+  "hero-apt": {
+    "title": "\uc778\uae30\uc788\ub294 \uc81c\uc8fc\ub3c4 \uc544\ud30c\ud2b8",
+    "items": [
+      {
+        "photo": "images/listings/apartment/apt-kcr-88470530.jpg",
+        "desc": "\uc678\ub3c4\uc77c\ub3d9 \u00b7 \ucc28\ubc0d1\ucc28 1\ub3d9 \uc678\ub3c4\uc77c\ub3d9\ucc28\ubc0d1\ucc28\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc678\ub3c4\uc544\ud30c\ud2b8\ub9e4\ub9e4/ 98/84",
+        "link": "https://land.jejukcr.com/offer/88470530"
+      },
+      {
+        "photo": "images/listings/apartment/apt-kcr-88470458.jpg",
+        "desc": "\uc544\ub77c\uc77c\ub3d9 \u00b7 \uc5fc\uad11 4\ub3d9 \uc5fc\uad11\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc62c\ub9ac\ubaa8\ub378\ub9c1/\uc544\ub77c\uc77c\ub3d9\uc544\ud30c\ud2b8\ub9e4\ub9e4 62/46",
+        "link": "https://land.jejukcr.com/offer/88470458"
+      },
+      {
+        "photo": "images/listings/apartment/apt-kcr-88470456.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub300\uc6d0\uc0c1\ub85d\uc2185\ucc28 1\ub3d9 \ub178\ud615\ub3d9\uc544\ud30c\ud2b8\ub9e4\ub9e4/\ub178\ud615\ucd08/\ub300\uc6d0\uc0c1\ub85d\uc2185\ucc28\uc544\ud30c\ud2b8 108/84",
+        "link": "https://land.jejukcr.com/offer/88470456"
+      },
+      {
+        "photo": "images/listings/apartment/apt-kcr-88470443.jpg",
+        "desc": "\uc911\ubb38\ub3d9 \u00b7 \uc911\ubb38\ub0a8\ud574\uc624\ub124\ub728\uc624\uc158\ud790 102\ub3d9 \uc911\ubb38\ub0a8\ud574\uc624\ub124\ub728\uc624\uc158\ud790\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc911\ubb38\ucd08/\ub0a8\ud574\uc624\ub124\ub728 109/84",
+        "link": "https://land.jejukcr.com/offer/88470443"
+      },
+      {
+        "photo": "images/listings/apartment/apt-kcr-88470433.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub178\ud6152\ucc28\uc544\uc774\ud30c\ud06c 202\ub3d9 \ub178\ud6152\ucc28\uc544\uc774\ud30c\ud06c/\ubc294\uac1c/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8\ub9e4\ub9e4/\uc800\uce35 139/115",
+        "link": "https://land.jejukcr.com/offer/88470433"
+      },
+      {
+        "photo": "images/listings/apartment/apt-kcr-88470414.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub178\ud615\ubca8\ub77c\uc2dc\ud2f0 1\ub3d9 \ub178\ud615\ubca8\ub77c\uc2dc\ud2f0/\uc4f0\ub9ac\ub8f8/\uace0\uce35/\ub178\ud615\uc2e0\ucd95\uc544\ud30c\ud2b8\ub9e4\ub9e4/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8 115/84",
+        "link": "https://land.jejukcr.com/offer/88470414"
+      }
+    ]
+  },
+  "hero-sanga": {
+    "title": "\uc0ac\uc5c5\uc798\ub418\ub294 \uc0c1\uac00 \uc18c\uac1c",
+    "items": [
+      {
+        "photo": "images/listings/sanga/sanga-kcr-88538906.jpg",
+        "desc": "\uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\ucc3d\uace0) \uc678\ub3c4\uc77c\ub3d9\ucc3d\uace0\uc784\ub300/\uc81c\uc8fc\uc2dc\ucc3d\uace0\uc784\ub300 125/125",
+        "link": "https://land.jejukcr.com/offer/88538906"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-kcr-88495549.jpg",
+        "desc": "\uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\uaf43\uc9d1/\uc57d\uad6d/\uc81c\uacfc/\uc0ac\uc9c4\uad00) \ucd94\ucc9c/\uc678\ub3c4\uc77c\ub3d91\uce35\uc0c1\uac00\uc784\ub300/\uac74\ubb3c\ub0b4\uc8fc\ucc28\ud3b8\ub9ac 125/125",
+        "link": "https://land.jejukcr.com/offer/88495549"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-kcr-88495522.jpg",
+        "desc": "\ub3c4\ub450\uc774\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\ubbf8\uc6a9\uc2e4/\ud654\uc7a5\ud488) \ub3c4\ub450\ud574\uc548\ub3c4\ub85c\uc0c1\uac00\uc784\ub300/\uc81c\uc8fc\uc624\uc158\ubdf0\uc0c1\uac00\uc784\ub300/\ubbf8\uc6a9\uc2e4/\uc6e8\ub529\uc0f5/\uc2a4\ud29c\ub514\uc624 169/169",
+        "link": "https://land.jejukcr.com/offer/88495522"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-kcr-88495504.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\ub2e4\uc6a9\ub3c4/\ube48\uc810\ud3ec) \ub178\ud615\ub3d9\uc2e0\ucd95\uc0c1\uac00\uc784\ub300/\ub300\ud615\uc0c1\uac00/\uc81c\uc8fc\uc2dc\ubcd1\uc758\uc6d0/\uc0ac\ubb34\uc2e4\uc784\ub300/ 124/124",
+        "link": "https://land.jejukcr.com/offer/88495504"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-kcr-88495427.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\ubd80\ub3d9\uc0b0/\uc0ac\ubb34\uc2e4) \ub178\ud615\ub3d91\uce35\uc0c1\uac00\uc784\ub300/\uc18c\ub9e4\uc810/\uc77c\uc8fc\uc11c\ub85c\uc778\uadfc/\uc6d4\ub791\ub9c8\uc744 43/43",
+        "link": "https://land.jejukcr.com/offer/88495427"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-kcr-88495398.jpg",
+        "desc": "\uc5f0\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\ubd80\ub3d9\uc0b0/\uc0ac\ubb34\uc2e4) \uc81c\uc8fc\uacf5\ud56d\uc778\uadfc/\ub300\ud615\uc0c1\uac00\uc784\ub300/\uc0ac\ubb34\uc2e4/\uc8fc\ucc28\ud3b8\ub9ac/\ub9c8\ub9ac\ub098\uc0ac\uac70\ub9ac 449/449",
+        "link": "https://land.jejukcr.com/offer/88495398"
+      }
+    ]
+  },
+  "hero-house": {
+    "title": "\ub9c8\ub2f9\uc788\ub294 \uc0b6 \ub2e8\ub3c5\uc8fc\ud0dd",
+    "items": [
+      {
+        "photo": "images/listings/house/house-kcr-88005444.jpg",
+        "desc": "\uc560\uc6d4\uc74d \uc218\uc0b0\ub9ac \u00b7 \ub2e8\ub3c5 \uc560\uc6d4\uc218\uc0b0\ub9ac\ub3c5\ucc44\ud39c\uc158\ub9e4\ub9e4/SNS\uacc4\uc815\uc778\uacc4/\ub2e8\ub3c52\uac1c\ub3d9\uad6c\uc870 372/162",
+        "link": "https://land.jejukcr.com/offer/88005444"
+      },
+      {
+        "photo": "images/listings/house/house-kcr-88539643.jpg",
+        "desc": "\uc11c\ud64d\ub3d9 \u00b7 \ub2e8\ub3c5 \uc11c\uadc0\uc11c\ucd08\ub4f1\uc778\uadfc/\uc11c\uadc0\ud3ec\ub2e8\ub3c5\uc8fc\ud0dd/\uc11c\uadc0\ud3ec2\uce35\ub2e8\ub3c5/\uc11c\uadc0\ud3ec\uc2dc\uccad\uc778\uadfc 211/76",
+        "link": "https://land.jejukcr.com/offer/88539643"
+      },
+      {
+        "photo": "images/listings/house/house-kcr-88478179.jpg",
+        "desc": "\uc774\ud638\uc774\ub3d9 \u00b7 \ub2e8\ub3c5 \uc774\ud638\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd\ub144\uc138/\uc81c\uc8fc\uc2dc\ub2e8\ub3c5\uc8fc\ud0dd\ub144\uc138 84/84",
+        "link": "https://land.jejukcr.com/offer/88478179"
+      },
+      {
+        "photo": "images/listings/house/house-kcr-88454422.jpg",
+        "desc": "\ud55c\ub9bc\uc74d \uae08\ub2a5\ub9ac \u00b7 \ub2e8\ub3c5 \ud55c\ub9bc\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\ud55c\ub9bc\uc0c1\uac00\uac74\ubb3c\ub9e4\ub9e4/\uae08\ub2a5\ud574\uc218\uc695\uc7a5\uc778\uadfc 1,857/246",
+        "link": "https://land.jejukcr.com/offer/88454422"
+      },
+      {
+        "photo": "images/listings/house/house-kcr-88354903.jpg",
+        "desc": "\uc77c\ub3c4\uc774\ub3d9 \u00b7 \ub2e8\ub3c5 \uc778\ud654\ucd08\uc778\uadfc/\uc77c\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd/\uad6c\ub3c4\uc2ec\ub2e8\ub3c5\uc8fc\ud0dd/\uc81c\uc8fc\uc2dc\ub2e8\ub3c5\uc8fc\ud0dd 152/59",
+        "link": "https://land.jejukcr.com/offer/88354903"
+      },
+      {
+        "photo": "images/listings/house/house-kcr-88202828.jpg",
+        "desc": "\uc0bc\ub3c4\uc774\ub3d9 \u00b7 \ub2e8\ub3c5 \uae09\ub9e4/\uc0bc\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\uc911\uc559\uc5ec\uc911\uc778\uadfc/\ub9c8\ub2f9\uc788\ub294\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4 149",
+        "link": "https://land.jejukcr.com/offer/88202828"
+      }
+    ]
+  },
+  "hero-villa": {
+    "title": "\uba4b\uacfc \uc2e4\uc18d \ud504\ub9ac\ubbf8\uc5c4 \ube4c\ub77c",
+    "items": [
+      {
+        "photo": "images/listings/villa/villa-kcr-88544495.jpg",
+        "desc": "\uc624\ub4f1\ub3d9 \u00b7 \ub2e4\uc138\ub300 - \uc624\ub4f1\ud734\uc5482\ucc28 101\ub3d9 \uc624\ub4f1\ud734\uc5482\ucc28/\uc544\ub77c\ucd08\ud559\uad70/\uc81c\uc8fc\uc2dc\uc4f0\ub9ac\ub8f8\ub9e4\ub9e4/\uc81c\uc8fc\ube4c\ub77c\ub9e4\ub9e4 82/72",
+        "link": "https://land.jejukcr.com/offer/88544495"
+      },
+      {
+        "photo": "images/listings/villa/villa-kcr-88544461.jpg",
+        "desc": "\uc624\ub77c\uc0bc\ub3d9 \u00b7 \ub2e4\uc138\ub300 - \uc9c4\uc544\ud0c0\uc6b42\ucc28 \uac00\ub3d9 \uc624\ub77c\uc0bc\ub3d9\uacf5\ub3d9\uc8fc\ud0dd/\uc624\ub77c\ucd08/\uc624\ub77c\ub3d9\uc4f0\ub9ac\ub8f8\ube4c\ub77c/\uc9c4\uc544\ud0c0\uc6b42\ucc28\ub9e4\ub9e4/ 82/71",
+        "link": "https://land.jejukcr.com/offer/88544461"
+      },
+      {
+        "photo": "images/listings/villa/villa-kcr-88544433.jpg",
+        "desc": "\ub3c4\ub828\uc77c\ub3d9 \u00b7 \uc5f0\ub9bd - \ub3c4\ub828\ubca8\ub77c\uc2dc\ud2f0 107\ub3d9 \ub3c4\ub828\ubca8\ub77c\uc2dc\ud2f0/\ub3c4\ub828\ucd08/\uc0bc\ud654\uc9c0\uad6c/\ub3c4\uc2dc\uac00\uc2a4 92/64",
+        "link": "https://land.jejukcr.com/offer/88544433"
+      },
+      {
+        "photo": "images/listings/villa/villa-kcr-88544429.jpg",
+        "desc": "\uc911\ubb38\ub3d9 \u00b7 \uc5f0\ub9bd - \uce74\ub80c\uc2dc\uc544 1\ub3d9 \uace0\uce35\uc624\uc158\ubdf0/\uc9c0\ud558\uc8fc\ucc28\uc7a5/\uc911\ubb38\uce74\ub80c\uc2dc\uc544 137/83",
+        "link": "https://land.jejukcr.com/offer/88544429"
+      },
+      {
+        "photo": "images/listings/villa/villa-kcr-88544424.jpg",
+        "desc": "\uc560\uc6d4\uc74d \ud558\uadc02\ub9ac \u00b7 \ub2e4\uc138\ub300 - \ub9c8\ud06c\ud790\uc560\uc6d46\ucc28 102\ub3d9 \ub9c8\ud06c\ud790\uc560\uc6d46\ucc28/\ud558\uadc0\uc2e0\ucd95/\ud558\uadc0\ucd08\uadc0\uc77c\uc911/\uc804\uc138\ub300\ud0dc\uc591\uad11\uc2dc\uc124 108/84",
+        "link": "https://land.jejukcr.com/offer/88544424"
+      },
+      {
+        "photo": "images/listings/villa/villa-kcr-88544421.jpg",
+        "desc": "\uc560\uc6d4\uc74d \uc0c1\uadc0\ub9ac \u00b7 \uc5f0\ub9bd - \ub9c8\ud06c\ud790\uc560\uc6d43\ucc28 3\ub3d9 \ub9c8\ud06c\ud790\uc560\uc6d43\ucc28\uc624\uc158\ubdf0\uc138\ub300/\uc560\uc6d4\uc5f0\ub9bd\uc8fc\ud0dd\ub9e4\ub9e4/\uc560\uc6d4\uc624\uc158\ubdf0\uc8fc\ud0dd 110/89",
+        "link": "https://land.jejukcr.com/offer/88544421"
+      }
+    ]
+  },
+  "hero-presale": {
+    "title": "\ud22c\uc790\uc790\uac00 \uba3c\uc800 \uc544\ub294 \uc2e0\ucd95 \ubd84\uc591",
+    "emptyMessage": "\ud604\uc7ac \ub4f1\ub85d\ub41c \ubd84\uc591\uad8c \ub9e4\ubb3c\uc774 \uc5c6\uc2b5\ub2c8\ub2e4.",
+    "items": []
+  },
+  "hero-land": {
+    "title": "\ub9c8\uc74c\uc5d0 \uc3d9 \uc81c\uc8fc\ud1a0\uc9c0",
+    "items": [
+      {
+        "photo": "images/listings/land/land-kcr-88499283.jpg",
+        "desc": "\uc560\uc6d4\uc74d \ud558\uadc02\ub9ac \u00b7 \ub2f5 \ud558\uadc0\ucd08\uc778\uadfc/\uc560\uc6d4\ud574\uc548\ub3c4\ub85c\uc785\uad6c/\uac74\ucd95\ud5c8\uac00\ub4dd/\uc560\uc6d4\ud1a0\uc9c0/\uc81c\uc8fc\ub3c4\ud1a0\uc9c0 1,340",
+        "link": "https://land.jejukcr.com/offer/88499283"
+      },
+      {
+        "photo": "images/listings/land/land-kcr-88499283.jpg",
+        "desc": "\uc560\uc6d4\uc74d \uc0c1\uadc0\ub9ac \u00b7 \uc784\uc57c \uc560\uc6d4\uc74d\uac74\ucd95\ud5c8\uac00\ub4dd\ud1a0\uc9c0/\uc0c1\uadc0\ub2e8\ub3c5\ubc0f\uadfc\ub9b0\uc2dc\uc124 358",
+        "link": "https://land.jejukcr.com/offer/88499269"
+      },
+      {
+        "photo": "images/listings/land/land-kcr-88499283.jpg",
+        "desc": "\uc560\uc6d4\uc74d \uad11\ub839\ub9ac \u00b7 \uc7a1\uc885\uc9c0 \ud3c9\ud654\ub85c\uc778\uadfc/\uad11\ub839\ub9ac\uc7a1\uc885\uc9c0/\uc560\uc6d4\ud1a0\uc9c0\ub9e4\ub9e4/\uc560\uc6d4\uc57c\uc801\uc7a5/\uacc4\ud68d\uad00\ub9ac\uc9c0\uc5ed 3,967",
+        "link": "https://land.jejukcr.com/offer/88499258"
+      },
+      {
+        "photo": "images/listings/land/land-kcr-88254927.jpg",
+        "desc": "\ub3c4\ub0a8\ub3d9 \u00b7 \uacfc\uc218\uc6d0 \ub3c4\ub0a8\ub3d9\ud1a0\uc9c0\ub9e4\ub9e4/\ub3c4\ub0a8\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd,\uc0c1\uac00\uc8fc\ud0dd\uc9c0 1,352",
+        "link": "https://land.jejukcr.com/offer/88254927"
+      },
+      {
+        "photo": "images/listings/land/land-kcr-87846714.png",
+        "desc": "\uad6c\uc88c\uc74d \uae40\ub155\ub9ac \u00b7 \uc804 \uae40\ub155\uc911\uc778\uadfc/\uc77c\uc8fc\ub3d9\ub85c\uc778\uadfc/\ub18d\uc9c0\ub9e4\ub9e4 479",
+        "link": "https://land.jejukcr.com/offer/87846714"
+      },
+      {
+        "photo": "images/listings/land/land-kcr-87846631.png",
+        "desc": "\uc774\ub3c4\uc774\ub3d9 \u00b7 \uc784\uc57c \uc774\ub3c4\ud55c\uc77c\ubca0\ub77c\uccb4\uc778\uadfc/\uc784\uc57c\ub9e4\ub9e4/\uae30\ubc18\uc2dc\uc124\uc788\uc74c 496",
+        "link": "https://land.jejukcr.com/offer/87846631"
+      }
+    ]
+  }
+};
 
   // 매물유형별 사진 저장 폴더 — 시트엔 파일명만 적으면 이 폴더에서 자동으로 찾음
   var CATEGORY_LABEL_TO_FOLDER = {

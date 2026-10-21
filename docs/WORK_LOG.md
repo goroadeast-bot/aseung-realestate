@@ -46,3 +46,8 @@
 - [5일장 중개사 프로필](https://www.jejuall.com/CProperty/myHome/params/num/165834)과 [제주교차로 프로필](https://land.jejukcr.com/biz/ahj0522)에서 유형별 현재 순위를 다시 읽어 모달 전문분야·대표·추천 카드에 반영했다. 분양권은 양쪽 목록이 비어 있어 기존 빈 상태를 유지했다.
 - 상세 링크 77개(5일장 37개, 교차로 40개)의 상세 응답에서 각 매물번호를 확인했고, 사진 76개가 모두 존재하며 파일 시그니처가 확장자와 일치한다. 모달 카드 95개에는 추천/대표 매물 중복 노출이 포함된다.
 - [js/script.js](../js/script.js), [index.html](../index.html), `images/listings/`를 갱신하고 캐시를 `20261018a`로 올렸다. `node --check js/script.js`와 `git diff --check`가 통과했다. 커밋 `4cf2f70`을 `main`에 푸시했고 [Pages 실행](https://github.com/goroadeast-bot/aseung-realestate/actions/runs/39097696732)이 `success`로 완료됐다. 공개 홈페이지, CSS, JS 및 썸네일이 모두 HTTP 200이고 캐시 버전 `20261018a`를 확인했다. 공개 JS에는 새 대표 매물 ID `6568530`, `88372317`이 포함되고 새 아파트·빌라·창고 썸네일도 응답했다.
+## 2026-10-21 — 최신 순위 매물 갱신 및 Pages 배포
+
+- 5일장과 제주교차로의 유형별 현재 순위를 모달의 전문분야·대표·추천 카드에 반영했다. 게시 목록은 5일장 37개, 교차로 40개, 77개 고유 상세 링크(95개 카드 노출)다. 분양권은 두 출처 모두 비어 있다.
+- 후보 상세 79개에서 매물번호와 본문을 확인했다. 새 썸네일 45개를 추가했고, 모달의 사진 경로·파일 형식은 모두 유효하다. 교차로 토지 `88499269`, `88499258`은 원본 사진이 없어 기존 토지 썸네일을 대체 이미지로 사용했다.
+- [js/script.js](../js/script.js), [index.html](../index.html), `images/listings/`를 갱신하고 캐시를 `20261021a`로 올렸다. `node --check js/script.js` 및 `git diff --check`가 통과했다. Pages 배포와 공개 페이지 확인은 진행 중이다.
