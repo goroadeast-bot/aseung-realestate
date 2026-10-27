@@ -40,15 +40,15 @@
   // 2026-09-30: 오일장·제주교차로 최신 유형별 순위로 갱신.
   // 2026-10-12: 오일장·제주교차로 최신 유형별 순위를 반영.
   // 2026-10-18: 5일장·제주교차로 최신 유형별 순위를 반영.
-  // 2026-10-25: 5일장·제주교차로 최신 유형별 순위를 반영.
+  // 2026-10-27: 5일장·제주교차로 최신 유형별 순위를 반영.
   var LISTING_DATA = {
   "nohyeong-apt": {
     "title": "\uc544\ud30c\ud2b8",
     "items": [
       {
-        "photo": "images/listings/apartment/apt-oil-6588655.jpg",
+        "photo": "images/listings/apartment/apt-oil-6592897.jpg",
         "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc77c\ub3d9\ucc28\ubc0d1\ucc28\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc678\ub3c4\uc544\ud30c\ud2b8\ub9e4\ub9e4/",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6588655"
+        "link": "https://www.jejuall.com/CProperty/detail?num=6592897"
       },
       {
         "photo": "images/listings/apartment/apt-oil-6587603.jpg",
@@ -71,7 +71,7 @@
         "link": "https://www.jejuall.com/CProperty/detail?num=5991642"
       },
       {
-        "photo": "images/listings/apartment/apt-oil-6559482.jpg",
+        "photo": "images/listings/photo-unavailable.svg",
         "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \ub300\ub9bc1\ucc28/\uc5f0\ub3d9\ub300\ub9bc1\ucc28\uace0\uce35/\ub300\ub9bc1\ucc28\uc774\ud3b8\ud55c\uc138\uc0c1/\ud55c\ub77c\ucd08/\uc5f0\ub3d9\uc544\ud30c\ud2b8/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8",
         "link": "https://www.jejuall.com/CProperty/detail?num=6559482"
       }
@@ -121,6 +121,16 @@
     "title": "\ube4c\ub77c",
     "items": [
       {
+        "photo": "images/listings/villa/villa-oil-6026401.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \uc0c1\uadc0\ub9ac \u00b7 \ub9c8\ud06c\ud790\uc624\uc158\ubdf0/\ub9c8\ud06c\ud790\uc560\uc6d42\ucc28/\ub9c8\ud06c\ud790\uc560\uc6d4/\uc560\uc6d4\uc624\uc158\ubdf0\uc8fc\ud0dd",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6026401"
+      },
+      {
+        "photo": "images/listings/villa/villa-oil-6592898.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc624\ub80c\uc9c0\uce74\uc6b4\ud2f0\ub9e4\ub9e4/\uc678\ub3c4\ubd84\ub9ac\ud615\uc6d0\ub8f8\ub9e4\ub9e4/\uc81c\uc8fc\uc2dc\uc6d0\ub8f8\ub9e4\ub9e4",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6592898"
+      },
+      {
         "photo": "images/listings/villa/villa-oil-6588653.jpg",
         "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \uc0c1\uadc0\ub9ac \u00b7 \uc560\uc6d4\uc0c1\uadc0\uad50\ucc28\ub85c/\ub9c8\ud06c\ud790\uc560\uc6d41\ucc28\ub9e4\ub9e4/\ub9c8\ud06c\ud790\ub9e4\ub9e4",
         "link": "https://www.jejuall.com/CProperty/detail?num=6588653"
@@ -139,16 +149,6 @@
         "photo": "images/listings/villa/villa-oil-6587751.jpg",
         "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \uad11\ub839\ub9ac \u00b7 \uc560\uc6d4\ud480\uc635\uc158\ud22c\ub8f8\ub9e4\ub9e4(\uc784\ub300\ucc28\uc2b9\uacc4)/\uc81c\uc77c\ube4c\ub9ac\uc9c0/\uc62c\ub9ac\ubaa8\ub378\ub9c1/\ubc14\ub2e4\uc870\ub9dd",
         "link": "https://www.jejuall.com/CProperty/detail?num=6587751"
-      },
-      {
-        "photo": "images/listings/villa/villa-oil-6587684.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uadc01\ub9ac \u00b7 \ud558\uadc0\uc2a4\uce74\uc774\ud31c/\ud558\uadc0\ud558\ub098\ub85c\ub9c8\ud2b8\uc778\uadfc/\uc560\uc6d4\ube4c\ub77c\ub9e4\ub9e4/\uc2e0\ucd95\uae09",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6587684"
-      },
-      {
-        "photo": "images/listings/villa/villa-oil-6585205.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \uc624\ub4f1\ub3d9 \u00b7 \uc624\ub4f1\ud734\uc5482\ucc28/\uc544\ub77c\ucd08\ud559\uad70/\uc81c\uc8fc\uc2dc\uc4f0\ub9ac\ub8f8\ub9e4\ub9e4/\uc81c\uc8fc\ube4c\ub77c\ub9e4\ub9e4",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6585205"
       }
     ]
   },
@@ -171,24 +171,19 @@
         "link": "https://www.jejuall.com/CProperty/detail?num=6474354"
       },
       {
-        "photo": "images/listings/oneroom/oneroom-kcr-88346544.jpg",
-        "desc": "\ud55c\ub9bc\uc74d \ud611\uc7ac\ub9ac \u00b7 \uc544\ud30c\ud2b8\ud615 \ud22c\ub8f8 \ud55c\ub9bc\ud22c\ub8f8\ub144\uc138/\ud55c\ub9bc\ud22c\ub8f8\uc544\ud30c\ud2b8\ub144\uc138/\ud55c\ub9bc\ud480\uc635\uc158/j\ube14\ub8e8\uc624\uc158\uc544\ud30c\ud2b8 72/59",
-        "link": "https://land.jejukcr.com/offer/88346544"
-      },
-      {
         "photo": "images/listings/oneroom/oneroom-kcr-88346538.jpg",
         "desc": "\uc560\uc6d4\uc74d \ud558\uadc02\ub9ac \u00b7 \ub2e4\uac00\uad6c\ud615 \ud22c\ub8f8 \ud558\uadc0\ub113\uc740\ud22c\ub8f8\ub144\uc138/\ubc292\uc695\uc2e42/\uc624\uc158\ubdf0\uac00\ub2a5/\ubc18\ub824\ub3d9\ubb3c\uac00\ub2a5/\uac00\uc804\uc81c\ud488\uc635\uc158/\uc2e0\ucd95\uae09 90/81",
         "link": "https://land.jejukcr.com/offer/88346538"
       },
       {
+        "photo": "images/listings/oneroom/oneroom-kcr-88726726.jpg",
+        "desc": "\uc544\ub77c\uc77c\ub3d9 \u00b7 \ub2e4\uac00\uad6c\ud615 \uc6d0\ub8f8 \uc81c\ub300\uc778\uadfc/\uc18c\ud615\ubc18\ub824\ub3d9\ubb3c\uac00\ub2a5/\uc544\ub77c\uc77c\ub3d9\uc6d0\ub8f8\uc784\ub300 27/26",
+        "link": "https://land.jejukcr.com/offer/88726726"
+      },
+      {
         "photo": "images/listings/oneroom/oneroom-kcr-88605473.jpg",
         "desc": "\ub178\ud615\ub3d9 \u00b7 \ub2e4\uc138\ub300\ud615 \uc6d0\ub8f8 \ub178\ud615\ub3d9\uc6d0\ub8f8\uc784\ub300/\ud55c\ub77c\ub300/\ud480\uc635\uc158/\ub113\uc740\uc6d0\ub8f8 62/51",
         "link": "https://land.jejukcr.com/offer/88605473"
-      },
-      {
-        "photo": "images/listings/oneroom/oneroom-kcr-88491864.jpg",
-        "desc": "\uc544\ub77c\uc77c\ub3d9 \u00b7 \ub2e4\uac00\uad6c\ud615 \uc6d0\ub8f8 \uc81c\ub300\uc778\uadfc/\uc18c\ud615\ubc18\ub824\ub3d9\ubb3c\uac00\ub2a5/\uc544\ub77c\uc77c\ub3d9\uc6d0\ub8f8\uc784\ub300 27/26",
-        "link": "https://land.jejukcr.com/offer/88491864"
       },
       {
         "photo": "images/listings/oneroom/oneroom-kcr-88456029.jpg",
@@ -199,12 +194,37 @@
         "photo": "images/listings/oneroom/oneroom-kcr-88346549.jpg",
         "desc": "\uc77c\ub3c4\uc774\ub3d9 \u00b7 \ub2e4\uac00\uad6c\ud615 \ud22c\ub8f8 \uc778\ud654\ucd08\uc778\uadfc/\uc77c\ub3c4\uc9c0\uad6c/\uc778\uc81c/\uc77c\ub3c4\uc774\ub3d9\ud22c\ub8f8\ub144\uc138/ 48/48",
         "link": "https://land.jejukcr.com/offer/88346549"
+      },
+      {
+        "photo": "images/listings/oneroom/oneroom-kcr-88346540.jpg",
+        "desc": "\ud55c\ub9bc\uc74d \uae08\ub2a5\ub9ac \u00b7 \ub2e4\uac00\uad6c\ud615 \ud22c\ubca0\uc774(1.5\ub8f8) \ud55c\ub9bc\ubd84\ub9ac\ud615\uc6d0\ub8f8/\ub113\uace0\uae68\ub057\ud55c\ubd84\ub9ac\ud615\uc6d0\ub8f8/\uae08\ub2a5\ud574\uc218\uc695\uc7a5 53/53",
+        "link": "https://land.jejukcr.com/offer/88346540"
       }
     ]
   },
   "sinsigaji-sanga": {
     "title": "\uc0c1\uac00",
     "items": [
+      {
+        "photo": "images/listings/photo-unavailable.svg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \uc5f0\ub3d9\uc2e0\ub77c\uc2a4\ud14c\uc774\uc778\uadfc/\uc81c\uc6d0\uc0c1\uac00\uc784\ub300/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6029330"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6596522.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc774\ub3c4\uc774\ub3d9 \u00b7 \uc774\ub3c4\uc774\ub3d9\uc0c1\uac00\uc784\ub300/\uc5f0\ubd81\ub85c\uc778\uadfc/\ubbf8\uc6a9\uc2e4\uc784\ub300/\uae68\ub057\ud55c\uc2dc\uc124",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6596522"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6596519.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc624\ub77c\uc0bc\ub3d9 \u00b7 \uc81c\uc8fc\ub3c4\uccad\uc778\uadfc/\uc81c\uc8fc\uacf5\ud56d\uc778\uadfc/\uc8fc\ucc28\ud3b8\ub9ac/\uc74c\uc2dd\uc810\uc784\ub300",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6596519"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6596517.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc77c\ub3d9 \u00b7 \ub3d9\ubb38\uc2dc\uc7a5\uc778\uadfc/\ub3d9\ubb38\ub85c\ud130\ub9ac\uc778\uadfc/\uc0c1\uad8c\ud65c\ubc1c\ud55c2\uce35\uc0c1\uac00\uc784\ub300/\uc81c\uc8fc\uacf5\ud56d\uc778\uadfc",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6596517"
+      },
       {
         "photo": "images/listings/sanga/sanga-oil-6591017.jpg",
         "desc": "\uc81c\uc8fc\uc2dc \ub3c4\ub450\uc77c\ub3d9 \u00b7 \ub3c4\ub450\uc77c\ub3d9\uc2e0\ucd95\uc0c1\uac00\uc784\ub300/\uc81c\uc8fc\uacf5\ud56d\uc778\uadfc/\ud3b8\uc758\uc810/\ud734\uac8c\uc74c\uc2dd\uc810/\uc0ac\ubb34\uc2e4",
@@ -214,26 +234,6 @@
         "photo": "images/listings/sanga/sanga-oil-6591016.jpg",
         "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc77c\ub3d9 \u00b7 \uce60\uc131\ud1b5\uc0c1\uac00\uc784\ub300/\uc2a4\ud29c\ub514\uc624/\uae54\ub054\ud55c\ub0b4\ubd80/\uc0ac\ubb34\uc2e4",
         "link": "https://www.jejuall.com/CProperty/detail?num=6591016"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-oil-6591015.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \uc870\ucc9c\uc74d \uc2e0\ucd0c\ub9ac \u00b7 \uc870\ucc9c\ucd08\uc778\uadfc/\uc2e0\ubd81\ub85c\uc811\uc0c1\uac00\uc784\ub300/\uc870\ucc9c\uc0c1\uac00\uc784\ub300/\uc2e0\ucd0c\uc0c1\uac00\uc784\ub300",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6591015"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-oil-6585203.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc77c\ub3d9\ucc3d\uace0\uc784\ub300/\uc81c\uc8fc\uc2dc\ucc3d\uace0\uc784\ub300",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6585203"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-oil-5411112.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \ub178\ud615\ub3d9 \u00b7 \ub178\ud615\ub3d9\uc8fc\uac70\uc9c0\ub0b4 1\uce35\uc0c1\uac00 2\uac1c\ud638\uc2e4\ub9e4\ub9e4/\ub178\ud615\ub3d91\uce35\uc0c1\uac00\ub9e4\ub9e4",
-        "link": "https://www.jejuall.com/CProperty/detail?num=5411112"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-oil-6580970.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \ub0b4\ub3c4\ub3d9 \u00b7 *\uc77c\uc8fc\uc11c\ub85c\uc778\uadfc*\uc54c\uc791\uc9c0\ud574\uc548\ub85c\uc778\uadfc*1\uce35\ub9c8\ub2f9\ub113\uc740\uc0c1\uac00\uc784\ub300*",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6580970"
       }
     ]
   },
@@ -241,17 +241,17 @@
     "title": "\ud1a0\uc9c0",
     "items": [
       {
-        "photo": "images/listings/land/land-oil-5968379.jpg",
+        "photo": "images/listings/photo-unavailable.svg",
         "desc": "\uc11c\uadc0\ud3ec\uc2dc \ud558\ud6a8\ub3d9 \u00b7 \uc11c\uadc0\ud3ec\uc8fc\uac70\uc9c0\uc5ed\ud1a0\uc9c0\ub9e4\ub9e4/\ud6a8\ub3c8\ucd08\uc778\uadfc",
         "link": "https://www.jejuall.com/CProperty/detail?num=5968379"
       },
       {
-        "photo": "images/listings/land/land-oil-5968470.jpg",
+        "photo": "images/listings/photo-unavailable.svg",
         "desc": "\uc11c\uadc0\ud3ec\uc2dc \uc11c\ud638\ub3d9 \u00b7 \uc11c\ud638\ub3d9\ud1a0\uc9c0\ub9e4\ub9e4/2\uc885\uc77c\ubc18\uc8fc\uac70\uc9c0\uc5ed/",
         "link": "https://www.jejuall.com/CProperty/detail?num=5968470"
       },
       {
-        "photo": "images/listings/land/land-oil-6533318.jpg",
+        "photo": "images/listings/photo-unavailable.svg",
         "desc": "\uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud558\uac00\ub9ac \u00b7 \uc560\uc6d4\uc74d\ub9f9\uc9c0/\uc5f0\ud654\ubabb\uc778\uadfc/\ud558\uac00\ub9ac\ud1a0\uc9c0\ub9e4\ub9e4/\ub354\ub7ed\ucd08",
         "link": "https://www.jejuall.com/CProperty/detail?num=6533318"
       },
@@ -296,24 +296,24 @@
         "link": "https://www.jejuall.com/CProperty/detail?num=6328388"
       },
       {
-        "photo": "images/listings/warehouse/warehouse-kcr-88627771.jpg",
+        "photo": "images/listings/warehouse/warehouse-kcr-88726785.jpg",
         "desc": "\uc870\ucc9c\uc74d \uc640\ud758\ub9ac \u00b7 \uacf5\uc7a5 \uc81c\uc8fc\ub3c4\uacf5\uc7a5\ub9e4\ub9e4/\uc870\ucc9c\uacf5\uc7a5\ub9e4\ub9e4/ 6,384/311",
-        "link": "https://land.jejukcr.com/offer/88627771"
+        "link": "https://land.jejukcr.com/offer/88726785"
       },
       {
-        "photo": "images/listings/warehouse/warehouse-kcr-88627766.jpg",
+        "photo": "images/listings/warehouse/warehouse-kcr-88726775.jpg",
         "desc": "\uc560\uc6d4\uc74d \uc2e0\uc5c4\ub9ac \u00b7 \ucc3d\uace0 \uc2e0\uc5c4\ub9ac\uc2e0\ucd95\uae09\ucc3d\uace0\uc784\ub300/\uc911\uc0b0\uac04\ub3c4\ub85c\uc778\uadfc 661/166",
-        "link": "https://land.jejukcr.com/offer/88627766"
+        "link": "https://land.jejukcr.com/offer/88726775"
       },
       {
-        "photo": "images/listings/warehouse/warehouse-kcr-88627760.jpg",
-        "desc": "\ub178\ud615\ub3d9 \u00b7 \ucc3d\uace0 \uc81c\uc8fc\ub3c4\ucc3d\uace0\uc784\ub300/\ub178\ud615\ub3d9\ucc3d\uace0\uc784\ub300/\ucc3d\uace0\ubc0f\uadfc\ub9b0\uc0dd\ud65c\uc2dc\uc124/\ub300\ud615\ucc3d\uace0 2,258/448",
-        "link": "https://land.jejukcr.com/offer/88627760"
-      },
-      {
-        "photo": "images/listings/warehouse/warehouse-kcr-88000863.png",
+        "photo": "images/listings/warehouse/warehouse-kcr-88689466.png",
         "desc": "\uc624\ub4f1\ub3d9 \u00b7 \ucc3d\uace0 \uc560\uc870\ub85c\uc778\uadfc/\ucc3d\uace0\uc2dc\uc124\ub9e4\ub9e4 1,157/230",
-        "link": "https://land.jejukcr.com/offer/88000863"
+        "link": "https://land.jejukcr.com/offer/88689466"
+      },
+      {
+        "photo": "images/listings/warehouse/warehouse-kcr-88689450.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ucc3d\uace0 \uc81c\uc8fc\ub3c4\ucc3d\uace0\uc784\ub300/\ub178\ud615\ub3d9\ucc3d\uace0\uc784\ub300/\ucc3d\uace0\ubc0f\uadfc\ub9b0\uc0dd\ud65c\uc2dc\uc124/\ub300\ud615\ucc3d\uace0 2,258/448",
+        "link": "https://land.jejukcr.com/offer/88689450"
       }
     ]
   },
@@ -321,9 +321,9 @@
     "title": "\uc778\uae30\ub9cc\uc810 \uc81c\uc8fc \uc544\ud30c\ud2b8",
     "items": [
       {
-        "photo": "images/listings/apartment/apt-oil-6588655.jpg",
+        "photo": "images/listings/apartment/apt-oil-6592897.jpg",
         "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc77c\ub3d9\ucc28\ubc0d1\ucc28\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc678\ub3c4\uc544\ud30c\ud2b8\ub9e4\ub9e4/",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6588655"
+        "link": "https://www.jejuall.com/CProperty/detail?num=6592897"
       },
       {
         "photo": "images/listings/apartment/apt-oil-6587603.jpg",
@@ -346,7 +346,7 @@
         "link": "https://www.jejuall.com/CProperty/detail?num=5991642"
       },
       {
-        "photo": "images/listings/apartment/apt-oil-6559482.jpg",
+        "photo": "images/listings/photo-unavailable.svg",
         "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \ub300\ub9bc1\ucc28/\uc5f0\ub3d9\ub300\ub9bc1\ucc28\uace0\uce35/\ub300\ub9bc1\ucc28\uc774\ud3b8\ud55c\uc138\uc0c1/\ud55c\ub77c\ucd08/\uc5f0\ub3d9\uc544\ud30c\ud2b8/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8",
         "link": "https://www.jejuall.com/CProperty/detail?num=6559482"
       }
@@ -391,6 +391,26 @@
     "title": "\uc0c8\ucd9c\ubc1c \ub4e0\ub4e0\ud55c \uc0c1\uac00",
     "items": [
       {
+        "photo": "images/listings/photo-unavailable.svg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc5f0\ub3d9 \u00b7 \uc5f0\ub3d9\uc2e0\ub77c\uc2a4\ud14c\uc774\uc778\uadfc/\uc81c\uc6d0\uc0c1\uac00\uc784\ub300/",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6029330"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6596522.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc774\ub3c4\uc774\ub3d9 \u00b7 \uc774\ub3c4\uc774\ub3d9\uc0c1\uac00\uc784\ub300/\uc5f0\ubd81\ub85c\uc778\uadfc/\ubbf8\uc6a9\uc2e4\uc784\ub300/\uae68\ub057\ud55c\uc2dc\uc124",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6596522"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6596519.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc624\ub77c\uc0bc\ub3d9 \u00b7 \uc81c\uc8fc\ub3c4\uccad\uc778\uadfc/\uc81c\uc8fc\uacf5\ud56d\uc778\uadfc/\uc8fc\ucc28\ud3b8\ub9ac/\uc74c\uc2dd\uc810\uc784\ub300",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6596519"
+      },
+      {
+        "photo": "images/listings/sanga/sanga-oil-6596517.jpg",
+        "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc77c\ub3d9 \u00b7 \ub3d9\ubb38\uc2dc\uc7a5\uc778\uadfc/\ub3d9\ubb38\ub85c\ud130\ub9ac\uc778\uadfc/\uc0c1\uad8c\ud65c\ubc1c\ud55c2\uce35\uc0c1\uac00\uc784\ub300/\uc81c\uc8fc\uacf5\ud56d\uc778\uadfc",
+        "link": "https://www.jejuall.com/CProperty/detail?num=6596517"
+      },
+      {
         "photo": "images/listings/sanga/sanga-oil-6591017.jpg",
         "desc": "\uc81c\uc8fc\uc2dc \ub3c4\ub450\uc77c\ub3d9 \u00b7 \ub3c4\ub450\uc77c\ub3d9\uc2e0\ucd95\uc0c1\uac00\uc784\ub300/\uc81c\uc8fc\uacf5\ud56d\uc778\uadfc/\ud3b8\uc758\uc810/\ud734\uac8c\uc74c\uc2dd\uc810/\uc0ac\ubb34\uc2e4",
         "link": "https://www.jejuall.com/CProperty/detail?num=6591017"
@@ -399,26 +419,6 @@
         "photo": "images/listings/sanga/sanga-oil-6591016.jpg",
         "desc": "\uc81c\uc8fc\uc2dc \uc77c\ub3c4\uc77c\ub3d9 \u00b7 \uce60\uc131\ud1b5\uc0c1\uac00\uc784\ub300/\uc2a4\ud29c\ub514\uc624/\uae54\ub054\ud55c\ub0b4\ubd80/\uc0ac\ubb34\uc2e4",
         "link": "https://www.jejuall.com/CProperty/detail?num=6591016"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-oil-6591015.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \uc870\ucc9c\uc74d \uc2e0\ucd0c\ub9ac \u00b7 \uc870\ucc9c\ucd08\uc778\uadfc/\uc2e0\ubd81\ub85c\uc811\uc0c1\uac00\uc784\ub300/\uc870\ucc9c\uc0c1\uac00\uc784\ub300/\uc2e0\ucd0c\uc0c1\uac00\uc784\ub300",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6591015"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-oil-6585203.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \uc678\ub3c4\uc77c\ub3d9 \u00b7 \uc678\ub3c4\uc77c\ub3d9\ucc3d\uace0\uc784\ub300/\uc81c\uc8fc\uc2dc\ucc3d\uace0\uc784\ub300",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6585203"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-oil-5411112.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \ub178\ud615\ub3d9 \u00b7 \ub178\ud615\ub3d9\uc8fc\uac70\uc9c0\ub0b4 1\uce35\uc0c1\uac00 2\uac1c\ud638\uc2e4\ub9e4\ub9e4/\ub178\ud615\ub3d91\uce35\uc0c1\uac00\ub9e4\ub9e4",
-        "link": "https://www.jejuall.com/CProperty/detail?num=5411112"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-oil-6580970.jpg",
-        "desc": "\uc81c\uc8fc\uc2dc \ub0b4\ub3c4\ub3d9 \u00b7 *\uc77c\uc8fc\uc11c\ub85c\uc778\uadfc*\uc54c\uc791\uc9c0\ud574\uc548\ub85c\uc778\uadfc*1\uce35\ub9c8\ub2f9\ub113\uc740\uc0c1\uac00\uc784\ub300*",
-        "link": "https://www.jejuall.com/CProperty/detail?num=6580970"
       }
     ]
   },
@@ -426,40 +426,45 @@
     "title": "\uc778\uae30\uc788\ub294 \uc81c\uc8fc\ub3c4 \uc544\ud30c\ud2b8",
     "items": [
       {
-        "photo": "images/listings/apartment/apt-kcr-88587085.jpg",
-        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub178\ud6152\ucc28\uc544\uc774\ud30c\ud06c 202\ub3d9 \ub178\ud6152\ucc28\uc544\uc774\ud30c\ud06c/\ubc294\uac1c/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8\ub9e4\ub9e4/\uc800\uce35 139/115",
-        "link": "https://land.jejukcr.com/offer/88587085"
-      },
-      {
-        "photo": "images/listings/apartment/apt-kcr-88587061.jpg",
-        "desc": "\uc544\ub77c\uc77c\ub3d9 \u00b7 \uc5fc\uad11 4\ub3d9 \uc5fc\uad11\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc62c\ub9ac\ubaa8\ub378\ub9c1/\uc544\ub77c\uc77c\ub3d9\uc544\ud30c\ud2b8\ub9e4\ub9e4 62/46",
-        "link": "https://land.jejukcr.com/offer/88587061"
-      },
-      {
-        "photo": "images/listings/apartment/apt-kcr-88587028.jpg",
+        "photo": "images/listings/apartment/apt-kcr-88690201.jpg",
         "desc": "\uc678\ub3c4\uc77c\ub3d9 \u00b7 \ucc28\ubc0d1\ucc28 1\ub3d9 \uc678\ub3c4\uc77c\ub3d9\ucc28\ubc0d1\ucc28\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc678\ub3c4\uc544\ud30c\ud2b8\ub9e4\ub9e4/ 98/84",
-        "link": "https://land.jejukcr.com/offer/88587028"
+        "link": "https://land.jejukcr.com/offer/88690201"
       },
       {
-        "photo": "images/listings/apartment/apt-kcr-88587021.jpg",
-        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub178\ud615\uc544\uc774\ud30c\ud06c 4\ub3d9 \ub178\ud615\uc544\uc774\ud30c\ud06c\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\ud55c\ub77c\ucd08/\uc81c\uc8fc\uc2dc\uc544\ud30c\ud2b8/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8 106/84",
-        "link": "https://land.jejukcr.com/offer/88587021"
+        "photo": "images/listings/apartment/apt-kcr-88690186.jpg",
+        "desc": "\uc544\ub77c\uc77c\ub3d9 \u00b7 \uc5fc\uad11 4\ub3d9 \uc5fc\uad11\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc62c\ub9ac\ubaa8\ub378\ub9c1/\uc544\ub77c\uc77c\ub3d9\uc544\ud30c\ud2b8\ub9e4\ub9e4 62/46",
+        "link": "https://land.jejukcr.com/offer/88690186"
       },
       {
-        "photo": "images/listings/apartment/apt-kcr-88587015.jpg",
-        "desc": "\uc77c\ub3c4\uc774\ub3d9 \u00b7 \uc0bc\uc8fc\ud0c0\uc6b4 101\ub3d9 \uc77c\ub3c4\uc0bc\uc8fc\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc62c\ub9ac\ubaa8\ub378\ub9c1 81/59",
-        "link": "https://land.jejukcr.com/offer/88587015"
+        "photo": "images/listings/apartment/apt-kcr-88690181.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub300\uc6d0\uc0c1\ub85d\uc2185\ucc28 1\ub3d9 \ub178\ud615\ub3d9\uc544\ud30c\ud2b8\ub9e4\ub9e4/\ub178\ud615\ucd08/\ub300\uc6d0\uc0c1\ub85d\uc2185\ucc28\uc544\ud30c\ud2b8 108/84",
+        "link": "https://land.jejukcr.com/offer/88690181"
       },
       {
-        "photo": "images/listings/apartment/apt-kcr-88587011.jpg",
-        "desc": "\uc774\ub3c4\uc774\ub3d9 \u00b7 \uc131\uc6d0 1\ub3d9 \uc774\ub3c4\uc131\uc6d0\uc544\ud30c\ud2b8/\uc774\ub3c4\uc8fc\uacf5\uc778\uadfc/\uc774\ub3c4\uc774\ub3d9\uc544\ud30c\ud2b8/\ub9ac\ubaa8\ub378\ub9c1/\ub0a8\uad11\ucd08/\uc81c\uc8fc\uc77c\uc911 93/84",
-        "link": "https://land.jejukcr.com/offer/88587011"
+        "photo": "images/listings/apartment/apt-kcr-88690141.jpg",
+        "desc": "\uc911\ubb38\ub3d9 \u00b7 \uc911\ubb38\ub0a8\ud574\uc624\ub124\ub728\uc624\uc158\ud790 102\ub3d9 \uc911\ubb38\ub0a8\ud574\uc624\ub124\ub728\uc624\uc158\ud790\uc544\ud30c\ud2b8 \ub9e4\ub9e4/\uc911\ubb38\ucd08/\ub0a8\ud574\uc624\ub124\ub728 109/84",
+        "link": "https://land.jejukcr.com/offer/88690141"
+      },
+      {
+        "photo": "images/listings/apartment/apt-kcr-88689978.jpg",
+        "desc": "\uc5f0\ub3d9 \u00b7 \ub300\ub9bce\ud3b8\ud55c\uc138\uc0c11\ucc28 101\ub3d9 \ub300\ub9bc1\ucc28/\uc5f0\ub3d9\ub300\ub9bc1\ucc28\uace0\uce35/\ub300\ub9bc1\ucc28\uc774\ud3b8\ud55c\uc138\uc0c1/\ud55c\ub77c\ucd08/\uc5f0\ub3d9\uc544\ud30c\ud2b8/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8 112/84",
+        "link": "https://land.jejukcr.com/offer/88689978"
+      },
+      {
+        "photo": "images/listings/apartment/apt-kcr-88689948.jpg",
+        "desc": "\ub178\ud615\ub3d9 \u00b7 \ub178\ud6152\ucc28\uc544\uc774\ud30c\ud06c 202\ub3d9 \ub178\ud6152\ucc28\uc544\uc774\ud30c\ud06c/\ubc294\uac1c/\ub178\ud615\ub3d9\uc544\ud30c\ud2b8\ub9e4\ub9e4/\uc800\uce35 139/115",
+        "link": "https://land.jejukcr.com/offer/88689948"
       }
     ]
   },
   "hero-sanga": {
     "title": "\uc0ac\uc5c5\uc798\ub418\ub294 \uc0c1\uac00 \uc18c\uac1c",
     "items": [
+      {
+        "photo": "images/listings/photo-unavailable.svg",
+        "desc": "\ub3c4\ub0a8\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\ub2e4\uc6a9\ub3c4/\ube48\uc810\ud3ec) \ub300\ud615\uc0c1\uac00\uc784\ub300/1\uce35\uc0c1\uac00/\uc1fc\ub8f8/\ub113\uc740\uc8fc\ucc28\uc7a5\ud655\ubcf4/\ub300\ub3c4\ub85c/\uc815\ubd80\uc885\ud569\uccad\uc0ac 266/266",
+        "link": "https://land.jejukcr.com/offer/88660756"
+      },
       {
         "photo": "images/listings/sanga/sanga-kcr-88627986.jpg",
         "desc": "\ub3c4\ub450\uc774\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\ubbf8\uc6a9\uc2e4/\ud654\uc7a5\ud488) \ub3c4\ub450\ud574\uc548\ub3c4\ub85c\uc0c1\uac00\uc784\ub300/\uc81c\uc8fc\uc624\uc158\ubdf0\uc0c1\uac00\uc784\ub300/\ubbf8\uc6a9\uc2e4/\uc6e8\ub529\uc0f5/\uc2a4\ud29c\ub514\uc624 169/169",
@@ -484,11 +489,6 @@
         "photo": "images/listings/sanga/sanga-kcr-88627876.jpg",
         "desc": "\uc774\ub3c4\uc774\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\ubbf8\uc6a9\uc2e4/\ud654\uc7a5\ud488) \uc774\ub3c4\uc774\ub3d9\uc0c1\uac00\uc784\ub300/\uc5f0\ubd81\ub85c\uc778\uadfc/\ubbf8\uc6a9\uc2e4\uc784\ub300/\uae68\ub057\ud55c\uc2dc\uc124 87/87",
         "link": "https://land.jejukcr.com/offer/88627876"
-      },
-      {
-        "photo": "images/listings/sanga/sanga-kcr-88627871.png",
-        "desc": "\uc5f0\ub3d9 \u00b7 \uc77c\ubc18\uc0c1\uac00 (\uc74c\uc2dd\uc810/\uc2dd\ub2f9) \ud55c\ub77c\uc218\ubaa9\uc6d0\uc778\uadfc/\uc5f0\ub3d91\uce35\uc0c1\uac00\uc784\ub300/\uc5f0\ub3d9\uc74c\uc2dd\uc810\uc784\ub300/\uc8fc\ucc28\ud3b8\ub9ac 68/68",
-        "link": "https://land.jejukcr.com/offer/88627871"
       }
     ]
   },
@@ -496,34 +496,34 @@
     "title": "\ub9c8\ub2f9\uc788\ub294 \uc0b6 \ub2e8\ub3c5\uc8fc\ud0dd",
     "items": [
       {
-        "photo": "images/listings/house/house-kcr-88005444.jpg",
+        "photo": "images/listings/house/house-kcr-88719308.jpg",
         "desc": "\uc560\uc6d4\uc74d \uc218\uc0b0\ub9ac \u00b7 \ub2e8\ub3c5 \uc560\uc6d4\uc218\uc0b0\ub9ac\ub3c5\ucc44\ud39c\uc158\ub9e4\ub9e4/SNS\uacc4\uc815\uc778\uacc4/\ub2e8\ub3c52\uac1c\ub3d9\uad6c\uc870 372/162",
-        "link": "https://land.jejukcr.com/offer/88005444"
+        "link": "https://land.jejukcr.com/offer/88719308"
       },
       {
-        "photo": "images/listings/house/house-kcr-88539643.jpg",
+        "photo": "images/listings/house/house-kcr-88690403.jpg",
         "desc": "\uc11c\ud64d\ub3d9 \u00b7 \ub2e8\ub3c5 \uc11c\uadc0\uc11c\ucd08\ub4f1\uc778\uadfc/\uc11c\uadc0\ud3ec\ub2e8\ub3c5\uc8fc\ud0dd/\uc11c\uadc0\ud3ec2\uce35\ub2e8\ub3c5/\uc11c\uadc0\ud3ec\uc2dc\uccad\uc778\uadfc 211/76",
-        "link": "https://land.jejukcr.com/offer/88539643"
+        "link": "https://land.jejukcr.com/offer/88690403"
       },
       {
-        "photo": "images/listings/house/house-kcr-88478179.jpg",
-        "desc": "\uc774\ud638\uc774\ub3d9 \u00b7 \ub2e8\ub3c5 \uc774\ud638\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd\ub144\uc138/\uc81c\uc8fc\uc2dc\ub2e8\ub3c5\uc8fc\ud0dd\ub144\uc138 84/84",
-        "link": "https://land.jejukcr.com/offer/88478179"
+        "photo": "images/listings/house/house-kcr-88726517.jpg",
+        "desc": "\uc774\ub3c4\uc774\ub3d9 \u00b7 \ub2e8\ub3c5 \uc774\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\ub0a8\uad11\ucd08\uc778\uadfc\ub2e8\ub3c5 259",
+        "link": "https://land.jejukcr.com/offer/88726517"
       },
       {
-        "photo": "images/listings/house/house-kcr-88454422.jpg",
-        "desc": "\ud55c\ub9bc\uc74d \uae08\ub2a5\ub9ac \u00b7 \ub2e8\ub3c5 \ud55c\ub9bc\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\ud55c\ub9bc\uc0c1\uac00\uac74\ubb3c\ub9e4\ub9e4/\uae08\ub2a5\ud574\uc218\uc695\uc7a5\uc778\uadfc 1,857/246",
-        "link": "https://land.jejukcr.com/offer/88454422"
+        "photo": "images/listings/house/house-kcr-88726501.jpg",
+        "desc": "\ud55c\uacbd\uba74 \ud310\ud3ec\ub9ac \u00b7 \ub2e8\ub3c5 \ud55c\uacbd\uba74\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\ud310\ud3ec\ub9ac\ub2e8\ub3c5\uc8fc\ud0dd/\uc81c\uc8fc\ub3c4\uad6c\uc625\ub9e4\ub9e4 169/78",
+        "link": "https://land.jejukcr.com/offer/88726501"
       },
       {
-        "photo": "images/listings/house/house-kcr-88354903.jpg",
-        "desc": "\uc77c\ub3c4\uc774\ub3d9 \u00b7 \ub2e8\ub3c5 \uc778\ud654\ucd08\uc778\uadfc/\uc77c\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd/\uad6c\ub3c4\uc2ec\ub2e8\ub3c5\uc8fc\ud0dd/\uc81c\uc8fc\uc2dc\ub2e8\ub3c5\uc8fc\ud0dd 152/59",
-        "link": "https://land.jejukcr.com/offer/88354903"
+        "photo": "images/listings/house/house-kcr-88719467.jpg",
+        "desc": "\uc560\uc6d4\uc74d \uc218\uc0b0\ub9ac \u00b7 \ub2e8\ub3c5 \uc560\uc6d4\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\uc218\uc0b0\ubd09\uc778\uadfc/\ub9c8\ub2f9\ub113\uc740\ub2e8\ub3c5\uc8fc\ud0dd 496/69",
+        "link": "https://land.jejukcr.com/offer/88719467"
       },
       {
-        "photo": "images/listings/house/house-kcr-88202828.jpg",
-        "desc": "\uc0bc\ub3c4\uc774\ub3d9 \u00b7 \ub2e8\ub3c5 \uae09\ub9e4/\uc0bc\ub3c4\uc774\ub3d9\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4/\uc911\uc559\uc5ec\uc911\uc778\uadfc/\ub9c8\ub2f9\uc788\ub294\ub2e8\ub3c5\uc8fc\ud0dd\ub9e4\ub9e4 149",
-        "link": "https://land.jejukcr.com/offer/88202828"
+        "photo": "images/listings/house/house-kcr-88719403.jpg",
+        "desc": "\ud55c\ub9bc\uc74d \uba85\uc6d4\ub9ac \u00b7 \ub2e8\ub3c5 \ud55c\ub9bc\uc62c\ub9ac\ubaa8\ub378\ub9c1\ub2e8\ub3c5\uc8fc\ud0dd/\ud55c\ub9bc\ubbfc\ubc15\uc9d1\uc6b4\uc601/\uba85\uc6d4\uad50\ucc28\ub85c\uc778\uadfc 238/92",
+        "link": "https://land.jejukcr.com/offer/88719403"
       }
     ]
   },
@@ -576,12 +576,12 @@
         "link": "https://land.jejukcr.com/offer/88499283"
       },
       {
-        "photo": "images/listings/land/land-kcr-88499283.jpg",
+        "photo": "images/listings/photo-unavailable.svg",
         "desc": "\uc560\uc6d4\uc74d \uc0c1\uadc0\ub9ac \u00b7 \uc784\uc57c \uc560\uc6d4\uc74d\uac74\ucd95\ud5c8\uac00\ub4dd\ud1a0\uc9c0/\uc0c1\uadc0\ub2e8\ub3c5\ubc0f\uadfc\ub9b0\uc2dc\uc124 358",
         "link": "https://land.jejukcr.com/offer/88499269"
       },
       {
-        "photo": "images/listings/land/land-kcr-88499283.jpg",
+        "photo": "images/listings/photo-unavailable.svg",
         "desc": "\uc560\uc6d4\uc74d \uad11\ub839\ub9ac \u00b7 \uc7a1\uc885\uc9c0 \ud3c9\ud654\ub85c\uc778\uadfc/\uad11\ub839\ub9ac\uc7a1\uc885\uc9c0/\uc560\uc6d4\ud1a0\uc9c0\ub9e4\ub9e4/\uc560\uc6d4\uc57c\uc801\uc7a5/\uacc4\ud68d\uad00\ub9ac\uc9c0\uc5ed 3,967",
         "link": "https://land.jejukcr.com/offer/88499258"
       },
@@ -591,7 +591,7 @@
         "link": "https://land.jejukcr.com/offer/88254927"
       },
       {
-        "photo": "images/listings/land/land-kcr-87846714.png",
+        "photo": "images/listings/photo-unavailable.svg",
         "desc": "\uad6c\uc88c\uc74d \uae40\ub155\ub9ac \u00b7 \uc804 \uae40\ub155\uc911\uc778\uadfc/\uc77c\uc8fc\ub3d9\ub85c\uc778\uadfc/\ub18d\uc9c0\ub9e4\ub9e4 479",
         "link": "https://land.jejukcr.com/offer/87846714"
       },

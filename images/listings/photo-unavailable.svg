@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">사진 준비중</title>
+  <desc id="desc">원본 매물에 등록된 사진이 없습니다.</desc>
+  <rect width="800" height="500" fill="#f3f1ec"/>
+  <g fill="none" stroke="#9b968b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="345" y="145" width="110" height="88" rx="10"/>
+    <circle cx="375" cy="174" r="8"/>
+    <path d="m347 214 30-28 23 20 23-28 30 36"/>
+  </g>
+  <text x="400" y="300" text-anchor="middle" fill="#625e55" font-family="sans-serif" font-size="30">사진 준비중</text>
+  <text x="400" y="345" text-anchor="middle" fill="#868177" font-family="sans-serif" font-size="20">원본 매물에 등록된 사진이 없습니다</text>
+</svg>
