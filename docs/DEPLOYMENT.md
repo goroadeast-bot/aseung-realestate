@@ -36,6 +36,6 @@
    gh api repos/goroadeast-bot/aseung-realestate/pages/builds/latest --jq '{status:.status,commit:.commit,error:.error.message}'
    ```
 
-6. 운영 사이트에서 새 캐시 버전과 실제 공개 JS 데이터를 확인하고, 참조 이미지가 모두 정상 응답하며 로컬 파일과 해시가 같은지 확인한다. 배포 커밋·Pages 실행 링크·측정 결과와 남은 문제를 [작업 기록](WORK_LOG.md)에 남긴다.
+6. 운영 사이트에서 새 캐시 버전과 실제 공개 JS 데이터를 확인하고, 참조 이미지가 모두 정상 응답하며 로컬 파일과 해시가 같은지 확인한다. HTML/CSS/JS 텍스트의 바이트는 `git show <게시한 커밋>:<파일 경로>` 결과와 대조한다. Windows 작업 폴더의 CRLF와 게시된 LF 차이를 배포 실패로 취급하지 않는다. 배포 커밋·Pages 실행 링크·측정 결과와 남은 문제를 [작업 기록](WORK_LOG.md)에 남긴다.
 
 배포 경로만 정비하는 요청은 매물 순위를 바꾸지 않는다. Headroom 오류가 난 이전 채팅의 재시작 성공과 GitHub Pages 배포 성공도 별도로 구분한다.
