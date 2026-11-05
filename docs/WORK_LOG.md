@@ -6,6 +6,8 @@
 - 상세 73개 모두 HTTP 200 및 본문 매물번호를 확인했다. 사진 49개(2,983,222바이트)를 추가했고 원본 사진 없는 8개는 공통 SVG로 표시한다. 참조 이미지 66개의 존재·형식, 신규 파일 참조 및 대표/전문분야 배열 일치를 확인했다.
 - 기존 공개 `20261030a`에서 매물 버튼이 열리지 않으며 `SHEET_CSV_URL is not defined`로 스크립트가 중단됨을 내장 브라우저에서 재현했다. [js/script.js](../js/script.js)의 선택적 시트 설정 검사 한 줄을 보완했다. [회귀 검사](../tests/listing-initialization.test.cjs)는 수정 전에 누락 설정에서 실패했고 수정 후 2/2 통과했다. 데이터·날짜 주석·해당 조건 외 JS는 기존과 같다. [index.html](../index.html)의 CSS/JS 캐시는 `20261106a`다.
 - Aside의 필수 CLI 업데이트가 `Aside CLI install.ps1 supports Windows only`로 실패해 승인된 내장 브라우저로 전환했다. 로컬 미리보기에서 최신 추천 아파트 6개·원룸·투룸 5개, 분양권 빈 안내, 창고 8개의 두 페이지 전환이 동작함을 확인했다. `node --check js/script.js`와 `git diff --check`가 통과했으며 main 게시와 공개 파일 검증을 진행한다.
+- 별도 읽기 전용 코드 검토에서 17개 데이터 배열의 출처·순위·사진 매핑과 최소 수정 범위를 확인했고 추가 지적은 없었다. 코드 커밋 `e86d5a9864c3703a5f7dc391ccce3d6f2fc1eaa7`를 main에 푸시했으며 [Pages 실행 42065702500](https://github.com/goroadeast-bot/aseung-realestate/actions/runs/42065702500)이 `completed / success`로 완료됐다.
+- [공개 사이트](https://xn--2q1b16p8rcqvc8ye.com/)의 홈페이지·CSS·JS가 HTTP 200으로 `20261106a`를 제공하고 공개 매물 데이터가 반영한 73개 링크와 일치했다. 참조 이미지 66개 전부 HTTP 200 및 로컬 SHA-256 일치를 확인했다. 내장 브라우저에서 새 추천 아파트 6개가 실제 모달로 열리고 새 버전의 초기화 오류가 없음을 확인했다. Headroom 없이 최신 순위 갱신과 게시를 완료했으며 남은 배포 문제는 없다.
 
 ## 2026-11-06 — Headroom과 독립적인 배포 경로 정비
 
